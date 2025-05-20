@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8003004638842389390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5c08d688e0a614194a4d955bd14f37, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 596, y: 131.5}
+  ports:
+    keys:
+    - entry
+    values:
+    - _fieldName: entry
+      _node: {fileID: -8003004638842389390}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: b
+        node: {fileID: -4834039522636784575}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
 --- !u!114 &-6681492779504562298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24,7 +55,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 1445478264363990545}
+        node: {fileID: -5531713909950807119}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -44,7 +75,7 @@ MonoBehaviour:
   m_Name: Simple Dialog Nde
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 872, y: 392}
+  position: {x: 1352, y: 120}
   ports:
     keys:
     - entry
@@ -91,7 +122,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 584, y: 136}
+  position: {x: 1016, y: -152}
   ports:
     keys:
     - entry
@@ -102,10 +133,7 @@ MonoBehaviour:
       _node: {fileID: -6256832460655642252}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: a
-        node: {fileID: 6813006453296577622}
-        reroutePoints: []
+      connections: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -141,6 +169,130 @@ MonoBehaviour:
   dialogImage: {fileID: 21300000, guid: 97d041dd5027ac54992de484d92eddb2, type: 3}
   abilityCheck: 0
   difficultyCheckValue: 10
+--- !u!114 &-5531713909950807119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704f51fa32685c844bc9709808cacf66, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -536, y: 184}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    values:
+    - _fieldName: entry
+      _node: {fileID: -5531713909950807119}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -6681492779504562298}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -5531713909950807119}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -1537145386126598331}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -5531713909950807119}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 1157654306893813255}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: 
+  b: 
+  dialogText: The Emberveil Thicket was alive with the murmurs of the wild as the
+    party traveled deeper into its shadowed heart. Ancient trees, their bark twisted
+    with age, loomed overhead, their canopies so thick that only slivers of the setting
+    sun pierced through.
+  dialogImage: {fileID: -48167549942996903, guid: 611c50c0164c7414db840fb3c10a4fdd, type: 3}
+--- !u!114 &-4834039522636784575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704f51fa32685c844bc9709808cacf66, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 312, y: 40}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    values:
+    - _fieldName: entry
+      _node: {fileID: -4834039522636784575}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 7295670244043966579}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -4834039522636784575}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -4834039522636784575}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -8003004638842389390}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: 
+  b: 
+  dialogText: The settlement was modest but sturdy, its wooden palisade standing
+    as a silent guardian against the unknown dangers beyond. Despite its humble appearance,
+    something about the village felt... uneasy.
+  dialogImage: {fileID: -577172545017557598, guid: f7936b36b33d5a64993f0a7fe75eea66, type: 3}
 --- !u!114 &-4517048658906977784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,7 +445,7 @@ MonoBehaviour:
   m_Name: Simple Dialog Nde
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 872, y: 120}
+  position: {x: 1352, y: -152}
   ports:
     keys:
     - entry
@@ -340,7 +492,7 @@ MonoBehaviour:
   m_Name: Simple Dialog Nde
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -248, y: 168}
+  position: {x: -232, y: 40}
   ports:
     keys:
     - entry
@@ -351,8 +503,8 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: exit
-        node: {fileID: 1445478264363990545}
+      - fieldName: a
+        node: {fileID: -5531713909950807119}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -364,7 +516,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 6813006453296577622}
+        node: {fileID: 7295670244043966579}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -372,8 +524,10 @@ MonoBehaviour:
       _dynamic: 0
   entry: 
   exit: 
-  dialogText: HI
-  dialogImage: {fileID: 21300000, guid: 3197116d40bc90049b5903d32e7db0d1, type: 3}
+  dialogText: The distant hoot of an owl and the rustling of unseen creatures blended
+    with the gentle whistle of the wind. Fireflies pulsed in the twilight, casting
+    flickering lights along the winding dirt path.
+  dialogImage: {fileID: -48167549942996903, guid: 611c50c0164c7414db840fb3c10a4fdd, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,18 +541,21 @@ MonoBehaviour:
   m_Name: New Dialog Graph
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: 1445478264363990545}
   - {fileID: -6681492779504562298}
   - {fileID: -1537145386126598331}
   - {fileID: -4517048658906977784}
-  - {fileID: 6813006453296577622}
   - {fileID: 3034337907651153789}
   - {fileID: -6256832460655642252}
   - {fileID: -2633780665205519438}
   - {fileID: -6582347511442362397}
   - {fileID: -3003980706803733913}
   - {fileID: -3943234908213229592}
---- !u!114 &1445478264363990545
+  - {fileID: -5531713909950807119}
+  - {fileID: 1157654306893813255}
+  - {fileID: 7295670244043966579}
+  - {fileID: -4834039522636784575}
+  - {fileID: -8003004638842389390}
+--- !u!114 &1157654306893813255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -407,44 +564,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b25955c2e2489744b9ba9685c707522, type: 3}
-  m_Name: Simple Dialog Nde
+  m_Script: {fileID: 11500000, guid: fa5c08d688e0a614194a4d955bd14f37, type: 3}
+  m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -504, y: 152}
+  position: {x: -248, y: 376}
   ports:
     keys:
     - entry
-    - exit
     values:
     - _fieldName: entry
-      _node: {fileID: 1445478264363990545}
+      _node: {fileID: 1157654306893813255}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: exit
-        node: {fileID: -6681492779504562298}
+      - fieldName: b
+        node: {fileID: -5531713909950807119}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 1445478264363990545}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -1537145386126598331}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
   entry: 
-  exit: 
-  dialogText: 
-  dialogImage: {fileID: 21300000, guid: a96a740359cd4c74f9f77a39a605dbc7, type: 3}
 --- !u!114 &3034337907651153789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -458,7 +599,7 @@ MonoBehaviour:
   m_Name: Simple Dialog Nde
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 328, y: 456}
+  position: {x: 440, y: 424}
   ports:
     keys:
     - entry
@@ -468,10 +609,7 @@ MonoBehaviour:
       _node: {fileID: 3034337907651153789}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: b
-        node: {fileID: 6813006453296577622}
-        reroutePoints: []
+      connections: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -492,7 +630,7 @@ MonoBehaviour:
   exit: 
   dialogText: Bukas na Lang
   dialogImage: {fileID: 21300000, guid: 234c9150b4f23c244a9dd49c274fdb0f, type: 3}
---- !u!114 &6813006453296577622
+--- !u!114 &7295670244043966579
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -501,19 +639,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 704f51fa32685c844bc9709808cacf66, type: 3}
-  m_Name: Multiple Choice Dialog
+  m_Script: {fileID: 11500000, guid: 9b25955c2e2489744b9ba9685c707522, type: 3}
+  m_Name: Simple Dialog Nde
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 72, y: 184}
+  position: {x: 24, y: 40}
   ports:
     keys:
     - entry
-    - a
-    - b
+    - exit
     values:
     - _fieldName: entry
-      _node: {fileID: 6813006453296577622}
+      _node: {fileID: 7295670244043966579}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
@@ -524,32 +661,22 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: a
-      _node: {fileID: 6813006453296577622}
+    - _fieldName: exit
+      _node: {fileID: 7295670244043966579}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -6256832460655642252}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: b
-      _node: {fileID: 6813006453296577622}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 3034337907651153789}
+        node: {fileID: -4834039522636784575}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
   entry: 
-  a: Yes
-  b: No
-  dialogText: Anong gagawin mo sa bagay  na to?
-  dialogImage: {fileID: 21300000, guid: 3197116d40bc90049b5903d32e7db0d1, type: 3}
+  exit: 
+  dialogText: "With each step, the scent of damp earth and crisp autumn leaves filled
+    their lungs, mingling with the faint aroma of woodsmoke\u2014a promise of civilization
+    ahead. The road sloped downward, revealing Hearthglen Village, nestled in the
+    embrace of towering oaks."
+  dialogImage: {fileID: -577172545017557598, guid: f7936b36b33d5a64993f0a7fe75eea66, type: 3}
