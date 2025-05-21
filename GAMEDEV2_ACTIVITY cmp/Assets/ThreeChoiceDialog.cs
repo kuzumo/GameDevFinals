@@ -3,20 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using XNode;
 
-public class MultipleChoiceDialog : BaseNode
+public class ThreeChoiceDialog : BaseNode
 {
     [Input] public string entry;
+
     [Output] public string a;
     [Output] public string b;
+    [Output] public string c;
 
     [TextArea(7, 20)]
     public string dialogText;
-
     public Sprite dialogImage;
 
-    // Add these fields to hold the text for each choice
     public string aText;
     public string bText;
+    public string cText;
 
     public override string getDialogText()
     {
@@ -26,16 +27,5 @@ public class MultipleChoiceDialog : BaseNode
     public override Sprite getSprite()
     {
         return dialogImage;
-    }
-
-    // Optional helpers for button texts
-    public string GetChoiceAText()
-    {
-        return aText;
-    }
-
-    public string GetChoiceBText()
-    {
-        return bText;
     }
 }
