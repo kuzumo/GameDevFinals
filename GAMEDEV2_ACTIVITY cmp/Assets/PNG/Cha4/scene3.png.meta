@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bc318cb594a2d98499dcc0ad56c667b3
+guid: bafc9a8b309c3b94a9387cd0ef31b20e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2661687611474279813
-    second: dice20_0
+      213: 3129370254906604291
+    second: scene3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dice20_0
+      name: scene3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 87
-        height: 98
+        width: 1536
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7284073839cf0bd0800000000000000
-      internalID: -2661687611474279813
+      spriteID: 30bb16eaaa1cd6b20800000000000000
+      internalID: 3129370254906604291
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dice20_0: -2661687611474279813
+      scene3_0: 3129370254906604291
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
