@@ -19,8 +19,15 @@ public class SimpleDialogV2 : BaseNode {
 	public BGM bgmCheck;
 
 	public bool slideInActor;
-	
-	 public override string getDialogText(){
+
+    public string characterName;
+
+    public override string getCharacterName()
+    {
+        return characterName;
+    }
+
+    public override string getDialogText(){
         return dialogText;
     }
 

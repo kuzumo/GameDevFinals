@@ -4,6 +4,10 @@ using UnityEngine;
 using XNode;
 
 public class BaseNode : Node {
+    public virtual string getCharacterName()
+    {
+        return "";
+    }
 
     public virtual string getDialogText(){
         return "";

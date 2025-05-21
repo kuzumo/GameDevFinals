@@ -30,6 +30,13 @@ public class SixChoiceDialog : BaseNode
     public Sprite actorImage;
     public bool slideInActor;
 
+    public string characterName;
+
+    public override string getCharacterName()
+    {
+        return characterName;
+    }
+
     public override string getDialogText()
     {
         return dialogText;

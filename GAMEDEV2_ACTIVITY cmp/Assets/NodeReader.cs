@@ -11,7 +11,8 @@ using UnityEngine.AI;
 using Random = UnityEngine.Random;
 public class NodeReader : MonoBehaviour
 {
-   public TMP_Text dialogue;
+    public TMP_Text characterNameText;
+    public TMP_Text dialogue;
    public Sprite backgroundImage;
    public GameObject ImageGO;
    public NodeGraph graph;
@@ -61,6 +62,7 @@ public BaseNode getStartNode(){
     public void displayNode(BaseNode node)
     {
         // Set dialogue and background image
+        characterNameText.text = node.getCharacterName();
         dialogue.text = node.getDialogText();
         backgroundImage = node.getSprite();
         ImageGO.GetComponent<UnityEngine.UI.Image>().sprite = backgroundImage;
@@ -69,9 +71,9 @@ public BaseNode getStartNode(){
         buttonA.SetActive(false);
         buttonB.SetActive(false);
         buttonC.SetActive(false);
-        buttonD?.SetActive(false);
-        buttonE?.SetActive(false);
-        buttonF?.SetActive(false);
+        buttonD.SetActive(false);
+        buttonE.SetActive(false);
+        buttonF.SetActive(false);
         nextButtonGO.SetActive(false);
 
         // Handle SixChoiceDialog
