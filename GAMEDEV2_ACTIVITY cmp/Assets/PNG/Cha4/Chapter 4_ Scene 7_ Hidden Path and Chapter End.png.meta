@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bc318cb594a2d98499dcc0ad56c667b3
+guid: 9a4a3a694878c1449b03d1282f5754e0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2661687611474279813
-    second: dice20_0
+      213: 6827726734429854233
+    second: Chapter 4_ Scene 7_ Hidden Path and Chapter End_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dice20_0
+      name: Chapter 4_ Scene 7_ Hidden Path and Chapter End_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 87
-        height: 98
+        width: 1440
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7284073839cf0bd0800000000000000
-      internalID: -2661687611474279813
+      spriteID: 91a11254a45f0ce50800000000000000
+      internalID: 6827726734429854233
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      dice20_0: -2661687611474279813
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
