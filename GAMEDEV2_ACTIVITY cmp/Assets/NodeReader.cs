@@ -29,7 +29,7 @@ public class NodeReader : MonoBehaviour
     public Sprite actor;
     public GameObject actorObject;
     public GameObject nextButtonGO;
-
+    public TMP_Text nextButtonText;
     public Animator animationOfActor;
 
     public DiceRollPanelController diceRollPanel; // ✅ Drag in inspector
@@ -59,6 +59,7 @@ public class NodeReader : MonoBehaviour
         nextButtonGO.SetActive(false);
 
         // Show relevant buttons
+
         if (node is SixChoiceDialog scd)
         {
             buttonA.SetActive(true); buttonAText.text = scd.aText;
@@ -74,6 +75,11 @@ public class NodeReader : MonoBehaviour
             buttonB.SetActive(true); buttonBText.text = tcd.bText;
             buttonC.SetActive(true); buttonCText.text = tcd.cText;
         }
+        else if (node is OneChoiceDialog ocd)
+        {
+            buttonC.SetActive(true);
+            buttonCText.text = ocd.GetChoiceAText();
+        }
         else if (node is MultipleChoiceDialog mcd)
         {
             buttonA.SetActive(true); buttonAText.text = mcd.aText;
@@ -87,6 +93,11 @@ public class NodeReader : MonoBehaviour
         else
         {
             nextButtonGO.SetActive(true);
+            nextButtonText.text = "Next";
+            if (node is SimpleDialogV2 sdv && !string.IsNullOrEmpty(sdv.nextButtonLabel))
+            {
+                nextButtonText.text = sdv.nextButtonLabel;
+            }
         }
 
         // Actor & BGM handling
@@ -157,6 +168,16 @@ public class NodeReader : MonoBehaviour
             string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
             if (clicked == mcd.aText) return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
             if (clicked == mcd.bText) return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
+            return null;
+        }
+
+        if (node is OneChoiceDialog ocd)
+        {
+            string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
+            if (clicked == ocd.GetChoiceAText())
+            {
+                return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
+            }
             return null;
         }
 

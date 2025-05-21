@@ -22,6 +22,9 @@ public class SimpleDialogV2 : BaseNode {
 
     public string characterName;
 
+    public string nextButtonLabel = "Continue";
+
+
     public override string getCharacterName()
     {
         return characterName;
@@ -47,4 +50,9 @@ public class SimpleDialogV2 : BaseNode {
 	public override bool isSliding(){
 		return slideInActor;
 	}
+    public string getNextButtonLabel()
+    {
+        return nextButtonLabel;
+    }
+
 }
