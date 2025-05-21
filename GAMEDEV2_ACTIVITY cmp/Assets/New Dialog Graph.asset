@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2504, y: -88}
+  position: {x: 2520, y: -328}
   ports:
     keys:
     - entry
@@ -269,7 +269,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 5051028709615629655}
+        node: {fileID: 2669495091417223274}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Name: Simple Dialog Nde
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4744, y: -552}
+  position: {x: 5992, y: -840}
   ports:
     keys:
     - entry
@@ -589,6 +589,76 @@ MonoBehaviour:
   exit: 
   dialogText: Matulog ka na
   dialogImage: {fileID: 21300000, guid: 826b14ce6b1addf408844109e31d20af, type: 3}
+--- !u!114 &-6405491148439480951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 704f51fa32685c844bc9709808cacf66, type: 3}
+  m_Name: Multiple Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4312, y: -312}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    values:
+    - _fieldName: entry
+      _node: {fileID: -6405491148439480951}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 6028554611791770326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -6405491148439480951}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 3721556991240165992}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -6405491148439480951}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 4832193272583118360}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  a: 
+  b: 
+  dialogText: 'Where does your characters sit in the inn? Do they take the corner
+    seat, watching the room with caution? Do they immediately engage in conversation
+    with the innkeeper or villagers? '
+  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
+  aText: Yes
+  bText: No
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  actorImage: {fileID: 0}
+  slideInActor: 0
+  characterName: 
 --- !u!114 &-6256832460655642252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,7 +672,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4408, y: -824}
+  position: {x: 5656, y: -1112}
   ports:
     keys:
     - entry
@@ -959,7 +1029,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 5416, y: -168}
+  position: {x: 6664, y: -456}
   ports:
     keys:
     - entry
@@ -1106,7 +1176,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 5208, y: 120}
+  position: {x: 6456, y: -168}
   ports:
     keys:
     - entry
@@ -1265,7 +1335,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4872, y: 152}
+  position: {x: 6120, y: -136}
   ports:
     keys:
     - entry
@@ -1369,7 +1439,7 @@ MonoBehaviour:
   m_Name: Simple Dialog Nde
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4744, y: -824}
+  position: {x: 5992, y: -1112}
   ports:
     keys:
     - entry
@@ -1871,8 +1941,17 @@ MonoBehaviour:
   - {fileID: 1500258598629614238}
   - {fileID: -8293324269626421889}
   - {fileID: -8409277043635235717}
-  - {fileID: 5051028709615629655}
   - {fileID: 4260100624698592924}
+  - {fileID: 2669495091417223274}
+  - {fileID: 1936227572221520314}
+  - {fileID: 6752840696509294148}
+  - {fileID: 5444783762536500348}
+  - {fileID: 2928116455927863788}
+  - {fileID: 6028554611791770326}
+  - {fileID: -6405491148439480951}
+  - {fileID: 3721556991240165992}
+  - {fileID: 4832193272583118360}
+  - {fileID: 5563421553763726387}
 --- !u!114 &319222871847691073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2069,6 +2148,116 @@ MonoBehaviour:
   bgmCheck: 0
   slideInActor: 0
   characterName: Veyna
+--- !u!114 &1936227572221520314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3048, y: -328}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 1936227572221520314}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 2669495091417223274}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 1936227572221520314}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 6752840696509294148}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  exit: 
+  dialogText: "Elder Rynn\u2019s voice, deep and measured, broke the silence.\"You
+    have come at a troubled time, travelers,\" he said, his tone weighted with something
+    unspoken. \"The Balance wavers, and the Cult of Eternal Flame stirs once more.
+    The shadows grow restless, and I fear their gaze has turned upon us."
+  dialogImage: {fileID: -3338622859618472693, guid: faa454b0765dd594e91e13f785593114, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: Elder Rynn
+--- !u!114 &2669495091417223274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2792, y: -328}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 2669495091417223274}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -8409277043635235717}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 2669495091417223274}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 1936227572221520314}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  exit: 
+  dialogText: "As the party approached, the villagers\u2014many of whom had paused
+    their evening tasks\u2014watched with wary eyes. Conversations hushed, and an
+    air of anticipation settled over the gathering. The tension was almost tangible,
+    as if the very village was holding its breath.\n\n"
+  dialogImage: {fileID: -3338622859618472693, guid: faa454b0765dd594e91e13f785593114, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: 
 --- !u!114 &2781543629655985154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2124,6 +2313,63 @@ MonoBehaviour:
   bgmCheck: 0
   slideInActor: 0
   characterName: 
+--- !u!114 &2928116455927863788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3784, y: -328}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 2928116455927863788}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 5444783762536500348}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 2928116455927863788}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 6028554611791770326}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  exit: 
+  dialogText: The inn stood at the heart of the village, its wooden beams darkened
+    with age, but the warm glow of lanterns within promised shelter. As they stepped
+    inside, the comforting scent of freshly baked bread, spiced mead, and burning
+    oakwood wrapped around them like a long-lost embrace. A few weary patrons occupied
+    the wooden tables, speaking in hushed tones. The innkeeper, a plump hare with
+    fur tinged gray from years of hard work, greeted them with a forced smile.
+  dialogImage: {fileID: 6576456232356290626, guid: 9a2d667a249fed24aa9a3d9b3630dc58, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: 
 --- !u!114 &3034337907651153789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2137,7 +2383,7 @@ MonoBehaviour:
   m_Name: Simple Dialog Nde
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4408, y: -136}
+  position: {x: 6088, y: -456}
   ports:
     keys:
     - entry
@@ -2220,6 +2466,65 @@ MonoBehaviour:
   bgmCheck: 0
   slideInActor: 0
   characterName: Veyna
+--- !u!114 &3721556991240165992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4680, y: -536}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 3721556991240165992}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: -6405491148439480951}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 3721556991240165992}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5563421553763726387}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  exit: 
+  dialogText: "Yes.\L\nOur characters take the corner seats, positioning themselves
+    where they can observe the room without being easily approached. Their eyes scan
+    the tavern with quiet vigilance\u2014watching the flicker of firelight, the guarded
+    murmurs of villagers, and the subtle signs of unease written across tired faces.\n\nAfter
+    a brief moment of quiet observation, they rise one by one, making their way toward
+    the innkeeper and a few villagers. Some begin polite conversation, asking about
+    the food or the village's history, while others steer the talk toward the strange
+    tension that clings to the air."
+  dialogImage: {fileID: 919727893511088379, guid: edbf4ffa0e20854439fd2af1dc70a5a0, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: 
 --- !u!114 &3735351297509094782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2514,7 +2819,7 @@ MonoBehaviour:
   bgmCheck: 1
   slideInActor: 0
   characterName: 
---- !u!114 &5051028709615629655
+--- !u!114 &4832193272583118360
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2523,28 +2828,225 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa5c08d688e0a614194a4d955bd14f37, type: 3}
-  m_Name: Exit
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2922.881, y: 12.352216}
+  position: {x: 4680, y: -184}
   ports:
     keys:
     - entry
+    - exit
     values:
     - _fieldName: entry
-      _node: {fileID: 5051028709615629655}
+      _node: {fileID: 4832193272583118360}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: exit
-        node: {fileID: -8409277043635235717}
+      - fieldName: b
+        node: {fileID: -6405491148439480951}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 4832193272583118360}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5563421553763726387}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
   entry: 
+  exit: 
+  dialogText: "No.\n\LThey do not take the corner seat, nor do they immediately approach
+    the innkeeper or villagers. Instead, they move quietly toward a modest table
+    near the hearth\u2014not too exposed, yet not entirely withdrawn. The fire\u2019s
+    warmth offers some comfort from the chill of the road, and the soft crackle of
+    the flames provides a welcome distraction from the murmurs of the tavern.\n\nThey
+    observe, silently. Their eyes drift over the other patrons, noting the weariness
+    in their faces, the tension in their hushed voices. They do not interrupt, not
+    yet. There is wisdom in patience, in listening before speaking. The villagers
+    seem guarded, their smiles tight, their conversations brief and careful. It is
+    clear that something lingers beneath the surface.\n\nFor now, the character chooses
+    stillness\u2014watching, waiting, letting the room speak before they do."
+  dialogImage: {fileID: -3925036709322436620, guid: 82843ecbf62fb52498f639d8b8e322ad, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: 
+--- !u!114 &5444783762536500348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3544, y: -328}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 5444783762536500348}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 6752840696509294148}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 5444783762536500348}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 2928116455927863788}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  exit: 
+  dialogText: "The Travelers was led through the main square, past modest homes,
+    a bustling tavern, and a blacksmith\u2019s forge, its embers barely smoldering
+    for the night. Hearthglen was small but lively\u2014yet something unseen weighed
+    heavy in the air."
+  dialogImage: {fileID: 7385049515850078806, guid: 8fc366e8e9b99eb42b0c34d09718f171, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: 
+--- !u!114 &5563421553763726387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5016, y: -344}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 5563421553763726387}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 3721556991240165992}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 4832193272583118360}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 5563421553763726387}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  exit: 
+  dialogText: Outside, the wind had shifted. The trees whispered amongst themselves. 
+    And in the distant woods beyond the palisade, something watched.
+  dialogImage: {fileID: -68521462331337607, guid: 6b6df12796de3ee408e9ad856d05eb31, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: 
+--- !u!114 &6028554611791770326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 4024, y: -328}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6028554611791770326}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 2928116455927863788}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6028554611791770326}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -6405491148439480951}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  exit: 
+  dialogText: "\"Welcome, travelers. You\u2019ll find no grand luxuries here, but
+    there is warmth, food, and a place to lay your head. And in these times\u2026
+    that is no small thing.\" The inn was simple but well-kept. A roaring fireplace
+    crackled at the far end, its glow casting long shadows across the room. Heavy
+    wooden beams overhead groaned softly as if whispering secrets of years past.
+    The party settled in, taking their meal in quiet contemplation, the unspoken
+    tension of the village lingering in the air."
+  dialogImage: {fileID: 6576456232356290626, guid: 9a2d667a249fed24aa9a3d9b3630dc58, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: Inn Keeper
 --- !u!114 &6356852929258111465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2598,6 +3100,61 @@ MonoBehaviour:
 
 '
   dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: 
+--- !u!114 &6752840696509294148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 3304, y: -328}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6752840696509294148}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 1936227572221520314}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6752840696509294148}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5444783762536500348}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
+  exit: 
+  dialogText: "A few of the villagers exchanged glances, their expressions a mix
+    of relief and doubt. Some whispered amongst themselves, though none spoke loud
+    enough for the party to hear. One child, peeking from behind a mother\u2019s
+    skirts, stared wide-eyed before being gently ushered away."
+  dialogImage: {fileID: 4765382747746920668, guid: 8ed9e5d1c72f7bb42a2c8b4584b8d7fe, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0

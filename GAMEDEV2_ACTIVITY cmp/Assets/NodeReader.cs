@@ -157,6 +157,25 @@ public BaseNode getStartNode(){
     }
     private BaseNode GetNextNode(BaseNode node){
 
+        if (node is SixChoiceDialog)
+        {
+            GameObject gameObject = EventSystem.current.currentSelectedGameObject;
+            TMP_Text buttonText = gameObject.GetComponentInChildren<TMP_Text>();
+            SixChoiceDialog scd = (SixChoiceDialog)node;
+            string clicked = buttonText.text;
+
+            if (clicked == scd.aText) return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
+            if (clicked == scd.bText) return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
+            if (clicked == scd.cText) return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
+            if (clicked == scd.dText) return currentNode.GetOutputPort("d")?.Connection.node as BaseNode;
+            if (clicked == scd.eText) return currentNode.GetOutputPort("e")?.Connection.node as BaseNode;
+            if (clicked == scd.fText) return currentNode.GetOutputPort("f")?.Connection.node as BaseNode;
+
+            return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
+        }
+
+
+
         if (node is ThreeChoiceDialog)
         {
             ThreeChoiceDialog tcd = node as ThreeChoiceDialog;
