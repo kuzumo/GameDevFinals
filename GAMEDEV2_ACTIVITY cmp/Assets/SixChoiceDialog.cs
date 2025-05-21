@@ -24,6 +24,12 @@ public class SixChoiceDialog : BaseNode
     public string eText;
     public string fText;
 
+    public AudioClip bgm;
+    public BGM bgmCheck;
+
+    public Sprite actorImage;
+    public bool slideInActor;
+
     public override string getDialogText()
     {
         return dialogText;
@@ -32,5 +38,20 @@ public class SixChoiceDialog : BaseNode
     public override Sprite getSprite()
     {
         return dialogImage;
+    }
+
+    public override BGM getBGMName()
+    {
+        return bgmCheck;
+    }
+
+    public override Sprite getActorSprite()
+    {
+        return actorImage;
+    }
+
+    public override bool isSliding()
+    {
+        return slideInActor;
     }
 }

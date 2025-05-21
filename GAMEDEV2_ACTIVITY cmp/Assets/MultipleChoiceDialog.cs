@@ -11,12 +11,16 @@ public class MultipleChoiceDialog : BaseNode
 
     [TextArea(7, 20)]
     public string dialogText;
-
     public Sprite dialogImage;
 
-    // Add these fields to hold the text for each choice
     public string aText;
     public string bText;
+
+    public AudioClip bgm;
+    public BGM bgmCheck;
+
+    public Sprite actorImage;
+    public bool slideInActor;
 
     public override string getDialogText()
     {
@@ -28,7 +32,21 @@ public class MultipleChoiceDialog : BaseNode
         return dialogImage;
     }
 
-    // Optional helpers for button texts
+    public override BGM getBGMName()
+    {
+        return bgmCheck;
+    }
+
+    public override Sprite getActorSprite()
+    {
+        return actorImage;
+    }
+
+    public override bool isSliding()
+    {
+        return slideInActor;
+    }
+
     public string GetChoiceAText()
     {
         return aText;

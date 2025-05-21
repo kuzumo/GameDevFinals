@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -536, y: 184}
+  position: {x: -552, y: 376}
   ports:
     keys:
     - entry
@@ -235,6 +235,10 @@ MonoBehaviour:
   dialogImage: {fileID: -48167549942996903, guid: 611c50c0164c7414db840fb3c10a4fdd, type: 3}
   aText: Scan Area
   bText: Leave
+  bgm: {fileID: 8300000, guid: 9923fe217b4f75d4292cfc28f32d79dd, type: 3}
+  bgmCheck: 0
+  actorImage: {fileID: 0}
+  slideInActor: 0
 --- !u!114 &-4834039522636784575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,6 +304,10 @@ MonoBehaviour:
   dialogImage: {fileID: -577172545017557598, guid: f7936b36b33d5a64993f0a7fe75eea66, type: 3}
   aText: 
   bText: 
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  actorImage: {fileID: 0}
+  slideInActor: 0
 --- !u!114 &-4517048658906977784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -861,6 +869,10 @@ MonoBehaviour:
   aText: 
   bText: 
   cText: 
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  actorImage: {fileID: 0}
+  slideInActor: 0
 --- !u!114 &8522233121703445752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -874,7 +886,7 @@ MonoBehaviour:
   m_Name: Six Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 568, y: 40}
+  position: {x: 568, y: 264}
   ports:
     keys:
     - entry
@@ -974,3 +986,7 @@ MonoBehaviour:
   dText: Bramble
   eText: Veyna
   fText: Vyrix
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  actorImage: {fileID: 0}
+  slideInActor: 0
