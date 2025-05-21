@@ -16,7 +16,8 @@ public class NodeReader : MonoBehaviour
    public GameObject ImageGO;
    public NodeGraph graph;
    public BaseNode currentNode;
-   public GameObject characterSheet;
+    public GameObject endPanel;
+    public GameObject characterSheet;
    public GameObject buttonA;
    public GameObject buttonB;
     public GameObject buttonC;
@@ -135,17 +136,24 @@ public BaseNode getStartNode(){
     }
 
 
-    public void AdvanceDialog(){
-    var nextNode = GetNextNode(currentNode);
-    if(nextNode != null){
-        currentNode = nextNode;
-        displayNode(currentNode);
-    } else {
-        Debug.Log("No dialogues are found.");
-    }
-}
+    public void AdvanceDialog()
+    {
+        var nextNode = GetNextNode(currentNode);
 
-private BaseNode GetNextNode(BaseNode node){
+        if (nextNode != null)
+        {
+            currentNode = nextNode;
+            displayNode(currentNode);
+        }
+        else
+        {
+            Debug.Log("No dialogues are found.");
+
+            // Show end panel if there are no more nodes
+            endPanel.SetActive(true);
+        }
+    }
+    private BaseNode GetNextNode(BaseNode node){
 
         if (node is ThreeChoiceDialog)
         {
@@ -207,4 +215,13 @@ private BaseNode GetNextNode(BaseNode node){
         }
 
   }
+    public void RestartScene()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void GoToMainMenu()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu"); // Or your main menu scene name
+    }
 }
