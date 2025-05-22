@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using XNode;
 
 public class BaseNode : Node {
@@ -36,5 +37,9 @@ public class BaseNode : Node {
 
     public virtual bool isSliding(){
         return false;
+    }
+    public virtual VideoClip getBackgroundVideo()
+    {
+        return null; // Default behavior: no video
     }
 }

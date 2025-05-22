@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using XNode;
 
 public class MultipleChoiceDialog : BaseNode
@@ -12,6 +13,7 @@ public class MultipleChoiceDialog : BaseNode
     [TextArea(7, 20)]
     public string dialogText;
     public Sprite dialogImage;
+    public VideoClip backgroundVideo;
 
     public string aText;
     public string bText;
@@ -62,5 +64,9 @@ public class MultipleChoiceDialog : BaseNode
     public string GetChoiceBText()
     {
         return bText;
+    }
+    public VideoClip getBackgroundVideo()
+    {
+        return backgroundVideo;
     }
 }

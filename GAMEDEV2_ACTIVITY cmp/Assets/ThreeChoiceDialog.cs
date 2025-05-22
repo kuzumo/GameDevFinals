@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using XNode;
 
 public class ThreeChoiceDialog : BaseNode
@@ -14,6 +15,7 @@ public class ThreeChoiceDialog : BaseNode
     [TextArea(7, 20)]
     public string dialogText;
     public Sprite dialogImage;
+    public VideoClip backgroundVideo;
 
     public string aText;
     public string bText;
@@ -55,5 +57,9 @@ public class ThreeChoiceDialog : BaseNode
     public override bool isSliding()
     {
         return slideInActor;
+    }
+    public VideoClip getBackgroundVideo()
+    {
+        return backgroundVideo;
     }
 }

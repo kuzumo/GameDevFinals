@@ -54,20 +54,25 @@ public class NodeReader : MonoBehaviour
         characterNameText.text = node.getCharacterName();
         dialogue.text = node.getDialogText();
 
-        // 🔁 Background handling (video or image)
+        /// 🔁 Background handling (video or image for all nodes)
         videoPlayerBG.Stop();
         videoBGPanel.SetActive(false);
         ImageGO.SetActive(true);
-        backgroundImage = node.getSprite();
-        ImageGO.GetComponent<Image>().sprite = backgroundImage;
 
-        if (node is SimpleDialogV2 sdv && sdv.getBackgroundVideo() != null)
+        VideoClip bgVideo = node.getBackgroundVideo();
+        if (bgVideo != null)
         {
-            videoPlayerBG.clip = sdv.getBackgroundVideo();
+            videoPlayerBG.clip = bgVideo;
             videoBGPanel.SetActive(true);
             ImageGO.SetActive(false);
             videoPlayerBG.Play();
         }
+        else
+        {
+            backgroundImage = node.getSprite();
+            ImageGO.GetComponent<Image>().sprite = backgroundImage;
+        }
+
 
         // Hide buttons
         buttonA.SetActive(false); buttonB.SetActive(false); buttonC.SetActive(false);
