@@ -31,6 +31,8 @@ public class NodeReader : MonoBehaviour
     public Sprite actor;
     public GameObject actorObject;
     public GameObject nextButtonGO;
+    public GameObject previousButtonGO;
+    private BaseNode previousNode;
     public TMP_Text nextButtonText;
     public Animator animationOfActor;
     public RawImage videoBackground;
@@ -41,6 +43,8 @@ public class NodeReader : MonoBehaviour
     public CharacterStats characterStats;
     public GameObject choicesPanel;
     private bool isTyping = false;
+    
+
 
     void Start()
     {
@@ -56,6 +60,16 @@ public class NodeReader : MonoBehaviour
     public void displayNode(BaseNode node)
     {
         characterNameText.text = node.getCharacterName();
+
+        if (node is MultipleChoiceDialog || node is ThreeChoiceDialog || node is SixChoiceDialog || node is OneChoiceDialog)
+        {
+            previousButtonGO.SetActive(true);
+        }
+        else
+        {
+            previousButtonGO.SetActive(false);
+        }
+
         StartTyping(node.getDialogText(), node);
 
 
@@ -157,6 +171,7 @@ public class NodeReader : MonoBehaviour
         {
             actorObject.GetComponent<Animator>().enabled = true;
         }
+
     }
 
 
@@ -172,7 +187,17 @@ public class NodeReader : MonoBehaviour
         {
             endPanel.SetActive(true);
         }
+        if (nextNode != null)
+        {
+            previousNode = currentNode; // Save current before moving
+            currentNode = nextNode;
+            displayNode(currentNode);
+        }
+
     }
+
+
+
     public float typingSpeed = 0.20f; // Speed per letter
 
     private Coroutine typingCoroutine;
@@ -270,29 +295,29 @@ public class NodeReader : MonoBehaviour
         if (node is SixChoiceDialog scd)
         {
             string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-            if (clicked == scd.aText) return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
-            if (clicked == scd.bText) return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
-            if (clicked == scd.cText) return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
-            if (clicked == scd.dText) return currentNode.GetOutputPort("d")?.Connection.node as BaseNode;
-            if (clicked == scd.eText) return currentNode.GetOutputPort("e")?.Connection.node as BaseNode;
-            if (clicked == scd.fText) return currentNode.GetOutputPort("f")?.Connection.node as BaseNode;
+            if (clicked == scd.aText) { previousNode = currentNode; return currentNode.GetOutputPort("a")?.Connection.node as BaseNode; }
+            if (clicked == scd.bText) { previousNode = currentNode; return currentNode.GetOutputPort("b")?.Connection.node as BaseNode; }
+            if (clicked == scd.cText) { previousNode = currentNode; return currentNode.GetOutputPort("c")?.Connection.node as BaseNode; }
+            if (clicked == scd.dText) { previousNode = currentNode; return currentNode.GetOutputPort("d")?.Connection.node as BaseNode; }
+            if (clicked == scd.eText) { previousNode = currentNode; return currentNode.GetOutputPort("e")?.Connection.node as BaseNode; }
+            if (clicked == scd.fText) { previousNode = currentNode; return currentNode.GetOutputPort("f")?.Connection.node as BaseNode; }
             return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
         }
 
         if (node is ThreeChoiceDialog tcd)
         {
             string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-            if (clicked == tcd.aText) return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
-            if (clicked == tcd.bText) return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
-            if (clicked == tcd.cText) return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
+            if (clicked == tcd.aText) { previousNode = currentNode; return currentNode.GetOutputPort("a")?.Connection.node as BaseNode; }
+            if (clicked == tcd.bText) { previousNode = currentNode; return currentNode.GetOutputPort("b")?.Connection.node as BaseNode; }
+            if (clicked == tcd.cText) { previousNode = currentNode; return currentNode.GetOutputPort("c")?.Connection.node as BaseNode; }
             return null;
         }
 
         if (node is MultipleChoiceDialog mcd)
         {
             string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-            if (clicked == mcd.aText) return currentNode.GetOutputPort("a")?.Connection.node as BaseNode;
-            if (clicked == mcd.bText) return currentNode.GetOutputPort("b")?.Connection.node as BaseNode;
+            if (clicked == mcd.aText) { previousNode = currentNode; return currentNode.GetOutputPort("a")?.Connection.node as BaseNode; }
+            if (clicked == mcd.bText) { previousNode = currentNode; return currentNode.GetOutputPort("b")?.Connection.node as BaseNode; }
             return null;
         }
 
@@ -301,15 +326,18 @@ public class NodeReader : MonoBehaviour
             string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
             if (clicked == ocd.GetChoiceAText())
             {
+                previousNode = currentNode;
                 return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
             }
             return null;
         }
 
-        if (node is AbilityCheckNode) return null; // wait for panel callback
+        if (node is AbilityCheckNode)
+            return null; // wait for panel callback
 
         return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
     }
+
 
     private void HandleAbilityCheck(AbilityCheckNode node)
     {
@@ -338,6 +366,21 @@ public class NodeReader : MonoBehaviour
         buttonF.SetActive(false);
         nextButtonGO.SetActive(false);
     }
+
+    public void GoToPreviousNode()
+    {
+        if (previousNode != null)
+        {
+            currentNode = previousNode;
+            displayNode(currentNode);
+        }
+        else
+        {
+            Debug.LogWarning("No previous node to return to.");
+        }
+    }
+
+
 
     public void RestartScene()
     {

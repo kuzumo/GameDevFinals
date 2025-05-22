@@ -4697,6 +4697,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 519420028}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1762309340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5625,6 +5637,7 @@ MonoBehaviour:
   actor: {fileID: 0}
   actorObject: {fileID: 1918381987}
   nextButtonGO: {fileID: 704283733}
+  previousButtonGO: {fileID: 1630690299}
   nextButtonText: {fileID: 1354105345}
   animationOfActor: {fileID: 0}
   videoBackground: {fileID: 1607435268}
