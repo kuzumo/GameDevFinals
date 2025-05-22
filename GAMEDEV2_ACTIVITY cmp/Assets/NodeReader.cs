@@ -35,6 +35,7 @@ public class NodeReader : MonoBehaviour
     public RawImage videoBackground;
     public VideoPlayer videoPlayerBG;
     public GameObject videoBGPanel;
+    public RenderTexture videoRenderTexture;
     public DiceRollPanelController diceRollPanel; 
     public CharacterStats characterStats;         
 
@@ -54,7 +55,7 @@ public class NodeReader : MonoBehaviour
         characterNameText.text = node.getCharacterName();
         dialogue.text = node.getDialogText();
 
-        /// 🔁 Background handling (video or image for all nodes)
+        // 🎥 Handle video or image background
         videoPlayerBG.Stop();
         videoBGPanel.SetActive(false);
         ImageGO.SetActive(true);
@@ -62,13 +63,21 @@ public class NodeReader : MonoBehaviour
         VideoClip bgVideo = node.getBackgroundVideo();
         if (bgVideo != null)
         {
+            videoPlayerBG.Stop();
             videoPlayerBG.clip = bgVideo;
+
+            // ✅ Explicitly assign target texture (REQUIRED)
+            videoPlayerBG.targetTexture = videoRenderTexture;
+
             videoBGPanel.SetActive(true);
             ImageGO.SetActive(false);
+
             videoPlayerBG.Play();
         }
+
         else
         {
+            // fallback to image background
             backgroundImage = node.getSprite();
             ImageGO.GetComponent<Image>().sprite = backgroundImage;
         }

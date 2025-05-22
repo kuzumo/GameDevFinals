@@ -1089,6 +1089,7 @@ MonoBehaviour:
     seat, watching the room with caution? Do they immediately engage in conversation
     with the innkeeper or villagers? '
   dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
+  backgroundVideo: {fileID: 0}
   aText: Yes
   bText: No
   bgm: {fileID: 0}
@@ -1396,7 +1397,8 @@ MonoBehaviour:
     party traveled deeper into its shadowed heart. Ancient trees, their bark twisted
     with age, loomed overhead, their canopies so thick that only slivers of the setting
     sun pierced through.
-  dialogImage: {fileID: -48167549942996903, guid: 611c50c0164c7414db840fb3c10a4fdd, type: 3}
+  dialogImage: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: e5bd721dee0f1534794f01a16cffb49b, type: 3}
   aText: Scan Area
   bText: Leave
   bgm: {fileID: 8300000, guid: 133f435b683fc10498ed276515298f60, type: 3}
@@ -1695,6 +1697,7 @@ MonoBehaviour:
     as a silent guardian against the unknown dangers beyond. Despite its humble appearance,
     something about the village felt... uneasy.
   dialogImage: {fileID: -577172545017557598, guid: f7936b36b33d5a64993f0a7fe75eea66, type: 3}
+  backgroundVideo: {fileID: 0}
   aText: Stay
   bText: Leave
   bgm: {fileID: 0}
@@ -2678,6 +2681,7 @@ MonoBehaviour:
     the worthy enter the Shrine,\u201D he rumbles. \u201CProve yourself through battle.
     Raise your weapons!\u201D He shifts into a battle stance."
   dialogImage: {fileID: 7657890851316837750, guid: 3ff1aba96eb6aec4b899247e37e564fa, type: 3}
+  backgroundVideo: {fileID: 0}
   aText: Fight  Aggressively
   bText: Fight Tactically
   cText: Fight Defensively
@@ -3466,7 +3470,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -200, y: 392}
+  position: {x: -216, y: 424}
   ports:
     keys:
     - entry
@@ -4212,6 +4216,7 @@ MonoBehaviour:
   dialogText: "Dense canopy. Whispers drift through the trees. The path splits\u2014left:
     overgrown thicket. Right: fallen tree and louder \nwhispers."
   dialogImage: {fileID: 8859591267765431705, guid: 9e25389235f251041998af5c7005e7ed, type: 3}
+  backgroundVideo: {fileID: 0}
   aText: Push through thicket
   bText: Clear the fallen tree
   cText: Listen to the whispers
@@ -4300,6 +4305,7 @@ MonoBehaviour:
     a vast, sunken stairway partially collapsed, roots twisting along broken steps
     toward a distant shimmer below."
   dialogImage: {fileID: 7261623678093556276, guid: 180089864c336804f8af17e29bfa9be8, type: 3}
+  backgroundVideo: {fileID: 0}
   aText: Climbing Down Safely
   bText: Finding a Stable Path
   cText: Listening to the Echoes Below
@@ -4654,6 +4660,7 @@ MonoBehaviour:
     character. Ask them the following questions to help flesh out their presence
     in the world:'
   dialogImage: {fileID: 8208218113883453166, guid: d7b7a3b95d6d0444b8bee2b2c258382f, type: 3}
+  backgroundVideo: {fileID: 0}
   aText: Ashen
   bText: Draven
   cText: Zyra

@@ -590,7 +590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &370753771
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5151,6 +5151,7 @@ MonoBehaviour:
   videoBackground: {fileID: 1607435268}
   videoPlayerBG: {fileID: 1571463497}
   videoBGPanel: {fileID: 1265850743}
+  videoRenderTexture: {fileID: 8400000, guid: 156af4e472dfb4a45bd08a4369b8a0ff, type: 2}
   diceRollPanel: {fileID: 498618785}
   characterStats: {fileID: 0}
 --- !u!4 &1983906353

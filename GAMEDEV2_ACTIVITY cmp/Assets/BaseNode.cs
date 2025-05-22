@@ -38,8 +38,9 @@ public class BaseNode : Node {
     public virtual bool isSliding(){
         return false;
     }
-    public virtual VideoClip getBackgroundVideo()
+    public VideoClip backgroundVideo;
+    public VideoClip getBackgroundVideo()
     {
-        return null; // Default behavior: no video
+        return backgroundVideo;
     }
 }
