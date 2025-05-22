@@ -4070,6 +4070,7 @@ MonoBehaviour:
   - {fileID: -5549088674886867127}
   - {fileID: 7980546795654035099}
   - {fileID: 2093036136163613995}
+  - {fileID: 6453202043356730072}
 --- !u!114 &319222871847691073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6590,6 +6591,58 @@ MonoBehaviour:
   slideInActor: 0
   characterName: 
   nextButtonLabel: Continue
+--- !u!114 &6453202043356730072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
+  m_Name: Simple Dialog V2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 20827.805, y: 25.029242}
+  ports:
+    keys:
+    - entry
+    - exit
+    values:
+    - _fieldName: entry
+      _node: {fileID: 6453202043356730072}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 7980546795654035099}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: exit
+      _node: {fileID: 6453202043356730072}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  backgroundVideo: {fileID: 0}
+  entry: 
+  exit: 
+  dialogText: 
+  dialogImage: {fileID: 0}
+  backgroundVideo: {fileID: 0}
+  actorImage: {fileID: 0}
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  slideInActor: 0
+  characterName: 
+  nextButtonLabel: Continue
 --- !u!114 &6752840696509294148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7143,7 +7196,10 @@ MonoBehaviour:
       _node: {fileID: 7980546795654035099}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: 6453202043356730072}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
