@@ -6634,7 +6634,7 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: fgdfsgdfg
   dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -6694,7 +6694,7 @@ MonoBehaviour:
     enough for the party to hear. One child, peeking from behind a mother\u2019s
     skirts, stared wide-eyed before being gently ushered away."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 32900000, guid: e5bd721dee0f1534794f01a16cffb49b, type: 3}
+  backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
