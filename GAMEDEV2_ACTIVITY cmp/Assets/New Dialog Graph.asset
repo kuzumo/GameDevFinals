@@ -222,7 +222,7 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CThis place smells too clean. Trouble always follows silence.\u201D"
   dialogImage: {fileID: 1571216789309899512, guid: 3b09290f9d79e634082594878812124b, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -335,7 +335,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CCoin\u2019s coin. If there\u2019s work, I\u2019ll take it. Killing
+    cultists just sweetens the deal.\u201D"
   dialogImage: {fileID: -8902689493532227885, guid: d5bdfff70bd7f3d489548b107ea65494, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -642,7 +643,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CI\u2019ve heard whispers of corruption spreading through the
+    roots. I must see for myself.\u201D"
   dialogImage: {fileID: 3070204904303785567, guid: d1fc780bc31b1ed41a6fb0a39af9c702, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -1536,7 +1538,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: A small, nimble creature with moss in their fur and a walking stick.
+    Their eyes scan the trees with practiced caution.
   dialogImage: {fileID: 3070204904303785567, guid: d1fc780bc31b1ed41a6fb0a39af9c702, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -1591,7 +1594,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: A tall, stoic figure with a scarred cheek and a long, weathered cloak.
+    His stride is steady and silent, a sword resting on his back.
   dialogImage: {fileID: 1571216789309899512, guid: 3b09290f9d79e634082594878812124b, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -2128,7 +2132,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CI owe someone a debt. They vanished near Hearthglen. I need
+    answers.\u201D"
   dialogImage: {fileID: -7958464205076530917, guid: e50ce358c43c6ee418db2e11874ed71e, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -2716,7 +2721,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: Cloaked in tattered robes, their face hidden beneath a hood, footsteps
+    nearly silent.
   dialogImage: {fileID: 2697308092670967106, guid: c988ea026c241294391fda0136543127, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -2887,7 +2893,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CThe Cult took something from me years ago. I aim to take it
+    back.\u201D"
   dialogImage: {fileID: 1571216789309899512, guid: 3b09290f9d79e634082594878812124b, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -3002,7 +3009,7 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CThe fire speaks in riddles. It told me to come. I listen.\u201D"
   dialogImage: {fileID: 2697308092670967106, guid: c988ea026c241294391fda0136543127, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -3057,7 +3064,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CThe closer I get, the more this place feels\u2026 wrong. But
+    I won\u2019t turn back.\u201D"
   dialogImage: {fileID: -7958464205076530917, guid: e50ce358c43c6ee418db2e11874ed71e, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -3486,7 +3494,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: Lean and lithe with feathers tucked into her cloak, she moves with
+    careful grace.
   dialogImage: {fileID: -7958464205076530917, guid: e50ce358c43c6ee418db2e11874ed71e, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -3864,7 +3873,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CMy sources say the Cult holds knowledge long buried. I want
+    it.\u201D"
   dialogImage: {fileID: 6538408193174668225, guid: 864411dd70f11134ba6589e768a69d57, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -4501,7 +4511,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: Cloaked in shadow, she glides quietly along the path, her eyes sharp
+    and calculating.
   dialogImage: {fileID: 6538408193174668225, guid: 864411dd70f11134ba6589e768a69d57, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -5388,7 +5399,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201COne wrong move and this whole village could burn. Let\u2019s
+    make sure it\u2019s not us.\u201D"
   dialogImage: {fileID: 6538408193174668225, guid: 864411dd70f11134ba6589e768a69d57, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -6747,7 +6759,7 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CLooks peaceful. Never trust peaceful.\u201D"
   dialogImage: {fileID: -8902689493532227885, guid: d5bdfff70bd7f3d489548b107ea65494, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -6859,7 +6871,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: Broad-shouldered and armored, he walks with practiced confidence, his
+    axe glinting faintly.
   dialogImage: {fileID: -8902689493532227885, guid: d5bdfff70bd7f3d489548b107ea65494, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -7088,7 +7101,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CSomething stirs ahead. Something ancient. It\u2019s not fear\u2014it\u2019s
+    recognition.\u201D"
   dialogImage: {fileID: 2697308092670967106, guid: c988ea026c241294391fda0136543127, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -7265,7 +7279,8 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: 
+  dialogText: "\u201CThe forest here is sick. I can feel it in the wind. Hearthglen
+    needs healing.\u201D"
   dialogImage: {fileID: 3070204904303785567, guid: d1fc780bc31b1ed41a6fb0a39af9c702, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
