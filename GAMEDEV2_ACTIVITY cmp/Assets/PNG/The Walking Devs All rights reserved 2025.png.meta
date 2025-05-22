@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 9b6aab8f9527f394cabd40cf792181a1
+guid: 917d9bbf39eea4b42b223b2bcee4824e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5000927251509650613
-    second: Back_0
-  - first:
-      213: 564042922023100985
-    second: Back_1
-  - first:
-      213: -6931248352422374901
-    second: Back_2
-  - first:
-      213: 4990789188432626572
-    second: Back_3
+      213: 1708687511632663661
+    second: The Walking Devs All rights reserved 2025_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Back_0
+      name: The Walking Devs All rights reserved 2025_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 143
+        width: 213
         height: 51
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b4adc5d6dcd66540800000000000000
-      internalID: 5000927251509650613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Back_1
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 33
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 932a2459c02e3d700800000000000000
-      internalID: 564042922023100985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Back_2
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 0
-        width: 34
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b025ad7c8524fcf90800000000000000
-      internalID: -6931248352422374901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Back_3
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 1
-        width: 37
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8303651358d24540800000000000000
-      internalID: 4990789188432626572
+      spriteID: d64d2032d3a76b710800000000000000
+      internalID: 1708687511632663661
       vertices: []
       indices: 
       edges: []
@@ -200,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a1d4d598f3467d842a597c99de7e3ce7
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -209,11 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Back_0: 5000927251509650613
-      Back_1: 564042922023100985
-      Back_2: -6931248352422374901
-      Back_3: 4990789188432626572
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

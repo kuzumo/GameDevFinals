@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using XNode;
 
 public class OneChoiceDialog : BaseNode
@@ -12,6 +13,7 @@ public class OneChoiceDialog : BaseNode
     [TextArea(7, 20)]
     public string dialogText;
     public Sprite dialogImage;
+    public VideoClip backgroundVideo;
 
     public string cText;
 
@@ -57,5 +59,8 @@ public class OneChoiceDialog : BaseNode
     {
         return cText;
     }
-
+    public VideoClip getBackgroundVideo()
+    {
+        return backgroundVideo;
+    }
 }
