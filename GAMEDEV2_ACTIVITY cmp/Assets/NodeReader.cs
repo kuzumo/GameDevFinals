@@ -8,6 +8,7 @@ using XNode;
 using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
 using UnityEngine.Video;
+using UnityEditor.Experimental.GraphView;
 
 public class NodeReader : MonoBehaviour
 {
@@ -37,7 +38,9 @@ public class NodeReader : MonoBehaviour
     public GameObject videoBGPanel;
     public RenderTexture videoRenderTexture;
     public DiceRollPanelController diceRollPanel; 
-    public CharacterStats characterStats;         
+    public CharacterStats characterStats;
+    public GameObject choicesPanel;
+    private bool isTyping = false;
 
     void Start()
     {
@@ -53,7 +56,8 @@ public class NodeReader : MonoBehaviour
     public void displayNode(BaseNode node)
     {
         characterNameText.text = node.getCharacterName();
-        dialogue.text = node.getDialogText();
+        StartTyping(node.getDialogText(), node);
+
 
         // 🎥 Handle video or image background
         videoPlayerBG.Stop();
@@ -169,6 +173,97 @@ public class NodeReader : MonoBehaviour
             endPanel.SetActive(true);
         }
     }
+    public float typingSpeed = 0.20f; // Speed per letter
+
+    private Coroutine typingCoroutine;
+
+    public void StartTyping(string fullText, BaseNode node)
+    {
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        typingCoroutine = StartCoroutine(TypeText(fullText, node));
+    }
+
+    private IEnumerator TypeText(string fullText, BaseNode node)
+{
+    isTyping = true;
+    dialogue.text = "";
+
+    // Hide choices while typing
+    choicesPanel.SetActive(false);
+
+    foreach (char c in fullText)
+    {
+        dialogue.text += c;
+        yield return new WaitForSeconds(typingSpeed);
+    }
+
+    isTyping = false;
+    typingCoroutine = null;
+
+    // Show buttons after typing ends
+    ShowChoices(node);
+}
+    private void ShowChoices(BaseNode node)
+    {
+        choicesPanel.SetActive(false); // default hidden
+
+        // Reset all buttons inside the panel
+        buttonA.SetActive(false); buttonB.SetActive(false);
+        buttonC.SetActive(false); buttonD.SetActive(false);
+        buttonE.SetActive(false); buttonF.SetActive(false);
+
+        if (node is SixChoiceDialog scd)
+        {
+            buttonA.SetActive(true); buttonAText.text = scd.aText;
+            buttonB.SetActive(true); buttonBText.text = scd.bText;
+            buttonC.SetActive(true); buttonCText.text = scd.cText;
+            buttonD.SetActive(true); buttonDText.text = scd.dText;
+            buttonE.SetActive(true); buttonEText.text = scd.eText;
+            buttonF.SetActive(true); buttonFText.text = scd.fText;
+            choicesPanel.SetActive(true); // ✅ now show panel
+        }
+        else if (node is MultipleChoiceDialog mcd)
+        {
+            buttonA.SetActive(true); buttonAText.text = mcd.aText;
+            buttonB.SetActive(true); buttonBText.text = mcd.bText;
+            choicesPanel.SetActive(true);
+        }
+        else if (node is OneChoiceDialog ocd)
+        {
+            buttonC.SetActive(true); buttonCText.text = ocd.GetChoiceAText();
+            choicesPanel.SetActive(true);
+        }
+        else if (node is ThreeChoiceDialog tcd)
+        {
+            buttonA.SetActive(true); buttonAText.text = tcd.aText;
+            buttonB.SetActive(true); buttonBText.text = tcd.bText;
+            buttonC.SetActive(true); buttonCText.text = tcd.cText;
+            choicesPanel.SetActive(true);
+        }
+        else
+        {
+            // Default: show "Next" button instead
+            nextButtonGO.SetActive(true);
+        }
+    }
+
+    public void SkipTyping()
+    {
+        if (typingCoroutine != null)
+        {
+            StopCoroutine(typingCoroutine);
+            dialogue.text = currentNode.getDialogText();
+            typingCoroutine = null;
+
+            ShowChoices(currentNode); // show choices after skip
+        }
+        else
+        {
+            // Do nothing here to prevent advancing on second click
+        }
+    }
+
+
 
     private BaseNode GetNextNode(BaseNode node)
     {
