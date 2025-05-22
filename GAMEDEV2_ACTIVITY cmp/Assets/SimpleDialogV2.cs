@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 using XNode;
 
 public class SimpleDialogV2 : BaseNode {
@@ -11,8 +12,9 @@ public class SimpleDialogV2 : BaseNode {
 	[TextArea(7,20)]
 	public string dialogText;
 	public Sprite dialogImage;
+    public VideoClip backgroundVideo;
 
-	public Sprite actorImage;
+    public Sprite actorImage;
 
 	public AudioClip bgm;
 
@@ -54,5 +56,8 @@ public class SimpleDialogV2 : BaseNode {
     {
         return nextButtonLabel;
     }
-
+    public VideoClip getBackgroundVideo()
+    {
+        return backgroundVideo;
+    }
 }

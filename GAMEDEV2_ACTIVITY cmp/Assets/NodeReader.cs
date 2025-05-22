@@ -7,6 +7,7 @@ using UnityEngine.UI;
 using XNode;
 using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
+using UnityEngine.Video;
 
 public class NodeReader : MonoBehaviour
 {
@@ -31,9 +32,11 @@ public class NodeReader : MonoBehaviour
     public GameObject nextButtonGO;
     public TMP_Text nextButtonText;
     public Animator animationOfActor;
-
-    public DiceRollPanelController diceRollPanel; // ✅ Drag in inspector
-    public CharacterStats characterStats;         // ✅ Drag in inspector
+    public RawImage videoBackground;
+    public VideoPlayer videoPlayerBG;
+    public GameObject videoBGPanel;
+    public DiceRollPanelController diceRollPanel; 
+    public CharacterStats characterStats;         
 
     void Start()
     {
@@ -50,8 +53,21 @@ public class NodeReader : MonoBehaviour
     {
         characterNameText.text = node.getCharacterName();
         dialogue.text = node.getDialogText();
+
+        // 🔁 Background handling (video or image)
+        videoPlayerBG.Stop();
+        videoBGPanel.SetActive(false);
+        ImageGO.SetActive(true);
         backgroundImage = node.getSprite();
         ImageGO.GetComponent<Image>().sprite = backgroundImage;
+
+        if (node is SimpleDialogV2 sdv && sdv.getBackgroundVideo() != null)
+        {
+            videoPlayerBG.clip = sdv.getBackgroundVideo();
+            videoBGPanel.SetActive(true);
+            ImageGO.SetActive(false);
+            videoPlayerBG.Play();
+        }
 
         // Hide buttons
         buttonA.SetActive(false); buttonB.SetActive(false); buttonC.SetActive(false);
@@ -59,7 +75,6 @@ public class NodeReader : MonoBehaviour
         nextButtonGO.SetActive(false);
 
         // Show relevant buttons
-
         if (node is SixChoiceDialog scd)
         {
             buttonA.SetActive(true); buttonAText.text = scd.aText;
@@ -94,9 +109,9 @@ public class NodeReader : MonoBehaviour
         {
             nextButtonGO.SetActive(true);
             nextButtonText.text = "Next";
-            if (node is SimpleDialogV2 sdv && !string.IsNullOrEmpty(sdv.nextButtonLabel))
+            if (node is SimpleDialogV2 sdv2 && !string.IsNullOrEmpty(sdv2.nextButtonLabel))
             {
-                nextButtonText.text = sdv.nextButtonLabel;
+                nextButtonText.text = sdv2.nextButtonLabel;
             }
         }
 
@@ -125,6 +140,7 @@ public class NodeReader : MonoBehaviour
             actorObject.GetComponent<Animator>().enabled = true;
         }
     }
+
 
     public void AdvanceDialog()
     {
