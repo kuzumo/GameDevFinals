@@ -61,7 +61,12 @@ MonoBehaviour:
   entry: 
   success: 
   failed: 
-  dialogText: 
+  dialogText: "Emerging from the forest depths, you see the Ruined Archive ahead\u2014crumbling
+    stone pillars etched with forgotten knowledge. Morning sunlight casts long shadows
+    over the overgrown path, where ancient carvings peek through tangled roots. The
+    air hums with history, charged by unseen forces. The trail suddenly ends, revealing
+    a vast, sunken stairway partially collapsed, roots twisting along broken steps
+    toward a distant shimmer below."
   dialogImage: {fileID: 7261623678093556276, guid: 180089864c336804f8af17e29bfa9be8, type: 3}
   abilityCheck: 0
   difficultyCheckValue: 14
@@ -121,7 +126,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-9084225239696677851
 MonoBehaviour:
@@ -136,7 +141,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10456, y: -648}
+  position: {x: 10456, y: -664}
   ports:
     keys:
     - entry
@@ -177,7 +182,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-9053730791318960325
 MonoBehaviour:
@@ -248,7 +253,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 984, y: 1512}
+  position: {x: 984, y: 1880}
   ports:
     keys:
     - entry
@@ -292,7 +297,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-8969208514357018924
 MonoBehaviour:
@@ -307,7 +312,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1688, y: 24}
+  position: {x: 1688, y: 104}
   ports:
     keys:
     - entry
@@ -395,7 +400,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1944, y: 24}
+  position: {x: 1944, y: 104}
   ports:
     keys:
     - entry
@@ -442,7 +447,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-8603266242263628414
 MonoBehaviour:
@@ -457,7 +462,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 9048, y: 440}
+  position: {x: 9064, y: 616}
   ports:
     keys:
     - entry
@@ -499,7 +504,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-8409277043635235717
 MonoBehaviour:
@@ -574,7 +579,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-8293324269626421889
 MonoBehaviour:
@@ -589,7 +594,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1944, y: 1512}
+  position: {x: 1944, y: 1880}
   ports:
     keys:
     - entry
@@ -636,7 +641,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-8061440226768125662
 MonoBehaviour:
@@ -651,7 +656,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1688, y: 760}
+  position: {x: 1688, y: 984}
   ports:
     keys:
     - entry
@@ -767,7 +772,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &-7704043182446851582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -828,7 +833,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-7314842188658068516
 MonoBehaviour:
@@ -887,7 +892,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-7248444762374607035
 MonoBehaviour:
@@ -945,7 +950,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Feral Nomad Chief
   nextButtonLabel: Continue
 --- !u!114 &-7171773310609265922
 MonoBehaviour:
@@ -1009,7 +1014,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Feral Nomad Chief
   nextButtonLabel: Continue
 --- !u!114 &-6919149616959237843
 MonoBehaviour:
@@ -1072,7 +1077,12 @@ MonoBehaviour:
   entry: 
   success: 
   failed: 
-  dialogText: 
+  dialogText: "Emerging from the forest depths, you see the Ruined Archive ahead\u2014crumbling
+    stone pillars etched with forgotten knowledge. Morning sunlight casts long shadows
+    over the overgrown path, where ancient carvings peek through tangled roots. The
+    air hums with history, charged by unseen forces. The trail suddenly ends, revealing
+    a vast, sunken stairway partially collapsed, roots twisting along broken steps
+    toward a distant shimmer below."
   dialogImage: {fileID: 7261623678093556276, guid: 180089864c336804f8af17e29bfa9be8, type: 3}
   abilityCheck: 0
   difficultyCheckValue: 13
@@ -1089,7 +1099,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 984, y: 1144}
+  position: {x: 984, y: 1432}
   ports:
     keys:
     - entry
@@ -1133,7 +1143,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-6681492779504562298
 MonoBehaviour:
@@ -1223,7 +1233,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-6569230669198525839
 MonoBehaviour:
@@ -1238,7 +1248,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14184, y: -264}
+  position: {x: 14184, y: -200}
   ports:
     keys:
     - entry
@@ -1281,7 +1291,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Feral Nomad Chief
   nextButtonLabel: Continue
 --- !u!114 &-6446282456945250752
 MonoBehaviour:
@@ -1341,7 +1351,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-6417543995236238807
 MonoBehaviour:
@@ -1401,7 +1411,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Pyrelord Harbinger
   nextButtonLabel: Continue
 --- !u!114 &-6405491148439480951
 MonoBehaviour:
@@ -1475,7 +1485,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &-6344611265355627345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1548,7 +1558,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-6175387485545773145
 MonoBehaviour:
@@ -1563,7 +1573,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1208, y: 760}
+  position: {x: 1208, y: 984}
   ports:
     keys:
     - entry
@@ -1721,7 +1731,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-5549088674886867127
 MonoBehaviour:
@@ -1780,7 +1790,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Pyrelord Harbinger
   nextButtonLabel: Continue
 --- !u!114 &-5531713909950807119
 MonoBehaviour:
@@ -1915,7 +1925,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-5170316314734479197
 MonoBehaviour:
@@ -1975,7 +1985,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &-5054405215083842046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2031,7 +2041,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-5018595666288192007
 MonoBehaviour:
@@ -2091,7 +2101,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-4910655973901239633
 MonoBehaviour:
@@ -2153,7 +2163,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-4854190593081001583
 MonoBehaviour:
@@ -2168,7 +2178,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1688, y: 392}
+  position: {x: 1688, y: 536}
   ports:
     keys:
     - entry
@@ -2284,7 +2294,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &-4726608196603629492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2341,7 +2351,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Pyrelord Harbinger
   nextButtonLabel: Continue
 --- !u!114 &-4455188594415551969
 MonoBehaviour:
@@ -2400,7 +2410,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-4433581832622727823
 MonoBehaviour:
@@ -2415,7 +2425,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 984, y: 760}
+  position: {x: 984, y: 984}
   ports:
     keys:
     - entry
@@ -2459,7 +2469,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-4418526386445728054
 MonoBehaviour:
@@ -2517,7 +2527,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-4389404994594820872
 MonoBehaviour:
@@ -2576,7 +2586,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-4262761056446996981
 MonoBehaviour:
@@ -2635,7 +2645,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-4143595361519009956
 MonoBehaviour:
@@ -2693,7 +2703,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-3779351457442170414
 MonoBehaviour:
@@ -2752,7 +2762,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-3482424682137632313
 MonoBehaviour:
@@ -2767,7 +2777,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1224, y: 1512}
+  position: {x: 1224, y: 1880}
   ports:
     keys:
     - entry
@@ -2927,7 +2937,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-2841360198492131358
 MonoBehaviour:
@@ -3047,7 +3057,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &-2406688743166226139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3061,7 +3071,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1688, y: 1512}
+  position: {x: 1688, y: 1880}
   ports:
     keys:
     - entry
@@ -3117,7 +3127,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2184, y: 392}
+  position: {x: 2184, y: 536}
   ports:
     keys:
     - entry
@@ -3217,7 +3227,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-2174442164188410102
 MonoBehaviour:
@@ -3276,7 +3286,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-1895922097201688384
 MonoBehaviour:
@@ -3291,7 +3301,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1448, y: 392}
+  position: {x: 1448, y: 536}
   ports:
     keys:
     - entry
@@ -3335,7 +3345,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-1545312085561119160
 MonoBehaviour:
@@ -3424,7 +3434,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Feral Nomad Chief
 --- !u!114 &-1498600325329272612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3481,7 +3491,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-1448334471692832438
 MonoBehaviour:
@@ -3539,7 +3549,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-1295209388138209678
 MonoBehaviour:
@@ -3554,7 +3564,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1208, y: 392}
+  position: {x: 1208, y: 536}
   ports:
     keys:
     - entry
@@ -3611,7 +3621,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10456, y: -248}
+  position: {x: 10440, y: -216}
   ports:
     keys:
     - entry
@@ -3653,7 +3663,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-1220260218531290939
 MonoBehaviour:
@@ -3699,7 +3709,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10456, y: -1048}
+  position: {x: 10456, y: -1112}
   ports:
     keys:
     - entry
@@ -3740,7 +3750,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-529034215330875749
 MonoBehaviour:
@@ -3821,7 +3831,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1448, y: 24}
+  position: {x: 1448, y: 104}
   ports:
     keys:
     - entry
@@ -3865,7 +3875,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &-333450411364460548
 MonoBehaviour:
@@ -3925,7 +3935,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Pyrelord Harbinger
   nextButtonLabel: Continue
 --- !u!114 &-53611786446185046
 MonoBehaviour:
@@ -3940,7 +3950,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1688, y: 1144}
+  position: {x: 1688, y: 1432}
   ports:
     keys:
     - entry
@@ -3997,7 +4007,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1448, y: 1144}
+  position: {x: 1448, y: 1432}
   ports:
     keys:
     - entry
@@ -4041,7 +4051,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &11400000
 MonoBehaviour:
@@ -4197,7 +4207,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1448, y: 760}
+  position: {x: 1448, y: 984}
   ports:
     keys:
     - entry
@@ -4241,7 +4251,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &689946585619207640
 MonoBehaviour:
@@ -4256,7 +4266,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10456, y: 120}
+  position: {x: 10440, y: 232}
   ports:
     keys:
     - entry
@@ -4298,7 +4308,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &747692622831583556
 MonoBehaviour:
@@ -4356,7 +4366,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &1157654306893813255
 MonoBehaviour:
@@ -4371,7 +4381,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -216, y: 424}
+  position: {x: -216, y: 472}
   ports:
     keys:
     - entry
@@ -4468,7 +4478,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 9048, y: 72}
+  position: {x: 9064, y: 184}
   ports:
     keys:
     - entry
@@ -4511,7 +4521,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &1500258598629614238
 MonoBehaviour:
@@ -4526,7 +4536,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1944, y: 1144}
+  position: {x: 1944, y: 1432}
   ports:
     keys:
     - entry
@@ -4573,7 +4583,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &1500427053258089599
 MonoBehaviour:
@@ -4588,7 +4598,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1208, y: 1144}
+  position: {x: 1208, y: 1432}
   ports:
     keys:
     - entry
@@ -4816,7 +4826,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: The End
 --- !u!114 &2184073288956288652
 MonoBehaviour:
@@ -4879,10 +4889,13 @@ MonoBehaviour:
   entry: 
   success: 
   failed: 
-  dialogText: 
+  dialogText: "At the center of the ruins lies a massive stone door etched with elemental
+    symbols\u2014fire, water, earth, and air. Worn by time yet pulsing with faint
+    energy, the door features four recessed circles, each tied to an element, as
+    if awaiting the one who can awaken its ancient power."
   dialogImage: {fileID: 4653176916216709083, guid: b0a7be055bd3e7e48872dd49bdbd7492, type: 3}
-  abilityCheck: 0
-  difficultyCheckValue: 0
+  abilityCheck: 1
+  difficultyCheckValue: 13
 --- !u!114 &2399163016330557516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4939,7 +4952,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Wanderer
   nextButtonLabel: Continue
 --- !u!114 &2666900954443629012
 MonoBehaviour:
@@ -4984,7 +4997,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 562ad68cad50b4346a622a43aa4d4d88, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
   GUID: e6fcd018-ea43-4a0f-9b9c-48ac00943a0e
   entry: 
   exit: 
@@ -4998,7 +5011,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &2669495091417223274
 MonoBehaviour:
@@ -5057,7 +5070,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &2781543629655985154
 MonoBehaviour:
@@ -5116,7 +5129,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &2928116455927863788
 MonoBehaviour:
@@ -5177,7 +5190,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &3181768496469555526
 MonoBehaviour:
@@ -5331,7 +5344,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &3284823023452777773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5391,7 +5404,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Pyrelord Harbinger
   nextButtonLabel: Continue
 --- !u!114 &3625644141424204450
 MonoBehaviour:
@@ -5483,7 +5496,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &3643914784056897725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5497,7 +5510,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2184, y: 1144}
+  position: {x: 2184, y: 1432}
   ports:
     keys:
     - entry
@@ -5588,18 +5601,18 @@ MonoBehaviour:
   GUID: 55c54897-b9d3-40cb-a5c2-dc317751f0c5
   entry: 
   exit: 
-  dialogText: "Yes.\n\nThe characters take corner seats, watching the tavern with
-    quiet vigilance. Firelight flickers across uneasy faces, and murmured conversations
-    hint at tension.\n\nAfter a moment, they rise and approach the innkeeper and
-    a few villagers\u2014some making polite conversation, others subtly probing the
-    source of the village\u2019s unrest."
+  dialogText: "The characters take corner seats, watching the tavern with quiet vigilance.
+    Firelight flickers across uneasy faces, and murmured conversations hint at tension.\n\nAfter
+    a moment, they rise and approach the innkeeper and a few villagers\u2014some
+    making polite conversation, others subtly probing the source of the village\u2019s
+    unrest."
   dialogImage: {fileID: 919727893511088379, guid: edbf4ffa0e20854439fd2af1dc70a5a0, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &3735351297509094782
 MonoBehaviour:
@@ -5614,7 +5627,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 984, y: 24}
+  position: {x: 984, y: 104}
   ports:
     keys:
     - entry
@@ -5658,7 +5671,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &3746280589643988845
 MonoBehaviour:
@@ -5673,7 +5686,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10456, y: 504}
+  position: {x: 10440, y: 680}
   ports:
     keys:
     - entry
@@ -5715,7 +5728,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &3811819469849898317
 MonoBehaviour:
@@ -5777,7 +5790,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &4007753033323605376
 MonoBehaviour:
@@ -5942,7 +5955,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &4434485909198378408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5998,7 +6011,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Feral Nomad Chief
   nextButtonLabel: Continue
 --- !u!114 &4443630038878452906
 MonoBehaviour:
@@ -6013,7 +6026,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 984, y: 392}
+  position: {x: 984, y: 536}
   ports:
     keys:
     - entry
@@ -6057,7 +6070,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &4617563517124096216
 MonoBehaviour:
@@ -6198,7 +6211,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4680, y: -184}
+  position: {x: 4680, y: -104}
   ports:
     keys:
     - entry
@@ -6232,7 +6245,7 @@ MonoBehaviour:
   GUID: 3026f3fb-6ae6-4bf5-8706-63c27cf1e833
   entry: 
   exit: 
-  dialogText: "No.\n\LThe characters settle at a modest table near the hearth\u2014neither
+  dialogText: "The characters settle at a modest table near the hearth\u2014neither
     hidden nor exposed. The fire\u2019s warmth soothes the road\u2019s chill, its
     crackle masking the tavern\u2019s murmurs.\n\nThey watch in silence, noting weary
     faces and guarded words. The villagers\u2019 smiles are tight, their talk cautious.
@@ -6244,7 +6257,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &5158416879821124222
 MonoBehaviour:
@@ -6301,7 +6314,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &5242231744568669903
 MonoBehaviour:
@@ -6363,7 +6376,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &5444783762536500348
 MonoBehaviour:
@@ -6422,7 +6435,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &5563421553763726387
 MonoBehaviour:
@@ -6482,7 +6495,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &5994845120879410619
 MonoBehaviour:
@@ -6540,7 +6553,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Feral Nomad Chief
   nextButtonLabel: Continue
 --- !u!114 &6028554611791770326
 MonoBehaviour:
@@ -6661,7 +6674,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &6256583697466692504
 MonoBehaviour:
@@ -6676,7 +6689,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 10456, y: 872}
+  position: {x: 10440, y: 1128}
   ports:
     keys:
     - entry
@@ -6718,7 +6731,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &6356852929258111465
 MonoBehaviour:
@@ -6733,7 +6746,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1944, y: 760}
+  position: {x: 1944, y: 984}
   ports:
     keys:
     - entry
@@ -6780,7 +6793,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &6752840696509294148
 MonoBehaviour:
@@ -6839,7 +6852,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &6764399665660084675
 MonoBehaviour:
@@ -6854,7 +6867,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2184, y: 40}
+  position: {x: 2184, y: 120}
   ports:
     keys:
     - entry
@@ -6910,7 +6923,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 9048, y: -328}
+  position: {x: 9064, y: -248}
   ports:
     keys:
     - entry
@@ -6953,7 +6966,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &7068644281020785152
 MonoBehaviour:
@@ -6968,7 +6981,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1208, y: 24}
+  position: {x: 1208, y: 104}
   ports:
     keys:
     - entry
@@ -7025,7 +7038,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 9048, y: 840}
+  position: {x: 9064, y: 1048}
   ports:
     keys:
     - entry
@@ -7066,7 +7079,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &7468841467977243059
 MonoBehaviour:
@@ -7125,7 +7138,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &7600892929875235233
 MonoBehaviour:
@@ -7140,7 +7153,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1944, y: 392}
+  position: {x: 1944, y: 536}
   ports:
     keys:
     - entry
@@ -7187,7 +7200,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &7609142570608268513
 MonoBehaviour:
@@ -7202,7 +7215,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2184, y: 1512}
+  position: {x: 2184, y: 1880}
   ports:
     keys:
     - entry
@@ -7307,7 +7320,12 @@ MonoBehaviour:
   entry: 
   success: 
   failed: 
-  dialogText: 
+  dialogText: "Emerging from the forest depths, you see the Ruined Archive ahead\u2014crumbling
+    stone pillars etched with forgotten knowledge. Morning sunlight casts long shadows
+    over the overgrown path, where ancient carvings peek through tangled roots. The
+    air hums with history, charged by unseen forces. The trail suddenly ends, revealing
+    a vast, sunken stairway partially collapsed, roots twisting along broken steps
+    toward a distant shimmer below."
   dialogImage: {fileID: 7261623678093556276, guid: 180089864c336804f8af17e29bfa9be8, type: 3}
   abilityCheck: 0
   difficultyCheckValue: 12
@@ -7368,7 +7386,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: The End
 --- !u!114 &8165914034494314143
 MonoBehaviour:
@@ -7383,7 +7401,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2184, y: 760}
+  position: {x: 2184, y: 984}
   ports:
     keys:
     - entry
@@ -7507,7 +7525,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 1448, y: 1512}
+  position: {x: 1448, y: 1880}
   ports:
     keys:
     - entry
@@ -7551,7 +7569,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &8684881528478117327
 MonoBehaviour:
@@ -7566,7 +7584,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14184, y: 104}
+  position: {x: 14184, y: 232}
   ports:
     keys:
     - entry
@@ -7609,7 +7627,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Feral Nomad Chief
   nextButtonLabel: Continue
 --- !u!114 &8712216686149941204
 MonoBehaviour:
@@ -7683,7 +7701,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Approach the ruins
 --- !u!114 &8874935622880636647
 MonoBehaviour:
@@ -7698,7 +7716,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 11864, y: -248}
+  position: {x: 11864, y: -168}
   ports:
     keys:
     - entry
@@ -7740,7 +7758,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &9151336525877879096
 MonoBehaviour:
@@ -7755,7 +7773,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 9048, y: -712}
+  position: {x: 9048, y: -680}
   ports:
     keys:
     - entry
@@ -7796,7 +7814,7 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
 --- !u!114 &9195970057294646392
 MonoBehaviour:
@@ -7856,5 +7874,5 @@ MonoBehaviour:
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
   nextButtonLabel: Continue
