@@ -51,6 +51,7 @@ public class NodeReader : MonoBehaviour
 
     void Start()
     {
+        typingSpeed = PlayerPrefs.GetFloat("TypingSpeed", 0.2f);
         lastChoiceNode = null;
         nodeHistory.Clear();
 

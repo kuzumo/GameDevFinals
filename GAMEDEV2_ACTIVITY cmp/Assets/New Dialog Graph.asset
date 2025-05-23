@@ -283,7 +283,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 40ff44a2-5257-44d8-97d5-cf53b6b71275
   entry: 
   exit: 
@@ -430,7 +430,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: d86d2d85-f2ff-4abf-9154-a36b2d2b871c
   entry: 
   exit: 
@@ -624,7 +624,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 12127630-fe90-417a-a31a-67bd98fd8134
   entry: 
   exit: 
@@ -816,7 +816,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: f79e9570-cfd1-4765-aed3-b7b5e99b29bd
   entry: 
   exit: 
@@ -1129,7 +1129,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 0610b997-f027-4038-94d8-118a6f0be15a
   entry: 
   exit: 
@@ -2455,7 +2455,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: afc8e760-5c37-409b-98db-9794f0c28fb3
   entry: 
   exit: 
@@ -2748,7 +2748,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 8200c34d-87de-4335-b72f-7dd301f57fe2
   entry: 
   exit: 
@@ -3331,7 +3331,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: e8b2e3f0-c308-43f1-bc16-9a2f81ecf9cf
   entry: 
   exit: 
@@ -3861,7 +3861,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 86f8cdce-eb93-4b19-8ca7-a8e71cfb4e66
   entry: 
   exit: 
@@ -4037,7 +4037,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 27507427-58d0-40be-a603-a63e27670d73
   entry: 
   exit: 
@@ -4237,7 +4237,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 36780181-1702-4e62-9c57-5814d432d57f
   entry: 
   exit: 
@@ -4566,7 +4566,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 2fd835cc-d7a5-43b0-8e5c-6ef35b7babb4
   entry: 
   exit: 
@@ -5006,7 +5006,7 @@ MonoBehaviour:
     forward, gripping his spear. Beside him, the Wanderer, cloaked in mystery, unsheathes
     his blade."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 32900000, guid: 562ad68cad50b4346a622a43aa4d4d88, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -5657,7 +5657,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 32db56e0-fd51-4645-8a1a-5a7dcbb2bdba
   entry: 
   exit: 
@@ -5943,7 +5943,7 @@ MonoBehaviour:
   dialogText: 'Before arriving in Hearthglen, allow each player to introduce their
     character. Ask them the following questions to help flesh out their presence
     in the world:'
-  dialogImage: {fileID: 8208218113883453166, guid: d7b7a3b95d6d0444b8bee2b2c258382f, type: 3}
+  dialogImage: {fileID: 2073819850030353410, guid: 3c1671b78ae1ac7409e37c7b31a0a27a, type: 3}
   backgroundVideo: {fileID: 0}
   aText: Ashen
   bText: Draven
@@ -6056,7 +6056,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: 50101f3b-51ee-4ccb-959c-d4f613ae79ed
   entry: 
   exit: 
@@ -6776,7 +6776,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: dc60f177-0a34-4ed5-855d-ad32de2f5b41
   entry: 
   exit: 
@@ -7183,7 +7183,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: e6ddd1fc-32f5-4fb5-ba2a-4c4b9f068ed8
   entry: 
   exit: 
@@ -7555,7 +7555,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   GUID: e0e96754-cdab-4146-8f41-37e6985f7a4c
   entry: 
   exit: 
