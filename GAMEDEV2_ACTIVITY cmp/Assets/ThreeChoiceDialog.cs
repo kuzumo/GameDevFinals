@@ -17,9 +17,9 @@ public class ThreeChoiceDialog : BaseNode
     public Sprite dialogImage;
     public VideoClip backgroundVideo;
 
-    public string aText;
-    public string bText;
-    public string cText;
+    [TextArea(2, 5)] public string aText;
+    [TextArea(2, 5)] public string bText;
+    [TextArea(2, 5)] public string cText;
 
     public AudioClip bgm;
     public BGM bgmCheck;

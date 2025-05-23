@@ -15,7 +15,7 @@ public class OneChoiceDialog : BaseNode
     public Sprite dialogImage;
     public VideoClip backgroundVideo;
 
-    public string cText;
+    [TextArea(2, 5)] public string cText;
 
     public AudioClip bgm;
     public BGM bgmCheck;

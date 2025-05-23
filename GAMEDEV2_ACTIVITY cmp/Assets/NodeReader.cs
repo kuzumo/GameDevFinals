@@ -36,7 +36,7 @@ public class NodeReader : MonoBehaviour
     public GameObject previousButtonGO;
     private BaseNode previousNode;
     private BaseNode lastChoiceNode;
-
+    public TMP_Text skipButtonText;
     public TMP_Text nextButtonText;
     public Animator animationOfActor;
     public RawImage videoBackground;
@@ -48,12 +48,17 @@ public class NodeReader : MonoBehaviour
     public GameObject choicesPanel;
     private bool isTyping = false;
     private bool justLoadedFromSave = false;
-
+    private bool isSkipping = false;
+    private Coroutine skipCoroutine;
+    private float normalTypingSpeed;
     void Start()
     {
         typingSpeed = PlayerPrefs.GetFloat("TypingSpeed", 0.2f);
         lastChoiceNode = null;
         nodeHistory.Clear();
+        normalTypingSpeed = PlayerPrefs.GetFloat("TypingSpeed", 0.02f);
+        typingSpeed = normalTypingSpeed;
+
 
         Debug.Log("NodeReader Start() called.");
 
@@ -294,9 +299,11 @@ public class NodeReader : MonoBehaviour
             StopCoroutine(typingCoroutine);
             dialogue.text = currentNode.getDialogText();
             typingCoroutine = null;
+            isTyping = false;
             ShowChoices(currentNode);
         }
     }
+
 
     private BaseNode GetNextNode(BaseNode node)
     {
@@ -452,4 +459,81 @@ public class NodeReader : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void OnSkipButtonPressed()
+    {
+        isSkipping = !isSkipping;
+
+        if (isSkipping)
+        {
+            typingSpeed = 0.001f;
+            skipCoroutine = StartCoroutine(SkipThroughNodes());
+            UpdateSkipButtonUI(true); // Optional: update label/icon
+        }
+        else
+        {
+            StopSkipping();
+        }
+    }
+
+    private void StopSkipping()
+    {
+        if (skipCoroutine != null)
+        {
+            StopCoroutine(skipCoroutine);
+            skipCoroutine = null;
+        }
+
+        typingSpeed = normalTypingSpeed;
+        isSkipping = false;
+        UpdateSkipButtonUI(false); // Optional
+    }
+
+
+    private IEnumerator SkipThroughNodes()
+    {
+        justLoadedFromSave = false; // ✅ Ensure skip is not blocked by save-load flag
+
+        while (isSkipping)
+        {
+            yield return null;
+
+            if (isTyping)
+            {
+                SkipTyping();
+                yield return new WaitForSeconds(0.01f);
+                continue;
+            }
+
+            if (IsChoiceNode(currentNode))
+            {
+                StopSkipping();
+                yield break;
+            }
+
+            AdvanceDialog();
+            yield return new WaitForSeconds(0.05f);
+        }
+    }
+
+
+
+    private void UpdateSkipButtonUI(bool skipping)
+    {
+        if (skipButtonText != null)
+        {
+            skipButtonText.text = skipping ? "Stop" : "Skip";
+        }
+    }
+
+    private bool IsChoiceNode(BaseNode node)
+    {
+        return node is MultipleChoiceDialog ||
+               node is ThreeChoiceDialog ||
+               node is SixChoiceDialog ||
+               node is OneChoiceDialog ||
+               node is AbilityCheckNode;
+    }
+
+
 }

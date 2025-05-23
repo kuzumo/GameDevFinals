@@ -15,8 +15,8 @@ public class MultipleChoiceDialog : BaseNode
     public Sprite dialogImage;
     public VideoClip backgroundVideo;
 
-    public string aText;
-    public string bText;
+    [TextArea(2, 5)] public string aText;
+    [TextArea(2, 5)] public string bText;
 
     public AudioClip bgm;
     public BGM bgmCheck;
