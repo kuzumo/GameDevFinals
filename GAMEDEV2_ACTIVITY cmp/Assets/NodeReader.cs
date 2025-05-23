@@ -9,6 +9,7 @@ using UnityEngine.EventSystems;
 using Random = UnityEngine.Random;
 using UnityEngine.Video;
 using UnityEditor.Experimental.GraphView;
+using UnityEngine.SceneManagement;
 
 public class NodeReader : MonoBehaviour
 {
@@ -42,20 +43,47 @@ public class NodeReader : MonoBehaviour
     public VideoPlayer videoPlayerBG;
     public GameObject videoBGPanel;
     public RenderTexture videoRenderTexture;
-    public DiceRollPanelController diceRollPanel; 
+    public DiceRollPanelController diceRollPanel;
     public CharacterStats characterStats;
     public GameObject choicesPanel;
     private bool isTyping = false;
-
-
+    private bool justLoadedFromSave = false;
 
     void Start()
     {
-        currentNode = getStartNode();
-        previousNode = currentNode; 
-        AdvanceDialog();
-    }
+        lastChoiceNode = null;
+        nodeHistory.Clear();
 
+        Debug.Log("NodeReader Start() called.");
+
+        bool isNewGame = PlayerPrefs.GetInt("IsNewGame", 1) == 1;
+
+        if (!isNewGame && (PlayerPrefs.HasKey("SavedNodeGUID") || PlayerPrefs.HasKey("SavedNodeName")))
+        {
+            Debug.Log("Loading saved node...");
+            LoadSavedNode();
+        }
+        else
+        {
+            currentNode = getStartNode();
+            Debug.Log("Found Start node: " + (currentNode != null ? currentNode.name : "null"));
+
+            var nextNode = currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
+            if (nextNode != null)
+            {
+                currentNode = nextNode;
+                Debug.Log("Displaying first real node: " + currentNode.name);
+                displayNode(currentNode);
+            }
+            else
+            {
+                Debug.LogWarning("Start node does not lead anywhere.");
+            }
+        }
+
+        PlayerPrefs.SetInt("IsNewGame", 0);
+        PlayerPrefs.Save();
+    }
 
     public BaseNode getStartNode()
     {
@@ -64,11 +92,12 @@ public class NodeReader : MonoBehaviour
 
     public void displayNode(BaseNode node)
     {
+        currentNode = node;
         characterNameText.text = node.getCharacterName();
 
         if (node is MultipleChoiceDialog || node is ThreeChoiceDialog || node is SixChoiceDialog || node is OneChoiceDialog)
         {
-            lastChoiceNode = node; // ✅ Track the last choice node
+            lastChoiceNode = node;
             previousButtonGO.SetActive(true);
         }
         else
@@ -76,11 +105,8 @@ public class NodeReader : MonoBehaviour
             previousButtonGO.SetActive(false);
         }
 
-
         StartTyping(node.getDialogText(), node);
 
-
-        // 🎥 Handle video or image background
         videoPlayerBG.Stop();
         videoBGPanel.SetActive(false);
         ImageGO.SetActive(true);
@@ -90,30 +116,21 @@ public class NodeReader : MonoBehaviour
         {
             videoPlayerBG.Stop();
             videoPlayerBG.clip = bgVideo;
-
-            // ✅ Explicitly assign target texture (REQUIRED)
             videoPlayerBG.targetTexture = videoRenderTexture;
-
             videoBGPanel.SetActive(true);
             ImageGO.SetActive(false);
-
             videoPlayerBG.Play();
         }
-
         else
         {
-            // fallback to image background
             backgroundImage = node.getSprite();
             ImageGO.GetComponent<Image>().sprite = backgroundImage;
         }
 
-
-        // Hide buttons
         buttonA.SetActive(false); buttonB.SetActive(false); buttonC.SetActive(false);
         buttonD.SetActive(false); buttonE.SetActive(false); buttonF.SetActive(false);
         nextButtonGO.SetActive(false);
 
-        // Show relevant buttons
         if (node is SixChoiceDialog scd)
         {
             buttonA.SetActive(true); buttonAText.text = scd.aText;
@@ -131,8 +148,7 @@ public class NodeReader : MonoBehaviour
         }
         else if (node is OneChoiceDialog ocd)
         {
-            buttonC.SetActive(true);
-            buttonCText.text = ocd.GetChoiceAText();
+            buttonC.SetActive(true); buttonCText.text = ocd.GetChoiceAText();
         }
         else if (node is MultipleChoiceDialog mcd)
         {
@@ -154,7 +170,6 @@ public class NodeReader : MonoBehaviour
             }
         }
 
-        // Actor & BGM handling
         actorObject.SetActive(false);
         actor = node.getActorSprite();
         if (actor != null)
@@ -178,11 +193,17 @@ public class NodeReader : MonoBehaviour
         {
             actorObject.GetComponent<Animator>().enabled = true;
         }
-
     }
 
     public void AdvanceDialog()
     {
+        if (justLoadedFromSave)
+        {
+            Debug.Log("⛔ Skipping AdvanceDialog because we just loaded from save.");
+            justLoadedFromSave = false;
+            return;
+        }
+
         var nextNode = GetNextNode(currentNode);
 
         if (nextNode != null)
@@ -197,8 +218,7 @@ public class NodeReader : MonoBehaviour
         }
     }
 
-    public float typingSpeed = 0.20f; // Speed per letter
-
+    public float typingSpeed = 0.20f;
     private Coroutine typingCoroutine;
 
     public void StartTyping(string fullText, BaseNode node)
@@ -208,30 +228,26 @@ public class NodeReader : MonoBehaviour
     }
 
     private IEnumerator TypeText(string fullText, BaseNode node)
-{
-    isTyping = true;
-    dialogue.text = "";
-
-    // Hide choices while typing
-    choicesPanel.SetActive(false);
-
-    foreach (char c in fullText)
     {
-        dialogue.text += c;
-        yield return new WaitForSeconds(typingSpeed);
+        isTyping = true;
+        dialogue.text = "";
+        choicesPanel.SetActive(false);
+
+        foreach (char c in fullText)
+        {
+            dialogue.text += c;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        isTyping = false;
+        typingCoroutine = null;
+        ShowChoices(node);
     }
 
-    isTyping = false;
-    typingCoroutine = null;
-
-    // Show buttons after typing ends
-    ShowChoices(node);
-}
     private void ShowChoices(BaseNode node)
     {
-        choicesPanel.SetActive(false); // default hidden
+        choicesPanel.SetActive(false);
 
-        // Reset all buttons inside the panel
         buttonA.SetActive(false); buttonB.SetActive(false);
         buttonC.SetActive(false); buttonD.SetActive(false);
         buttonE.SetActive(false); buttonF.SetActive(false);
@@ -244,7 +260,7 @@ public class NodeReader : MonoBehaviour
             buttonD.SetActive(true); buttonDText.text = scd.dText;
             buttonE.SetActive(true); buttonEText.text = scd.eText;
             buttonF.SetActive(true); buttonFText.text = scd.fText;
-            choicesPanel.SetActive(true); // ✅ now show panel
+            choicesPanel.SetActive(true);
         }
         else if (node is MultipleChoiceDialog mcd)
         {
@@ -266,7 +282,6 @@ public class NodeReader : MonoBehaviour
         }
         else
         {
-            // Default: show "Next" button instead
             nextButtonGO.SetActive(true);
         }
     }
@@ -278,65 +293,45 @@ public class NodeReader : MonoBehaviour
             StopCoroutine(typingCoroutine);
             dialogue.text = currentNode.getDialogText();
             typingCoroutine = null;
-
-            ShowChoices(currentNode); // show choices after skip
-        }
-        else
-        {
-            // Do nothing here to prevent advancing on second click
+            ShowChoices(currentNode);
         }
     }
 
-
-
     private BaseNode GetNextNode(BaseNode node)
     {
+        string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
+
         if (node is SixChoiceDialog scd)
         {
-            string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-            if (clicked == scd.aText) { previousNode = currentNode; return currentNode.GetOutputPort("a")?.Connection.node as BaseNode; }
-            if (clicked == scd.bText) { previousNode = currentNode; return currentNode.GetOutputPort("b")?.Connection.node as BaseNode; }
-            if (clicked == scd.cText) { previousNode = currentNode; return currentNode.GetOutputPort("c")?.Connection.node as BaseNode; }
-            if (clicked == scd.dText) { previousNode = currentNode; return currentNode.GetOutputPort("d")?.Connection.node as BaseNode; }
-            if (clicked == scd.eText) { previousNode = currentNode; return currentNode.GetOutputPort("e")?.Connection.node as BaseNode; }
-            if (clicked == scd.fText) { previousNode = currentNode; return currentNode.GetOutputPort("f")?.Connection.node as BaseNode; }
-            return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
+            if (clicked == scd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
+            if (clicked == scd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
+            if (clicked == scd.cText) return node.GetOutputPort("c")?.Connection.node as BaseNode;
+            if (clicked == scd.dText) return node.GetOutputPort("d")?.Connection.node as BaseNode;
+            if (clicked == scd.eText) return node.GetOutputPort("e")?.Connection.node as BaseNode;
+            if (clicked == scd.fText) return node.GetOutputPort("f")?.Connection.node as BaseNode;
+            return node.GetOutputPort("exit")?.Connection.node as BaseNode;
         }
 
         if (node is ThreeChoiceDialog tcd)
         {
-            string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-            if (clicked == tcd.aText) { previousNode = currentNode; return currentNode.GetOutputPort("a")?.Connection.node as BaseNode; }
-            if (clicked == tcd.bText) { previousNode = currentNode; return currentNode.GetOutputPort("b")?.Connection.node as BaseNode; }
-            if (clicked == tcd.cText) { previousNode = currentNode; return currentNode.GetOutputPort("c")?.Connection.node as BaseNode; }
-            return null;
+            if (clicked == tcd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
+            if (clicked == tcd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
+            if (clicked == tcd.cText) return node.GetOutputPort("c")?.Connection.node as BaseNode;
         }
 
         if (node is MultipleChoiceDialog mcd)
         {
-            string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-            if (clicked == mcd.aText) { previousNode = currentNode; return currentNode.GetOutputPort("a")?.Connection.node as BaseNode; }
-            if (clicked == mcd.bText) { previousNode = currentNode; return currentNode.GetOutputPort("b")?.Connection.node as BaseNode; }
-            return null;
+            if (clicked == mcd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
+            if (clicked == mcd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
         }
 
         if (node is OneChoiceDialog ocd)
         {
-            string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
-            if (clicked == ocd.GetChoiceAText())
-            {
-                previousNode = currentNode;
-                return currentNode.GetOutputPort("c")?.Connection.node as BaseNode;
-            }
-            return null;
+            if (clicked == ocd.GetChoiceAText()) return node.GetOutputPort("c")?.Connection.node as BaseNode;
         }
 
-        if (node is AbilityCheckNode)
-            return null; // wait for panel callback
-
-        return currentNode.GetOutputPort("exit")?.Connection.node as BaseNode;
+        return node.GetOutputPort("exit")?.Connection.node as BaseNode;
     }
-
 
     private void HandleAbilityCheck(AbilityCheckNode node)
     {
@@ -344,7 +339,7 @@ public class NodeReader : MonoBehaviour
         int dc = Mathf.RoundToInt(node.getDC());
         DisableAllButtons();
 
-        diceRollPanel.Show(skillName, dc, (bool success) =>
+        diceRollPanel.Show(skillName, dc, success =>
         {
             BaseNode nextNode = success
                 ? currentNode.GetOutputPort("success")?.Connection.node as BaseNode
@@ -357,23 +352,17 @@ public class NodeReader : MonoBehaviour
 
     private void DisableAllButtons()
     {
-        buttonA.SetActive(false);
-        buttonB.SetActive(false);
-        buttonC.SetActive(false);
-        buttonD.SetActive(false);
-        buttonE.SetActive(false);
-        buttonF.SetActive(false);
+        buttonA.SetActive(false); buttonB.SetActive(false); buttonC.SetActive(false);
+        buttonD.SetActive(false); buttonE.SetActive(false); buttonF.SetActive(false);
         nextButtonGO.SetActive(false);
     }
 
     public void GoToPreviousNode()
     {
-        Debug.Log("Stack size before popping: " + nodeHistory.Count);
-
         if (nodeHistory.Count > 0)
         {
             currentNode = nodeHistory.Pop();
-            endPanel.SetActive(false); // Ensure end screen disappears
+            endPanel.SetActive(false);
             displayNode(currentNode);
         }
         else
@@ -387,59 +376,79 @@ public class NodeReader : MonoBehaviour
         if (lastChoiceNode != null)
         {
             currentNode = lastChoiceNode;
-            endPanel.SetActive(false); // Hide the end panel
+            endPanel.SetActive(false);
             displayNode(currentNode);
         }
-        else
-        {
-            Debug.LogWarning("No choice node to retry from.");
-        }
     }
-
-    private const string SaveKey = "SavedNodeName";
 
     public void SaveCurrentNode()
     {
         if (currentNode != null)
         {
-            PlayerPrefs.SetString(SaveKey, currentNode.name);
+            PlayerPrefs.SetString("SavedNodeGUID", currentNode.GUID);
             PlayerPrefs.Save();
-            Debug.Log("Saved node: " + currentNode.name);
+            Debug.Log("✅ Saved current node GUID: " + currentNode.GUID);
         }
     }
 
     public void LoadSavedNode()
     {
-        string savedName = PlayerPrefs.GetString(SaveKey, "");
-        if (!string.IsNullOrEmpty(savedName))
+        string savedGUID = PlayerPrefs.GetString("SavedNodeGUID", "");
+        if (!string.IsNullOrEmpty(savedGUID))
         {
-            BaseNode savedNode = graph.nodes.Find(node => node is BaseNode && node.name == savedName) as BaseNode;
+            BaseNode savedNode = graph.nodes.Find(node => (node as BaseNode)?.GUID == savedGUID) as BaseNode;
             if (savedNode != null)
             {
                 currentNode = savedNode;
+                justLoadedFromSave = true;
                 displayNode(currentNode);
-                endPanel.SetActive(false); // hide end panel in case
-                Debug.Log("Loaded node: " + savedName);
-            }
-            else
-            {
-                Debug.LogWarning("Node not found: " + savedName);
+                endPanel.SetActive(false);
+                Debug.Log("✅ Loaded saved node by GUID: " + savedNode.GUID);
+                return;
             }
         }
-        else
+
+        // Fallback
+        string savedName = PlayerPrefs.GetString("SavedNodeName", "");
+        if (!string.IsNullOrEmpty(savedName))
         {
-            Debug.LogWarning("No saved node name found.");
+            BaseNode savedNode = graph.nodes.Find(node => node.name == savedName) as BaseNode;
+            if (savedNode != null)
+            {
+                currentNode = savedNode;
+                justLoadedFromSave = true;
+                displayNode(currentNode);
+                endPanel.SetActive(false);
+                Debug.Log("✅ Loaded saved node by NAME: " + savedNode.name);
+            }
         }
     }
 
+    public void OnNewGameClicked()
+    {
+        PlayerPrefs.DeleteKey("SavedNodeGUID");
+        PlayerPrefs.DeleteKey("SavedNodeName");
+        PlayerPrefs.SetInt("IsNewGame", 1);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("PlayScene");
+    }
+
+    public void StartNewGame()
+    {
+        PlayerPrefs.DeleteKey("SavedNodeGUID");
+        PlayerPrefs.DeleteKey("SavedNodeName");
+        SceneManager.LoadScene("PlayScene");
+    }
 
     public void RestartScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+        PlayerPrefs.DeleteKey("SavedNodeGUID");
+        PlayerPrefs.DeleteKey("SavedNodeName");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void GoToMainMenu()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -43,4 +43,14 @@ public class BaseNode : Node {
     {
         return backgroundVideo;
     }
+    public string GUID;
+
+    protected override void Init()
+    {
+        base.Init();
+        if (string.IsNullOrEmpty(GUID))
+        {
+            GUID = System.Guid.NewGuid().ToString();
+        }
+    }
 }
