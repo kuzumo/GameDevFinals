@@ -18,6 +18,7 @@ public class NodeReader : MonoBehaviour
     public GameObject ImageGO;
     public NodeGraph graph;
     public BaseNode currentNode;
+    private Stack<BaseNode> nodeHistory = new Stack<BaseNode>();
     public GameObject endPanel;
     public GameObject characterSheet;
 
@@ -33,6 +34,8 @@ public class NodeReader : MonoBehaviour
     public GameObject nextButtonGO;
     public GameObject previousButtonGO;
     private BaseNode previousNode;
+    private BaseNode lastChoiceNode;
+
     public TMP_Text nextButtonText;
     public Animator animationOfActor;
     public RawImage videoBackground;
@@ -43,14 +46,16 @@ public class NodeReader : MonoBehaviour
     public CharacterStats characterStats;
     public GameObject choicesPanel;
     private bool isTyping = false;
-    
+
 
 
     void Start()
     {
         currentNode = getStartNode();
+        previousNode = currentNode; 
         AdvanceDialog();
     }
+
 
     public BaseNode getStartNode()
     {
@@ -63,12 +68,14 @@ public class NodeReader : MonoBehaviour
 
         if (node is MultipleChoiceDialog || node is ThreeChoiceDialog || node is SixChoiceDialog || node is OneChoiceDialog)
         {
+            lastChoiceNode = node; // ✅ Track the last choice node
             previousButtonGO.SetActive(true);
         }
         else
         {
             previousButtonGO.SetActive(false);
         }
+
 
         StartTyping(node.getDialogText(), node);
 
@@ -174,12 +181,13 @@ public class NodeReader : MonoBehaviour
 
     }
 
-
     public void AdvanceDialog()
     {
         var nextNode = GetNextNode(currentNode);
+
         if (nextNode != null)
         {
+            nodeHistory.Push(currentNode);
             currentNode = nextNode;
             displayNode(currentNode);
         }
@@ -187,16 +195,7 @@ public class NodeReader : MonoBehaviour
         {
             endPanel.SetActive(true);
         }
-        if (nextNode != null)
-        {
-            previousNode = currentNode; // Save current before moving
-            currentNode = nextNode;
-            displayNode(currentNode);
-        }
-
     }
-
-
 
     public float typingSpeed = 0.20f; // Speed per letter
 
@@ -369,17 +368,69 @@ public class NodeReader : MonoBehaviour
 
     public void GoToPreviousNode()
     {
-        if (previousNode != null)
+        Debug.Log("Stack size before popping: " + nodeHistory.Count);
+
+        if (nodeHistory.Count > 0)
         {
-            currentNode = previousNode;
+            currentNode = nodeHistory.Pop();
+            endPanel.SetActive(false); // Ensure end screen disappears
             displayNode(currentNode);
         }
         else
         {
-            Debug.LogWarning("No previous node to return to.");
+            Debug.LogWarning("No previous node in history.");
         }
     }
 
+    public void RetryLastChoice()
+    {
+        if (lastChoiceNode != null)
+        {
+            currentNode = lastChoiceNode;
+            endPanel.SetActive(false); // Hide the end panel
+            displayNode(currentNode);
+        }
+        else
+        {
+            Debug.LogWarning("No choice node to retry from.");
+        }
+    }
+
+    private const string SaveKey = "SavedNodeName";
+
+    public void SaveCurrentNode()
+    {
+        if (currentNode != null)
+        {
+            PlayerPrefs.SetString(SaveKey, currentNode.name);
+            PlayerPrefs.Save();
+            Debug.Log("Saved node: " + currentNode.name);
+        }
+    }
+
+    public void LoadSavedNode()
+    {
+        string savedName = PlayerPrefs.GetString(SaveKey, "");
+        if (!string.IsNullOrEmpty(savedName))
+        {
+            BaseNode savedNode = graph.nodes.Find(node => node is BaseNode && node.name == savedName) as BaseNode;
+            if (savedNode != null)
+            {
+                currentNode = savedNode;
+                displayNode(currentNode);
+                endPanel.SetActive(false); // hide end panel in case
+                Debug.Log("Loaded node: " + savedName);
+            }
+            else
+            {
+                Debug.LogWarning("Node not found: " + savedName);
+            }
+        }
+        else
+        {
+            Debug.LogWarning("No saved node name found.");
+        }
+    }
 
 
     public void RestartScene()

@@ -107,14 +107,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 26915c1999cb7164fa366b9b6bcd0855, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CYour attack fails to break the pillar. Suddenly, the glowing
     red energy surging through it flares violently! A shockwave of searing heat bursts
     outward, engulfing you all!\"\n \n(Party takes 10 fire DMG)"
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 26915c1999cb7164fa366b9b6bcd0855, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 65cbaede25e8e554d9e09396c0b5c1a0, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CThis place smells too clean. Trouble always follows silence.\u201D"
@@ -332,7 +332,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7a0a924bb40b96f41afa40950572484d, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CCoin\u2019s coin. If there\u2019s work, I\u2019ll take it. Killing
@@ -345,6 +345,37 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Draven
   nextButtonLabel: Continue
+--- !u!114 &-8812800091422848167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5c08d688e0a614194a4d955bd14f37, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 19992, y: 216}
+  ports:
+    keys:
+    - entry
+    values:
+    - _fieldName: entry
+      _node: {fileID: -8812800091422848167}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 2093036136163613995}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
 --- !u!114 &-8644815307429425332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,12 +480,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 8a0a5f9072cb4154090ceb8693e80eb7, type: 3}
   entry: 
   exit: 
   dialogText: "A voice speaks: \u201CThe past is written in stone. Seek what remains...\u201D
     This knowledge may help decipher the ruins\u2019 secrets."
-  dialogImage: {fileID: -8669140482357950444, guid: 4e78d1f7cfeecab45ae1c742ef161128, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -640,7 +671,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: bffb4fabe5f4757469911fde8ab88aaa, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CI\u2019ve heard whispers of corruption spreading through the
@@ -709,7 +740,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
   entry: 
   a: 
   b: 
@@ -717,7 +748,7 @@ MonoBehaviour:
     his breathing shallow, his silver feathers scorched. His amber eyes flicker open,
     filled with pain\u2026 but also resolve.\n\n\"You now face a choice.\""
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
   aText: "End Elder Rynn\u2019s Life (Sacrifice for the World)"
   bText: Spare Elder Rynn (Mercy Over Fate)
   bgm: {fileID: 0}
@@ -829,14 +860,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 79cad9bb5b56a9340b95051f3f6a2873, type: 3}
   entry: 
   exit: 
   dialogText: "In the confusion of battle, the cultists slip past unnoticed. Suddenly,
     a second explosion erupts as another hut is \nengulfed in flames. By the time
     the party realizes what has happened, it\u2019s too late\u2014the cultists have
     taken key positions, \nmaking the battle even harder."
-  dialogImage: {fileID: -182713894820414116, guid: abc8c563ef091434db9146efb7a09b50, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -887,14 +918,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: b0f954bfca9b65147824f3aca7c99bdc, type: 3}
   entry: 
   exit: 
   dialogText: "The Chief\u2019s voice cuts through the chaos:\n\L\"You are not alone
     in this fight.\"\n\LHe turns to face the Cindermaw Titan, spinning his spear
     with practiced ease."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: b0f954bfca9b65147824f3aca7c99bdc, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -1161,13 +1192,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
   entry: 
   exit: 
   dialogText: The beast roars, spewing waves of flame, its obsidian claws raking
     through the scorched earth. The chamber quakes as the ritual nears its climax.
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -1275,7 +1306,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: aaa94fcf65364144bb4e60c9c17a1953, type: 3}
   entry: 
   exit: 
   dialogText: Cultists and Infernal Ash Hounds approach. One raises a fire-wreathed
@@ -1331,7 +1362,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
   entry: 
   exit: 
   dialogText: "He looks up at you with a twisted grin, his voice hoarse but laced
@@ -1340,7 +1371,7 @@ MonoBehaviour:
     toward Elder Rynn, still bound by the remnants of the ritual\u2019s magic. \n\"The
     cycle will continue!\""
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -1535,7 +1566,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: bffb4fabe5f4757469911fde8ab88aaa, type: 3}
   entry: 
   exit: 
   dialogText: A small, nimble creature with moss in their fur and a walking stick.
@@ -1591,7 +1622,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 65cbaede25e8e554d9e09396c0b5c1a0, type: 3}
   entry: 
   exit: 
   dialogText: A tall, stoic figure with a scarred cheek and a long, weathered cloak.
@@ -1705,7 +1736,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 16ba82f33f0938f4bbc8bdeac75c5fbf, type: 3}
   entry: 
   exit: 
   dialogText: "Pyrelord Harbinger stumbles, his molten veins dimming. \u201CNo\u2026
@@ -1713,7 +1744,7 @@ MonoBehaviour:
     his essence consumed by the ritual\u2019s collapse. With a final, fading scream,
     the Pyrelord is no more."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 16ba82f33f0938f4bbc8bdeac75c5fbf, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -1733,7 +1764,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -520, y: 216}
+  position: {x: -520, y: 24}
   ports:
     keys:
     - entry
@@ -1776,7 +1807,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: e5bd721dee0f1534794f01a16cffb49b, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 7d65a112129709245b416842cbde46b9, type: 3}
   entry: 
   a: 
   b: 
@@ -1784,8 +1815,8 @@ MonoBehaviour:
     party traveled deeper into its shadowed heart. Ancient trees, their bark twisted
     with age, loomed overhead, their canopies so thick that only slivers of the setting
     sun pierced through.
-  dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 32900000, guid: e5bd721dee0f1534794f01a16cffb49b, type: 3}
+  dialogImage: {fileID: -48167549942996903, guid: 611c50c0164c7414db840fb3c10a4fdd, type: 3}
+  backgroundVideo: {fileID: 0}
   aText: Scan Area
   bText: Leave
   bgm: {fileID: 8300000, guid: 133f435b683fc10498ed276515298f60, type: 3}
@@ -1836,7 +1867,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 9406677983ded9541b0a15d538a69215, type: 3}
   entry: 
   exit: 
   dialogText: "As your final blow lands, Elder Rynn gasps, his amber eyes flickering
@@ -1846,7 +1877,7 @@ MonoBehaviour:
     restrained by unseen forces. The very essence of Aetheria trembles as an ancient
     power is unleashed."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 9406677983ded9541b0a15d538a69215, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -1896,14 +1927,15 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 41f3332277668c34383364dfc7038463, type: 3}
   entry: 
   c: 
   dialogText: "A sudden explosion rips through the night, shaking the ground beneath
     your feet. Flames erupt from the eastern huts. \nPanicked cries fill the air
     as hooded figures wielding unholy fire march through the chaos. \nThe Cult of
     Eternal Flame has arrived."
-  dialogImage: {fileID: 6624487484769353220, guid: a4b40ae74d85fed4982eff908b71ccf6, type: 3}
+  dialogImage: {fileID: 0}
+  backgroundVideo: {fileID: 0}
   cText: Scan the area
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -1953,13 +1985,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: ab39aaf60f2e8a648ab229bc59d8d143, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CCracks form along the pillar\u2019s surface! Energy flickers
     wildly as its glow weakens.\u201D\n\n(Mark progresses toward destruction)"
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: ab39aaf60f2e8a648ab229bc59d8d143, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -2129,7 +2161,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: ed6303c5c073fe1469df29bb78c7334e, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CI owe someone a debt. They vanished near Hearthglen. I need
@@ -2257,14 +2289,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
   entry: 
   exit: 
   dialogText: "Pyrelord Harbinger spreads his arms, his voice laced with cruel amusement.\n\n\"Watch
     as your precious balance crumbles. Watch as your gods tremble. And when the last
     ember fades, know this\u2014Aetheria was never yours to save.\"\n"
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -2314,7 +2346,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
   entry: 
   exit: 
   dialogText: "At the center of it all, a great circle of fire pulses with unnatural
@@ -2322,7 +2354,7 @@ MonoBehaviour:
     singed, his amber eyes clouded with pain. Chains of ember-light coil around his
     form, draining his strength as the cult channels their dark ritual."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -2545,14 +2577,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 66da3c187ecc8b54987fd60ab558b80a, type: 3}
   entry: 
   exit: 
   dialogText: "As you scans the chaos, they catch a glimpse of shadows moving unnaturally
     between the burning huts. \nA group of cultists is creeping toward the village\u2019s
     western side, attempting to flank the defenses. With quick thinking, \nthe party
     intercepts them before they can strike, stopping the ambush before it begins."
-  dialogImage: {fileID: -182713894820414116, guid: abc8c563ef091434db9146efb7a09b50, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -2603,13 +2635,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
   entry: 
   exit: 
   dialogText: "The player\u2019s words cut through the panic, rallying the villagers
     around Bran. With renewed determination, \nthey move quickly, dodging falling
     debris and making it to safety before the flames consume their homes."
-  dialogImage: {fileID: -6185584025943451330, guid: aee1ff9de7a857543995792d58c3757c, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -2718,7 +2750,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 4ff964c0383e68d4f902c9593e2c7ec5, type: 3}
   entry: 
   exit: 
   dialogText: Cloaked in tattered robes, their face hidden beneath a hood, footsteps
@@ -2774,14 +2806,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: e2d2730bb69d3de41a74daa5e2237b35, type: 3}
   entry: 
   exit: 
   dialogText: "The fire smolders. Mira the Herbalist approaches, ash-streaked and
     trembling. \u201CThey need him\u2026 to find the last Elder\u2026 \nat the Mystic
     Shrine.\u201D She gives you a satchel of healing herbs.\L\u201CGo to the Ruined
     Archive. A sealed journal may reveal where the last Elder is.\u201D"
-  dialogImage: {fileID: 5078188300542247855, guid: 8c461cae243896748a2e26d67705ba37, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -2890,7 +2922,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 65cbaede25e8e554d9e09396c0b5c1a0, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CThe Cult took something from me years ago. I aim to take it
@@ -2949,14 +2981,15 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
   entry: 
   c: 
   dialogText: "Bran the Blacksmith appears through the firelight, wielding a hammer
     and dragging a sack of weapons. \u201COi! Over here! \nTake these\u2014fight
     back the bastards!\u201D\LHe points to the burning granary. \u201CI\u2019ll get
     the villagers to safety\u2014go! Drive them back!\u201D"
-  dialogImage: {fileID: -6185584025943451330, guid: aee1ff9de7a857543995792d58c3757c, type: 3}
+  dialogImage: {fileID: 0}
+  backgroundVideo: {fileID: 0}
   cText: Rally the villagers
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -3006,7 +3039,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 4ff964c0383e68d4f902c9593e2c7ec5, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CThe fire speaks in riddles. It told me to come. I listen.\u201D"
@@ -3061,7 +3094,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: ed6303c5c073fe1469df29bb78c7334e, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CThe closer I get, the more this place feels\u2026 wrong. But
@@ -3123,7 +3156,7 @@ MonoBehaviour:
   dialogText: "A screech tears through the battlefield. Elder Rynn is dragged away
     by cultists. His staff lies abandoned. \nIn a swirl of fire, they vanish into
     the forest."
-  dialogImage: {fileID: 907054614553007887, guid: f6b89c18f9fba8946ad1ea72cd1330f3, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -3174,7 +3207,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: e56320f86502d7c4297f0d2e83ad403f, type: 3}
   entry: 
   exit: 
   dialogText: "Fear grips the villagers, and they hesitate. Some refuse to leave
@@ -3377,13 +3410,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: da00cf4f1e18ba942af0e910887dec5e, type: 3}
   entry: 
   exit: 
   dialogText: "The you navigates carefully, avoiding tangled roots and hidden dangers.
     As you emerge on the other side, \nyou spot a hidden marker\u2014a sigil of The
     Balance, partially buried beneath moss."
-  dialogImage: {fileID: -872406283845757355, guid: 5e8f29d594e0e1644aeacd884d5f313b, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -3491,7 +3524,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: ed6303c5c073fe1469df29bb78c7334e, type: 3}
   entry: 
   exit: 
   dialogText: Lean and lithe with feathers tucked into her cloak, she moves with
@@ -3702,12 +3735,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
   entry: 
   success: 
   failed: 
-  dialogText: 
-  dialogImage: {fileID: 8859591267765431705, guid: 9e25389235f251041998af5c7005e7ed, type: 3}
+  dialogText: "Dense canopy. Whispers drift through the trees. The path splits\u2014left:
+    overgrown thicket. Right: fallen tree and louder \nwhispers."
+  dialogImage: {fileID: 0}
   abilityCheck: 0
   difficultyCheckValue: 14
 --- !u!114 &-517340875823498008
@@ -3811,7 +3845,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
   entry: 
   exit: 
   dialogText: "Atop the ritual\u2019s central platform stands Pyrelord Harbinger,
@@ -3820,7 +3854,7 @@ MonoBehaviour:
     have defied the cleansing flames. But fire is inevitable. It does not ask permission
     to burn\u2014it simply consumes.\""
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -3870,7 +3904,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 75022966bba8c5f40bfb0621ac82859b, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CMy sources say the Cult holds knowledge long buried. I want
@@ -4080,7 +4114,8 @@ MonoBehaviour:
   - {fileID: -5549088674886867127}
   - {fileID: 7980546795654035099}
   - {fileID: 2093036136163613995}
-  - {fileID: 6453202043356730072}
+  - {fileID: -8812800091422848167}
+  - {fileID: 4007753033323605376}
 --- !u!114 &319222871847691073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4238,14 +4273,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7583bf2df7dd259468b14e9aec0cfde9, type: 3}
   entry: 
   exit: 
   dialogText: "The ground at his feet splits apart, and from the depths of the inferno,
     a monstrous form rises\u2014a colossal figure of molten rock and raging fire.
     The Cindermaw Titan."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7583bf2df7dd259468b14e9aec0cfde9, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -4339,11 +4374,12 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
   entry: 
   success: 
   failed: 
-  dialogText: 
+  dialogText: "Dense canopy. Whispers drift through the trees. The path splits\u2014left:
+    overgrown thicket. Right: fallen tree and louder \nwhispers."
   dialogImage: {fileID: 8859591267765431705, guid: 9e25389235f251041998af5c7005e7ed, type: 3}
   abilityCheck: 0
   difficultyCheckValue: 15
@@ -4390,13 +4426,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 38d7569c08b084644b922b1a3e431e05, type: 3}
   entry: 
   exit: 
   dialogText: "The tree is heavier than expected. Moving it disturbs something beneath\u2014a
     swarm of shadowmoths \n(harmless but disorienting), forcing you to move quickly
     to escape their presence."
-  dialogImage: {fileID: 6257598099018171005, guid: 63b6c32cb76d2fe4791f8ed9a95aa2de, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -4508,7 +4544,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 75022966bba8c5f40bfb0621ac82859b, type: 3}
   entry: 
   exit: 
   dialogText: Cloaked in shadow, she glides quietly along the path, her eyes sharp
@@ -4577,12 +4613,15 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 41f3332277668c34383364dfc7038463, type: 3}
   entry: 
   success: 
   failed: 
-  dialogText: 
-  dialogImage: {fileID: 6624487484769353220, guid: a4b40ae74d85fed4982eff908b71ccf6, type: 3}
+  dialogText: "A sudden explosion rips through the night, shaking the ground beneath
+    your feet. Flames erupt from the eastern huts. \nPanicked cries fill the air
+    as hooded figures wielding unholy fire march through the chaos. \nThe Cult of
+    Eternal Flame has arrived."
+  dialogImage: {fileID: 0}
   abilityCheck: 0
   difficultyCheckValue: 13
 --- !u!114 &1936227572221520314
@@ -4678,7 +4717,10 @@ MonoBehaviour:
       _node: {fileID: 2093036136163613995}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: entry
+        node: {fileID: -8812800091422848167}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -4690,7 +4732,7 @@ MonoBehaviour:
     complete. The flames surge uncontrollably, spreading across the land. Aetheria
     is consumed in an all-encompassing inferno, reducing everything to ash. As the
     world burns, Pyrelord Harbinger\u2019s laughter echoes through the void."
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 8830335805779661438, guid: 01c5e44eb374bfe42a397cb1ea28e00a, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -4805,14 +4847,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 556697a85909314459f50934e3da0573, type: 3}
   entry: 
   exit: 
   dialogText: "The Wanderer locks eyes with you, nodding.\n\L\"Handle the Pyrelord.
     We'll hold the Titan and the cultists at bay.\"\n\nThe battle has begun. The
     fate of Aetheria rests in your hands.\n"
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 556697a85909314459f50934e3da0573, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -4862,7 +4904,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 562ad68cad50b4346a622a43aa4d4d88, type: 3}
   entry: 
   exit: 
   dialogText: "Just as all hope seems lost, a swirling portal of energy bursts open
@@ -4870,7 +4912,7 @@ MonoBehaviour:
     forward, gripping his spear. Beside him, the Wanderer, cloaked in mystery, unsheathes
     his blade."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 562ad68cad50b4346a622a43aa4d4d88, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -5109,12 +5151,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
   entry: 
   success: 
   failed: 
-  dialogText: 
-  dialogImage: {fileID: 8859591267765431705, guid: 9e25389235f251041998af5c7005e7ed, type: 3}
+  dialogText: "Dense canopy. Whispers drift through the trees. The path splits\u2014left:
+    overgrown thicket. Right: fallen tree and louder \nwhispers."
+  dialogImage: {fileID: 0}
   abilityCheck: 0
   difficultyCheckValue: 13
 --- !u!114 &3264521841135749040
@@ -5186,14 +5229,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
   entry: 
   a: 
   b: 
   c: 
   dialogText: "Dense canopy. Whispers drift through the trees. The path splits\u2014left:
     overgrown thicket. Right: fallen tree and louder \nwhispers."
-  dialogImage: {fileID: 8859591267765431705, guid: 9e25389235f251041998af5c7005e7ed, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   aText: Push through thicket
   bText: Clear the fallen tree
@@ -5246,7 +5289,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
   entry: 
   exit: 
   dialogText: 'A booming voice cuts through the chaos, dripping with malice.
@@ -5256,7 +5299,7 @@ MonoBehaviour:
     fools. You scramble through the ashes of a dying age, clinging to a world that
     has already burned away."'
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -5343,7 +5386,7 @@ MonoBehaviour:
     air hums with history, charged by unseen forces. The trail suddenly ends, revealing
     a vast, sunken stairway partially collapsed, roots twisting along broken steps
     toward a distant shimmer below."
-  dialogImage: {fileID: 7261623678093556276, guid: 180089864c336804f8af17e29bfa9be8, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   aText: Climbing Down Safely
   bText: Finding a Stable Path
@@ -5396,7 +5439,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 75022966bba8c5f40bfb0621ac82859b, type: 3}
   entry: 
   exit: 
   dialogText: "\u201COne wrong move and this whole village could burn. Let\u2019s
@@ -5631,7 +5674,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
   entry: 
   exit: 
   dialogText: "\"The final pillar shatters, its energy dispersing into the air like
@@ -5639,13 +5682,44 @@ MonoBehaviour:
     floating form falters\u2014then he collapses onto the ground, weakened and struggling
     to rise.\""
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
   slideInActor: 0
   characterName: 
   nextButtonLabel: Continue
+--- !u!114 &4007753033323605376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa5c08d688e0a614194a4d955bd14f37, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 20616, y: -120}
+  ports:
+    keys:
+    - entry
+    values:
+    - _fieldName: entry
+      _node: {fileID: 4007753033323605376}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: 7980546795654035099}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  entry: 
 --- !u!114 &4260100624698592924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5935,14 +6009,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: e5bd721dee0f1534794f01a16cffb49b, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 7d65a112129709245b416842cbde46b9, type: 3}
   entry: 
   exit: 
   dialogText: The distant hoot of an owl and the rustling of unseen creatures blended
     with the gentle whistle of the wind. Fireflies pulsed in the twilight, casting
     flickering lights along the winding dirt path.
   dialogImage: {fileID: -48167549942996903, guid: 611c50c0164c7414db840fb3c10a4fdd, type: 3}
-  backgroundVideo: {fileID: 32900000, guid: e5bd721dee0f1534794f01a16cffb49b, type: 3}
+  backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 1
@@ -6005,12 +6079,15 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
   entry: 
   success: 
   failed: 
-  dialogText: 
-  dialogImage: {fileID: -6185584025943451330, guid: aee1ff9de7a857543995792d58c3757c, type: 3}
+  dialogText: "Bran the Blacksmith appears through the firelight, wielding a hammer
+    and dragging a sack of weapons. \u201COi! Over here! \nTake these\u2014fight
+    back the bastards!\u201D\LHe points to the burning granary. \u201CI\u2019ll get
+    the villagers to safety\u2014go! Drive them back!\u201D"
+  dialogImage: {fileID: 0}
   abilityCheck: 0
   difficultyCheckValue: 15
 --- !u!114 &4832193272583118360
@@ -6603,58 +6680,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: 
   nextButtonLabel: Continue
---- !u!114 &6453202043356730072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 20827.805, y: 25.029242}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 6453202043356730072}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 7980546795654035099}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 6453202043356730072}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 0}
-  entry: 
-  exit: 
-  dialogText: fgdfsgdfg
-  dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: 
-  nextButtonLabel: Continue
 --- !u!114 &6752840696509294148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6756,7 +6781,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7a0a924bb40b96f41afa40950572484d, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CLooks peaceful. Never trust peaceful.\u201D"
@@ -6811,13 +6836,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: ab5d627700f8d3041bb4bf074cb72a5a, type: 3}
   entry: 
   exit: 
   dialogText: "The party works together, using  tools to clear the path. The whispers
     fade, and you sense a protective \npresence, as if unseen eyes are watching over
     them."
-  dialogImage: {fileID: 5393845433430916475, guid: 29201c03aeeb4b848965b8e44387076b, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -6868,7 +6893,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7a0a924bb40b96f41afa40950572484d, type: 3}
   entry: 
   exit: 
   dialogText: Broad-shouldered and armored, he walks with practiced confidence, his
@@ -6924,11 +6949,11 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: e30dd645f965e134391e3f886546148b, type: 3}
   entry: 
   exit: 
   dialogText: "Voices crowd your thoughts. Everything feels\u2026 wrong."
-  dialogImage: {fileID: 8344176877875590465, guid: 9c58e931e5f279344b4265177de41d7b, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -6979,7 +7004,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
   entry: 
   exit: 
   dialogText: "Above him, the winged figure from your visions\u2014the last Elder
@@ -6987,7 +7012,7 @@ MonoBehaviour:
     form glows with barely contained power, its struggles sending ripples of energy
     through the burning chamber."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -7098,7 +7123,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 4ff964c0383e68d4f902c9593e2c7ec5, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CSomething stirs ahead. Something ancient. It\u2019s not fear\u2014it\u2019s
@@ -7212,13 +7237,13 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 6453202043356730072}
+        node: {fileID: 4007753033323605376}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: f006cdb4cd232ba418a96303532fe8c9, type: 3}
   entry: 
   exit: 
   dialogText: "A surge of energy pulses outward as the last Elder rises, his form
@@ -7226,7 +7251,7 @@ MonoBehaviour:
     before ascending into the heavens. The once-burning chamber cools, the oppressive
     heat vanishing as balance is restored.\n\n\u201CThe cycle is broken.\u201D"
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: f006cdb4cd232ba418a96303532fe8c9, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -7276,7 +7301,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: bffb4fabe5f4757469911fde8ab88aaa, type: 3}
   entry: 
   exit: 
   dialogText: "\u201CThe forest here is sick. I can feel it in the wind. Hearthglen
@@ -7345,11 +7370,13 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 556697a85909314459f50934e3da0573, type: 3}
   entry: 
   success: 
   failed: 
-  dialogText: 
+  dialogText: "The Wanderer locks eyes with you, nodding.\n\L\"Handle the Pyrelord.
+    We'll hold the Titan and the cultists at bay.\"\n\nThe battle has begun. The
+    fate of Aetheria rests in your hands.\n"
   dialogImage: {fileID: 0}
   abilityCheck: 0
   difficultyCheckValue: 14
@@ -7524,14 +7551,14 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 87706b9a569f4de47814ac17a62e8b1c, type: 3}
   entry: 
   exit: 
   dialogText: "As you break free from the depths of the forest, the towering remnants
     of the Ruined Archive rise before you. \nCrumbling stone pillars loom in the
     distance, their carvings whispering of long-forgotten knowledge. The air is heavy
     \nwith history, and beyond the ancient gates, something stirs\u2026"
-  dialogImage: {fileID: 1574934611608628729, guid: ccded0767515db648929072fb09958d5, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -7638,11 +7665,11 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 38d7569c08b084644b922b1a3e431e05, type: 3}
   entry: 
   exit: 
   dialogText: "You\u2019re cut by thorns. It slows you down."
-  dialogImage: {fileID: -2843187252158738267, guid: 48b1f5c2c7acbc040aa740202a1ab934, type: 3}
+  dialogImage: {fileID: 0}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -7693,7 +7720,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: d0b0fd4f18b2b08409f4a267c6f28a2d, type: 3}
   entry: 
   exit: 
   dialogText: "As you step into the shrine\u2019s heart, the heat crashes over you
@@ -7702,7 +7729,7 @@ MonoBehaviour:
     by smoke and shadow. The ground trembles beneath your feet, and the very air
     is thick with ash, suffocating and heavy."
   dialogImage: {fileID: 0}
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: d0b0fd4f18b2b08409f4a267c6f28a2d, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
