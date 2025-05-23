@@ -1823,7 +1823,7 @@ MonoBehaviour:
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
-  characterName: 
+  characterName: Narrator
 --- !u!114 &-5469223827461033453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5020,7 +5020,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   entry: 
   exit: 
   dialogText: What does your character look like as they walk this winding road? 
@@ -5498,14 +5498,11 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: "Yes.\L\nOur characters take the corner seats, positioning themselves
-    where they can observe the room without being easily approached. Their eyes scan
-    the tavern with quiet vigilance\u2014watching the flicker of firelight, the guarded
-    murmurs of villagers, and the subtle signs of unease written across tired faces.\n\nAfter
-    a brief moment of quiet observation, they rise one by one, making their way toward
-    the innkeeper and a few villagers. Some begin polite conversation, asking about
-    the food or the village's history, while others steer the talk toward the strange
-    tension that clings to the air."
+  dialogText: "Yes.\n\nThe characters take corner seats, watching the tavern with
+    quiet vigilance. Firelight flickers across uneasy faces, and murmured conversations
+    hint at tension.\n\nAfter a moment, they rise and approach the innkeeper and
+    a few villagers\u2014some making polite conversation, others subtly probing the
+    source of the village\u2019s unrest."
   dialogImage: {fileID: 919727893511088379, guid: edbf4ffa0e20854439fd2af1dc70a5a0, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
@@ -6136,17 +6133,12 @@ MonoBehaviour:
   backgroundVideo: {fileID: 0}
   entry: 
   exit: 
-  dialogText: "No.\n\LThey do not take the corner seat, nor do they immediately approach
-    the innkeeper or villagers. Instead, they move quietly toward a modest table
-    near the hearth\u2014not too exposed, yet not entirely withdrawn. The fire\u2019s
-    warmth offers some comfort from the chill of the road, and the soft crackle of
-    the flames provides a welcome distraction from the murmurs of the tavern.\n\nThey
-    observe, silently. Their eyes drift over the other patrons, noting the weariness
-    in their faces, the tension in their hushed voices. They do not interrupt, not
-    yet. There is wisdom in patience, in listening before speaking. The villagers
-    seem guarded, their smiles tight, their conversations brief and careful. It is
-    clear that something lingers beneath the surface.\n\nFor now, the character chooses
-    stillness\u2014watching, waiting, letting the room speak before they do."
+  dialogText: "No.\n\LThe characters settle at a modest table near the hearth\u2014neither
+    hidden nor exposed. The fire\u2019s warmth soothes the road\u2019s chill, its
+    crackle masking the tavern\u2019s murmurs.\n\nThey watch in silence, noting weary
+    faces and guarded words. The villagers\u2019 smiles are tight, their talk cautious.
+    Something unspoken hangs in the air.\n\nFor now, the characters wait\u2014listening,
+    letting the room reveal itself."
   dialogImage: {fileID: -3925036709322436620, guid: 82843ecbf62fb52498f639d8b8e322ad, type: 3}
   backgroundVideo: {fileID: 0}
   actorImage: {fileID: 0}
