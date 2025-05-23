@@ -5487,7 +5487,7 @@ MonoBehaviour:
     air hums with history, charged by unseen forces. The trail suddenly ends, revealing
     a vast, sunken stairway partially collapsed, roots twisting along broken steps
     toward a distant shimmer below."
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 7261623678093556276, guid: 180089864c336804f8af17e29bfa9be8, type: 3}
   backgroundVideo: {fileID: 0}
   aText: Climbing Down Safely
   bText: Finding a Stable Path
