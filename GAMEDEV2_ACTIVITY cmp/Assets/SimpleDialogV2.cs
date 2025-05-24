@@ -12,7 +12,7 @@ public class SimpleDialogV2 : BaseNode {
 	[TextArea(7,20)]
 	public string dialogText;
 	public Sprite dialogImage;
-    public VideoClip backgroundVideo;
+    
 
     public Sprite actorImage;
 
@@ -56,8 +56,5 @@ public class SimpleDialogV2 : BaseNode {
     {
         return nextButtonLabel;
     }
-    public VideoClip getBackgroundVideo()
-    {
-        return backgroundVideo;
-    }
+    
 }

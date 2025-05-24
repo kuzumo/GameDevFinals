@@ -17,8 +17,7 @@ public class SixChoiceDialog : BaseNode
     [TextArea(7, 20)]
     public string dialogText;
     public Sprite dialogImage;
-    public VideoClip backgroundVideo;
-
+    
     [TextArea(2, 5)] public string aText;
     [TextArea(2, 5)] public string bText;
     [TextArea(2, 5)] public string cText;
@@ -63,8 +62,5 @@ public class SixChoiceDialog : BaseNode
     {
         return slideInActor;
     }
-    public VideoClip getBackgroundVideo()
-    {
-        return backgroundVideo;
-    }
+    
 }
