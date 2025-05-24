@@ -225,7 +225,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 65cbaede25e8e554d9e09396c0b5c1a0, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
   GUID: f36d21ec-549d-4266-9d21-4ce859a7d796
   entry: 
   exit: 
@@ -338,7 +338,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 7a0a924bb40b96f41afa40950572484d, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
   GUID: 40932d30-c2bc-4c35-b22d-297c2db96ae7
   entry: 
   exit: 
@@ -480,7 +480,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 8712216686149941204}
+        node: {fileID: 5623157425622863772}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -677,7 +677,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: bffb4fabe5f4757469911fde8ab88aaa, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
   GUID: 3b80d804-b366-4aad-9c59-7d5e9266a01d
   entry: 
   exit: 
@@ -1581,7 +1581,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: bffb4fabe5f4757469911fde8ab88aaa, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
   GUID: c678b872-4553-4123-b1cb-30f6e0d53442
   entry: 
   exit: 
@@ -1637,7 +1637,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 65cbaede25e8e554d9e09396c0b5c1a0, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
   GUID: ac2819fa-30c8-4917-ae61-fb52f5ec3f76
   entry: 
   exit: 
@@ -2176,7 +2176,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: ed6303c5c073fe1469df29bb78c7334e, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
   GUID: 2f37b1a2-86a1-483e-b3da-87e3e9f7a4cc
   entry: 
   exit: 
@@ -2765,7 +2765,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 4ff964c0383e68d4f902c9593e2c7ec5, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
   GUID: c2a42ae2-937a-4eb5-a5ce-839f452a94df
   entry: 
   exit: 
@@ -2937,7 +2937,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 65cbaede25e8e554d9e09396c0b5c1a0, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
   GUID: 0a544c1e-e201-4d83-b72c-60089de78597
   entry: 
   exit: 
@@ -3054,7 +3054,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 4ff964c0383e68d4f902c9593e2c7ec5, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
   GUID: 3eb5731e-5f35-4ec4-8923-a8bb5d9e368a
   entry: 
   exit: 
@@ -3109,7 +3109,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: ed6303c5c073fe1469df29bb78c7334e, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
   GUID: a2ddd6fe-8886-4f1c-817f-be23343cf3b6
   entry: 
   exit: 
@@ -3172,7 +3172,7 @@ MonoBehaviour:
   dialogText: "A screech tears through the battlefield. Elder Rynn is dragged away
     by cultists. His staff lies abandoned. \nIn a swirl of fire, they vanish into
     the forest."
-  dialogImage: {fileID: 0}
+  dialogImage: {fileID: 907054614553007887, guid: f6b89c18f9fba8946ad1ea72cd1330f3, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -3419,7 +3419,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 8712216686149941204}
+        node: {fileID: 5623157425622863772}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3539,7 +3539,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: ed6303c5c073fe1469df29bb78c7334e, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
   GUID: d2664ce0-081c-4ab4-a17e-e41d82a5a860
   entry: 
   exit: 
@@ -3920,7 +3920,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 75022966bba8c5f40bfb0621ac82859b, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
   GUID: 2f794975-33de-4b4e-a295-85f1aa6362b0
   entry: 
   exit: 
@@ -4080,7 +4080,6 @@ MonoBehaviour:
   - {fileID: 1399287302028446371}
   - {fileID: -8603266242263628414}
   - {fileID: 7227921658253615539}
-  - {fileID: 8712216686149941204}
   - {fileID: -2864194130847875412}
   - {fileID: -4418526386445728054}
   - {fileID: -1448334471692832438}
@@ -4132,6 +4131,7 @@ MonoBehaviour:
   - {fileID: 2093036136163613995}
   - {fileID: -8812800091422848167}
   - {fileID: 4007753033323605376}
+  - {fileID: 5623157425622863772}
 --- !u!114 &319222871847691073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4437,7 +4437,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 8712216686149941204}
+        node: {fileID: 5623157425622863772}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -4561,7 +4561,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 75022966bba8c5f40bfb0621ac82859b, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
   GUID: a159e85f-c1fb-4ebe-b7b5-622786215364
   entry: 
   exit: 
@@ -5355,8 +5355,8 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: exit
-        node: {fileID: 8712216686149941204}
+      - fieldName: c
+        node: {fileID: 5623157425622863772}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -5462,7 +5462,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 75022966bba8c5f40bfb0621ac82859b, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
   GUID: d43ba8d7-111e-4d06-a445-d7e25ea5667b
   entry: 
   exit: 
@@ -5848,7 +5848,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 7558e60b588bbee498ce52af432e45ec, type: 3}
   GUID: eac9dcd4-1520-4e9a-89dd-3e97796e7023
   entry: 
   a: 
@@ -6405,6 +6405,79 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
+--- !u!114 &5623157425622863772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b343b76d907fd154896c294ae2f4faaa, type: 3}
+  m_Name: One Choice Dialog
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 9464, y: -376}
+  ports:
+    keys:
+    - entry
+    - c
+    values:
+    - _fieldName: entry
+      _node: {fileID: 5623157425622863772}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -1498600325329272612}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 9151336525877879096}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 6975715013778619515}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 1399287302028446371}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: -8603266242263628414}
+        reroutePoints: []
+      - fieldName: exit
+        node: {fileID: 7227921658253615539}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: 5623157425622863772}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 3625644141424204450}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  backgroundVideo: {fileID: 32900000, guid: 87706b9a569f4de47814ac17a62e8b1c, type: 3}
+  GUID: ea68b6c8-ff42-46b1-b1b9-9baa52be6857
+  entry: 
+  c: 
+  dialogText: "As you break free from the depths of the forest, the towering remnants
+    of the Ruined Archive rise before you. \nCrumbling stone pillars loom in the
+    distance, their carvings whispering of long-forgotten knowledge. The air is heavy
+    \nwith history, and beyond the ancient gates, something stirs\u2026"
+  dialogImage: {fileID: 0}
+  cText: Approach the ruins
+  bgm: {fileID: 0}
+  bgmCheck: 0
+  actorImage: {fileID: 0}
+  slideInActor: 0
+  characterName: Narrator
 --- !u!114 &5994845120879410619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6799,7 +6872,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 7a0a924bb40b96f41afa40950572484d, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
   GUID: 58c8ef20-c8cc-4ef2-be97-75e4928a831b
   entry: 
   exit: 
@@ -6848,7 +6921,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 8712216686149941204}
+        node: {fileID: 5623157425622863772}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -6911,7 +6984,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 7a0a924bb40b96f41afa40950572484d, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
   GUID: 5f439a6e-ebd1-4c08-8b0c-3c774c6859cf
   entry: 
   exit: 
@@ -6961,7 +7034,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 8712216686149941204}
+        node: {fileID: 5623157425622863772}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -7141,7 +7214,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 4ff964c0383e68d4f902c9593e2c7ec5, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
   GUID: 39dc5a42-07f2-4468-8fc6-1f8561481571
   entry: 
   exit: 
@@ -7325,7 +7398,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: bffb4fabe5f4757469911fde8ab88aaa, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
   GUID: 3e239e49-f04d-409f-a013-e765f6d644c8
   entry: 
   exit: 
@@ -7520,79 +7593,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Feral Nomad Chief
   nextButtonLabel: Continue
---- !u!114 &8712216686149941204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 9496, y: -392}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 8712216686149941204}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -1498600325329272612}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: 9151336525877879096}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: 6975715013778619515}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: 1399287302028446371}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: -8603266242263628414}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: 7227921658253615539}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 8712216686149941204}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 3625644141424204450}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 87706b9a569f4de47814ac17a62e8b1c, type: 3}
-  GUID: 286bba0c-dc55-4095-929a-197776fff9d5
-  entry: 
-  exit: 
-  dialogText: "As you break free from the depths of the forest, the towering remnants
-    of the Ruined Archive rise before you. \nCrumbling stone pillars loom in the
-    distance, their carvings whispering of long-forgotten knowledge. The air is heavy
-    \nwith history, and beyond the ancient gates, something stirs\u2026"
-  dialogImage: {fileID: 0}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Approach the ruins
 --- !u!114 &8874935622880636647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7686,7 +7686,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 8712216686149941204}
+        node: {fileID: 5623157425622863772}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
