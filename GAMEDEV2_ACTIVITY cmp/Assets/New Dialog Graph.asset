@@ -557,7 +557,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 4a0ff9f25cf7e8c408cca58e3645c1ba, type: 3}
   GUID: 15b0dce2-9302-40a6-8960-fe094a10a59f
   entry: 
   exit: 
@@ -2245,7 +2245,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 780f46d7e1ba9974a9ad3ae208c69ce0, type: 3}
   GUID: abf0e137-726a-4252-851d-c885b0bc5212
   entry: 
   a: 
@@ -2534,7 +2534,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 780f46d7e1ba9974a9ad3ae208c69ce0, type: 3}
   GUID: 1a36b13c-e884-4438-a90c-14fe1ecb1895
   entry: 
   exit: 
