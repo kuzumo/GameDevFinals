@@ -4,45 +4,62 @@ using UnityEngine;
 using UnityEngine.Video;
 using XNode;
 
-public class BaseNode : Node {
+public class BaseNode : Node
+{
     public virtual string getCharacterName()
     {
         return "";
     }
 
-    public virtual string getDialogText(){
+    public virtual string getDialogText()
+    {
         return "";
     }
 
-    public virtual Sprite getSprite(){
+    public virtual Sprite getSprite()
+    {
         return null;
     }
-	
-    public virtual ABILITY getAbility(){
+
+    public virtual ABILITY getAbility()
+    {
         return ABILITY.PERCEPTION;
     }
 
-    public virtual float getDC(){
+    public virtual float getDC()
+    {
         return 10;
     }
 
-    
-    public virtual Sprite getActorSprite(){
+    public virtual Sprite getActorSprite()
+    {
         return null;
     }
 
-	public virtual BGM getBGMName(){
-		return BGM.HAPPY;
-	}
+    public virtual BGM getBGMName()
+    {
+        return BGM.HAPPY;
+    }
 
-    public virtual bool isSliding(){
+    public virtual bool isSliding()
+    {
         return false;
     }
+
     public VideoClip backgroundVideo;
     public VideoClip getBackgroundVideo()
     {
         return backgroundVideo;
     }
+
+    
+    [Tooltip("Assign an audio clip for the character's voice-over.")]
+    public AudioClip voiceOver;
+    public AudioClip getVoiceOver()
+    {
+        return voiceOver;
+    }
+
     public string GUID;
 
     protected override void Init()

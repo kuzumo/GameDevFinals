@@ -57,6 +57,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: bdd32deb-db8d-49b8-aac2-f9018e6575d7
   entry: 
   success: 
@@ -114,6 +115,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 26915c1999cb7164fa366b9b6bcd0855, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 1f62fe49-3235-4385-bde7-4557e300ac83
   entry: 
   exit: 
@@ -171,6 +173,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: d5e6c747-777c-465a-ac5c-274c605550f5
   entry: 
   exit: 
@@ -226,6 +229,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
+  voiceOver: {fileID: 0}
   GUID: f36d21ec-549d-4266-9d21-4ce859a7d796
   entry: 
   exit: 
@@ -281,6 +285,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 40ff44a2-5257-44d8-97d5-cf53b6b71275
   entry: 
   exit: 
@@ -339,6 +344,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 40932d30-c2bc-4c35-b22d-297c2db96ae7
   entry: 
   exit: 
@@ -426,6 +432,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: d86d2d85-f2ff-4abf-9154-a36b2d2b871c
   entry: 
   exit: 
@@ -487,6 +494,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 8a0a5f9072cb4154090ceb8693e80eb7, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 8bd5395b-0ace-4ab9-ab55-a4c4ec77e29e
   entry: 
   exit: 
@@ -558,6 +566,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 4a0ff9f25cf7e8c408cca58e3645c1ba, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 15b0dce2-9302-40a6-8960-fe094a10a59f
   entry: 
   exit: 
@@ -617,6 +626,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 12127630-fe90-417a-a31a-67bd98fd8134
   entry: 
   exit: 
@@ -678,6 +688,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 3b80d804-b366-4aad-9c59-7d5e9266a01d
   entry: 
   exit: 
@@ -747,6 +758,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 392b793a-2a1e-4aa0-8690-b933a3702b59
   entry: 
   a: 
@@ -806,6 +818,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: f79e9570-cfd1-4765-aed3-b7b5e99b29bd
   entry: 
   exit: 
@@ -867,6 +880,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 79cad9bb5b56a9340b95051f3f6a2873, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 9b2dfe7f-7bbe-4fba-8325-c216cc5974d9
   entry: 
   exit: 
@@ -925,6 +939,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: b0f954bfca9b65147824f3aca7c99bdc, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 7f9f167c-1a25-4bcf-928c-debd8ff61519
   entry: 
   exit: 
@@ -988,6 +1003,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 3ea92ae8-cf6d-4b5f-919a-9b495c5d4c10
   entry: 
   exit: 
@@ -1058,6 +1074,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 4ac4826a-cbd5-406a-b878-32a6b5c92c71
   entry: 
   success: 
@@ -1115,6 +1132,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 0610b997-f027-4038-94d8-118a6f0be15a
   entry: 
   exit: 
@@ -1160,6 +1178,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 5c4b53e0-c902-4457-bfba-dc51d7f4b0d2
   exit: 
 --- !u!114 &-6586363746586551746
@@ -1206,6 +1225,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 64e9e27e-5b0b-4187-912f-343f1b239b90
   entry: 
   exit: 
@@ -1262,6 +1282,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 23088fad-bbe0-4496-9681-e0e71015f33f
   entry: 
   exit: 
@@ -1322,6 +1343,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: aaa94fcf65364144bb4e60c9c17a1953, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 651af8e4-7df8-4a10-8a69-170bd8b4f9d7
   entry: 
   exit: 
@@ -1378,6 +1400,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 0216bddc-15f1-47ca-a980-a3d80285e466
   entry: 
   exit: 
@@ -1450,6 +1473,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 2f273498-7f94-4ac0-8033-488a8374482b
   entry: 
   a: 
@@ -1524,6 +1548,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 40c8791a-7f06-4b77-aef2-9390d2da22f9
   entry: 
   exit: 
@@ -1582,6 +1607,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
+  voiceOver: {fileID: 0}
   GUID: c678b872-4553-4123-b1cb-30f6e0d53442
   entry: 
   exit: 
@@ -1638,6 +1664,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
+  voiceOver: {fileID: 0}
   GUID: ac2819fa-30c8-4917-ae61-fb52f5ec3f76
   entry: 
   exit: 
@@ -1694,6 +1721,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 614111e0-2c50-4ade-9e75-3866c3939d47
   entry: 
   exit: 
@@ -1752,6 +1780,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 16ba82f33f0938f4bbc8bdeac75c5fbf, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 445a9fe1-dcfc-47e5-ab60-4d94681fb78d
   entry: 
   exit: 
@@ -1823,6 +1852,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7d65a112129709245b416842cbde46b9, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 475ea47e-2d5d-44fa-b827-8a20543f3aec
   entry: 
   a: 
@@ -1883,6 +1913,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 9406677983ded9541b0a15d538a69215, type: 3}
+  voiceOver: {fileID: 0}
   GUID: ee878a57-bc04-49d9-b240-5536a3f1d075
   entry: 
   exit: 
@@ -1943,6 +1974,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 41f3332277668c34383364dfc7038463, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 42cbcc0c-d41d-4ac7-9df7-405fb1dc1f06
   entry: 
   c: 
@@ -2001,6 +2033,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: ab39aaf60f2e8a648ab229bc59d8d143, type: 3}
+  voiceOver: {fileID: 0}
   GUID: c11e6924-97a9-4ae6-966f-394ffb0adab0
   entry: 
   exit: 
@@ -2057,6 +2090,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 95a9b503-db90-4f32-af42-10961ec8dc7a
   entry: 
   exit: 
@@ -2116,6 +2150,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: bdf9c508-abf9-4759-b2ec-04454a83f86f
   entry: 
   exit: 
@@ -2177,6 +2212,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 2f37b1a2-86a1-483e-b3da-87e3e9f7a4cc
   entry: 
   exit: 
@@ -2246,6 +2282,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 780f46d7e1ba9974a9ad3ae208c69ce0, type: 3}
+  voiceOver: {fileID: 0}
   GUID: abf0e137-726a-4252-851d-c885b0bc5212
   entry: 
   a: 
@@ -2305,6 +2342,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 982c6b36-6d32-4ad5-9505-28476204cadc
   entry: 
   exit: 
@@ -2362,6 +2400,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
+  voiceOver: {fileID: 0}
   GUID: b473e37e-145b-4c72-a248-a798753c13f4
   entry: 
   exit: 
@@ -2420,6 +2459,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: afc8e760-5c37-409b-98db-9794f0c28fb3
   entry: 
   exit: 
@@ -2478,6 +2518,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 0c2051bc-1f80-4abd-8bfe-febe6a92d83e
   entry: 
   exit: 
@@ -2535,6 +2576,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 780f46d7e1ba9974a9ad3ae208c69ce0, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 1a36b13c-e884-4438-a90c-14fe1ecb1895
   entry: 
   exit: 
@@ -2593,6 +2635,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 66da3c187ecc8b54987fd60ab558b80a, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 7ab0b1ff-8361-4126-b298-1df194990b13
   entry: 
   exit: 
@@ -2651,6 +2694,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 03501d15-f88d-4b6f-9534-5795a5a53565
   entry: 
   exit: 
@@ -2708,6 +2752,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 8200c34d-87de-4335-b72f-7dd301f57fe2
   entry: 
   exit: 
@@ -2766,6 +2811,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
+  voiceOver: {fileID: 0}
   GUID: c2a42ae2-937a-4eb5-a5ce-839f452a94df
   entry: 
   exit: 
@@ -2822,6 +2868,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: e2d2730bb69d3de41a74daa5e2237b35, type: 3}
+  voiceOver: {fileID: 0}
   GUID: d890d7a6-7019-46d6-aed7-4ed96e12f74d
   entry: 
   exit: 
@@ -2880,6 +2927,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 33cf42f7-321e-4a15-9eee-762f9499889a
   entry: 
   exit: 
@@ -2938,6 +2986,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 0a544c1e-e201-4d83-b72c-60089de78597
   entry: 
   exit: 
@@ -2997,6 +3046,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
+  voiceOver: {fileID: 0}
   GUID: fde55d8a-8c38-4471-a41b-4c79189fe3b4
   entry: 
   c: 
@@ -3055,6 +3105,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 3eb5731e-5f35-4ec4-8923-a8bb5d9e368a
   entry: 
   exit: 
@@ -3110,6 +3161,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
+  voiceOver: {fileID: 0}
   GUID: a2ddd6fe-8886-4f1c-817f-be23343cf3b6
   entry: 
   exit: 
@@ -3166,6 +3218,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 94ac76c8-340e-4c2b-8a64-9dd0f431c33b
   entry: 
   exit: 
@@ -3223,6 +3276,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: e56320f86502d7c4297f0d2e83ad403f, type: 3}
+  voiceOver: {fileID: 0}
   GUID: f5faf886-b04d-49ef-88aa-ea1b44e3ba8f
   entry: 
   exit: 
@@ -3281,6 +3335,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: e8b2e3f0-c308-43f1-bc16-9a2f81ecf9cf
   entry: 
   exit: 
@@ -3365,6 +3420,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 79694052-0cb1-422b-9fbe-119a98aac269
   entry: 
   a: 
@@ -3426,6 +3482,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: da00cf4f1e18ba942af0e910887dec5e, type: 3}
+  voiceOver: {fileID: 0}
   GUID: aa627b80-f705-44f8-9221-41a02d14815e
   entry: 
   exit: 
@@ -3483,6 +3540,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 9c6006fa-b64b-4e45-aabe-cf3e0c96eb10
   entry: 
   exit: 
@@ -3540,6 +3598,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
+  voiceOver: {fileID: 0}
   GUID: d2664ce0-081c-4ab4-a17e-e41d82a5a860
   entry: 
   exit: 
@@ -3596,6 +3655,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 701aa63f-0699-4070-b540-e96fdb01e09e
   entry: 
   exit: 
@@ -3683,6 +3743,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 145854eb-e14b-41fe-9a2e-6b183fdcbff0
   entry: 
   exit: 
@@ -3751,6 +3812,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 14ebfd93-bb72-411e-8f42-003836fe18a7
   entry: 
   success: 
@@ -3804,6 +3866,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 86f8cdce-eb93-4b19-8ca7-a8e71cfb4e66
   entry: 
   exit: 
@@ -3862,6 +3925,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
+  voiceOver: {fileID: 0}
   GUID: c9a367a8-04ba-4d4c-864c-78ff84f3ece2
   entry: 
   exit: 
@@ -3921,6 +3985,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 2f794975-33de-4b4e-a295-85f1aa6362b0
   entry: 
   exit: 
@@ -3977,6 +4042,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 27507427-58d0-40be-a603-a63e27670d73
   entry: 
   exit: 
@@ -4176,6 +4242,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 36780181-1702-4e62-9c57-5814d432d57f
   entry: 
   exit: 
@@ -4234,6 +4301,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5ae38b919ff9b19498698f6436ba6864, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 1db40d76-2205-4f1c-8400-167a6d9430cd
   entry: 
   exit: 
@@ -4290,6 +4358,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7583bf2df7dd259468b14e9aec0cfde9, type: 3}
+  voiceOver: {fileID: 0}
   GUID: f01a39c0-725f-45ad-99d0-9d35a1855cb2
   entry: 
   exit: 
@@ -4391,6 +4460,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 599a5121-0b08-45fe-8186-b7006249ea80
   entry: 
   success: 
@@ -4444,6 +4514,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 38d7569c08b084644b922b1a3e431e05, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 1f176087-5bef-4ee7-9add-69e08dc49387
   entry: 
   exit: 
@@ -4501,6 +4572,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 2fd835cc-d7a5-43b0-8e5c-6ef35b7babb4
   entry: 
   exit: 
@@ -4562,6 +4634,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
+  voiceOver: {fileID: 0}
   GUID: a159e85f-c1fb-4ebe-b7b5-622786215364
   entry: 
   exit: 
@@ -4631,6 +4704,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 41f3332277668c34383364dfc7038463, type: 3}
+  voiceOver: {fileID: 0}
   GUID: a09eeca2-0b91-4e2a-a611-a5ca3034c99c
   entry: 
   success: 
@@ -4685,7 +4759,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: c87a36ef92813cf48bc68a41b5666220, type: 3}
+  voiceOver: {fileID: 0}
   GUID: dfcb1a3d-aca4-4f6b-8bc3-134d20306a71
   entry: 
   exit: 
@@ -4744,6 +4819,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: f7d4ce0b-4e59-421d-9d1e-438000307c2a
   entry: 
   exit: 
@@ -4815,6 +4891,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: f293d794-53b1-4b02-abdf-4b375200d16a
   entry: 
   success: 
@@ -4870,6 +4947,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 556697a85909314459f50934e3da0573, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 6938d8bc-126c-4909-bb09-7c43905f2bdb
   entry: 
   exit: 
@@ -4927,6 +5005,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
+  voiceOver: {fileID: 0}
   GUID: e6fcd018-ea43-4a0f-9b9c-48ac00943a0e
   entry: 
   exit: 
@@ -4984,7 +5063,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: c87a36ef92813cf48bc68a41b5666220, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 0aa64131-2a35-4e8a-8fc4-8b577ee2e0b3
   entry: 
   exit: 
@@ -5043,6 +5123,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 5d300686-700e-48d0-a900-6abd073cee05
   entry: 
   exit: 
@@ -5101,6 +5182,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 38b18b4f-7298-4b5b-93b1-1dcd2a3e9d80
   entry: 
   exit: 
@@ -5174,6 +5256,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 61665939-a0ec-4338-8fb5-6930a4880b13
   entry: 
   success: 
@@ -5253,6 +5336,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 210690dc-a373-4eca-8265-f000a112852e
   entry: 
   a: 
@@ -5313,6 +5397,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 1aa9490d-f8c7-4654-9b97-929589cc85a8
   entry: 
   exit: 
@@ -5399,6 +5484,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 85d5d3de-6e68-4ff3-8a97-ce30eefa3f56
   entry: 
   a: 
@@ -5463,6 +5549,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
+  voiceOver: {fileID: 0}
   GUID: d43ba8d7-111e-4d06-a445-d7e25ea5667b
   entry: 
   exit: 
@@ -5519,6 +5606,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 55c54897-b9d3-40cb-a5c2-dc317751f0c5
   entry: 
   exit: 
@@ -5578,6 +5666,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 32db56e0-fd51-4645-8a1a-5a7dcbb2bdba
   entry: 
   exit: 
@@ -5636,6 +5725,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: da685e77-1f59-424c-982e-b73782c62ba7
   entry: 
   exit: 
@@ -5695,6 +5785,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
+  voiceOver: {fileID: 0}
   GUID: f26c5314-5629-4df5-b5aa-0965972727d3
   entry: 
   exit: 
@@ -5849,6 +5940,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7558e60b588bbee498ce52af432e45ec, type: 3}
+  voiceOver: {fileID: 0}
   GUID: eac9dcd4-1520-4e9a-89dd-3e97796e7023
   entry: 
   a: 
@@ -5916,6 +6008,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 4b97e780-ae9e-4c9a-be1f-1be6a001a68c
   entry: 
   exit: 
@@ -5972,6 +6065,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 50101f3b-51ee-4ccb-959c-d4f613ae79ed
   entry: 
   exit: 
@@ -6030,6 +6124,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7d65a112129709245b416842cbde46b9, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 30cdfac3-daf1-4066-b5aa-7766db0b491e
   entry: 
   exit: 
@@ -6100,6 +6195,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 85a7f355-6c39-487a-a75a-bdd40999a20a
   entry: 
   success: 
@@ -6155,6 +6251,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 3026f3fb-6ae6-4bf5-8706-63c27cf1e833
   entry: 
   exit: 
@@ -6215,6 +6312,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 0f08b669-ac78-4821-8c5a-49d74554d394
   entry: 
   exit: 
@@ -6274,6 +6372,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: cc63711f1d5a4d04dbb5681dca6d4ff1, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 4d222b73-5205-474e-b437-d41488c45764
   entry: 
   exit: 
@@ -6332,6 +6431,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 9f99cb0e-71cc-421d-b0a3-de09276819f1
   entry: 
   exit: 
@@ -6393,6 +6493,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 13dc091f-355c-435c-a38a-9859b20ed00d
   entry: 
   exit: 
@@ -6464,6 +6565,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 87706b9a569f4de47814ac17a62e8b1c, type: 3}
+  voiceOver: {fileID: 0}
   GUID: ea68b6c8-ff42-46b1-b1b9-9baa52be6857
   entry: 
   c: 
@@ -6522,6 +6624,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 8c312172-5358-4f28-ab6c-69f5e2a7e885
   entry: 
   exit: 
@@ -6579,6 +6682,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 0523d5e0-7c08-4c23-9265-85dd388ed1f2
   entry: 
   exit: 
@@ -6640,6 +6744,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 9de6d4f4-744a-493c-9fcd-5d7e9bbd8501
   entry: 
   exit: 
@@ -6698,6 +6803,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: 9d1a5cea-d285-46b5-844c-ae997769dafb
   entry: 
   exit: 
@@ -6754,6 +6860,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: dc60f177-0a34-4ed5-855d-ad32de2f5b41
   entry: 
   exit: 
@@ -6814,7 +6921,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: e5bd721dee0f1534794f01a16cffb49b, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 0c10e409-efe9-4606-94b6-9d21daaf0988
   entry: 
   exit: 
@@ -6873,6 +6981,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 58c8ef20-c8cc-4ef2-be97-75e4928a831b
   entry: 
   exit: 
@@ -6928,6 +7037,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: ab5d627700f8d3041bb4bf074cb72a5a, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 9593ba49-3cba-4bbf-a714-ea72c05bf6f9
   entry: 
   exit: 
@@ -6985,6 +7095,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 5f439a6e-ebd1-4c08-8b0c-3c774c6859cf
   entry: 
   exit: 
@@ -7041,6 +7152,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: e30dd645f965e134391e3f886546148b, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 83a77a89-3027-497f-9ed7-9679d43a4992
   entry: 
   exit: 
@@ -7096,6 +7208,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
+  voiceOver: {fileID: 0}
   GUID: c0fa452c-e200-49e0-910d-ede026bbdf5c
   entry: 
   exit: 
@@ -7154,6 +7267,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: e6ddd1fc-32f5-4fb5-ba2a-4c4b9f068ed8
   entry: 
   exit: 
@@ -7215,6 +7329,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 39dc5a42-07f2-4468-8fc6-1f8561481571
   entry: 
   exit: 
@@ -7284,6 +7399,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: d1fa28ea-6560-4d0d-8e34-36f72eb5925e
   entry: 
   success: 
@@ -7341,6 +7457,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: f006cdb4cd232ba418a96303532fe8c9, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 7ee68832-a4f2-48e1-ba80-c1b16018baf4
   entry: 
   exit: 
@@ -7399,6 +7516,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 3e239e49-f04d-409f-a013-e765f6d644c8
   entry: 
   exit: 
@@ -7468,6 +7586,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 556697a85909314459f50934e3da0573, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 81d7b5d9-8b72-4655-a7d3-d566fe438b71
   entry: 
   success: 
@@ -7522,6 +7641,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  voiceOver: {fileID: 0}
   GUID: e0e96754-cdab-4146-8f41-37e6985f7a4c
   entry: 
   exit: 
@@ -7580,6 +7700,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
   GUID: b718cb58-8423-4e95-af1a-8645a69e60b9
   entry: 
   exit: 
@@ -7637,6 +7758,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 75524f9fb5ee2c64699447853f58ff85, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 57253c73-0891-4c85-9563-dabad0caa3a0
   entry: 
   exit: 
@@ -7693,6 +7815,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 38d7569c08b084644b922b1a3e431e05, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 03e9c8b1-afeb-44a5-8ada-012a5212132c
   entry: 
   exit: 
@@ -7748,6 +7871,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: d0b0fd4f18b2b08409f4a267c6f28a2d, type: 3}
+  voiceOver: {fileID: 0}
   GUID: 5c58d883-8371-4fe7-b2ef-e349a3634d50
   entry: 
   exit: 
