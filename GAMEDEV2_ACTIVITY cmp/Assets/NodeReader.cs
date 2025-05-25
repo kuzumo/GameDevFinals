@@ -366,9 +366,17 @@ public class NodeReader : MonoBehaviour
                 ? currentNode.GetOutputPort("success")?.Connection.node as BaseNode
                 : currentNode.GetOutputPort("failed")?.Connection.node as BaseNode;
 
-            currentNode = nextNode;
-            displayNode(currentNode);
+            if (nextNode != null)
+            {
+                currentNode = nextNode;
+                displayNode(currentNode);
+            }
+            else
+            {
+                endPanel.SetActive(true); // ✅ Show end if no connected node
+            }
         });
+
     }
 
     private void DisableAllButtons()

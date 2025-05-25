@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 18536.977, y: 8.072913}
+  position: {x: 19000, y: 40}
   ports:
     keys:
     - entry
@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 19992, y: 216}
+  position: {x: 20472, y: 280}
   ports:
     keys:
     - entry
@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 19416, y: -216}
+  position: {x: 19896, y: -152}
   ports:
     keys:
     - entry
@@ -774,6 +774,74 @@ MonoBehaviour:
   actorImage: {fileID: 0}
   slideInActor: 0
   characterName: Narrator
+--- !u!114 &-7783906079818320589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b4523b0b27ac443a978919bf27a9be, type: 3}
+  m_Name: Ability Check
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 14312, y: -584}
+  ports:
+    keys:
+    - entry
+    - success
+    - failed
+    values:
+    - _fieldName: entry
+      _node: {fileID: -7783906079818320589}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: a
+        node: {fileID: -1545312085561119160}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: success
+      _node: {fileID: -7783906079818320589}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 5994845120879410619}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: failed
+      _node: {fileID: -7783906079818320589}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -7171773310609265922}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
+  GUID: f0f46d27-a39e-4947-a507-541863e06aa7
+  entry: 
+  success: 
+  failed: 
+  dialogText: "The Feral Nomad Chief grips his spear, yellow eyes judging. \u201COnly
+    the worthy enter the Shrine,\u201D he rumbles. \u201CProve yourself through battle.
+    Raise your weapons!\u201D He shifts into a battle stance."
+  dialogImage: {fileID: 7657890851316837750, guid: 3ff1aba96eb6aec4b899247e37e564fa, type: 3}
+  abilityCheck: 0
+  difficultyCheckValue: 15
 --- !u!114 &-7704043182446851582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -908,7 +976,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 17608, y: -296}
+  position: {x: 18088, y: -232}
   ports:
     keys:
     - entry
@@ -966,7 +1034,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14488, y: -328}
+  position: {x: 14968, y: -264}
   ports:
     keys:
     - entry
@@ -985,6 +1053,15 @@ MonoBehaviour:
         reroutePoints: []
       - fieldName: exit
         node: {fileID: 8684881528478117327}
+        reroutePoints: []
+      - fieldName: failed
+        node: {fileID: -7783906079818320589}
+        reroutePoints: []
+      - fieldName: failed
+        node: {fileID: 8575995799495078141}
+        reroutePoints: []
+      - fieldName: failed
+        node: {fileID: 5432397894384050241}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1194,7 +1271,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 16872, y: -296}
+  position: {x: 17352, y: -232}
   ports:
     keys:
     - entry
@@ -1251,7 +1328,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14184, y: -200}
+  position: {x: 14664, y: -232}
   ports:
     keys:
     - entry
@@ -1262,8 +1339,8 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: b
-        node: {fileID: -1545312085561119160}
+      - fieldName: success
+        node: {fileID: 8575995799495078141}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -1347,8 +1424,8 @@ MonoBehaviour:
   GUID: 651af8e4-7df8-4a10-8a69-170bd8b4f9d7
   entry: 
   exit: 
-  dialogText: Cultists and Infernal Ash Hounds approach. One raises a fire-wreathed
-    hand. The battle begins now.
+  dialogText: 'Cultists and Infernal Ash Hounds approach. One raises a fire-wreathed
+    hand. '
   dialogImage: {fileID: 5065051081347183668, guid: b92e8da358875d24084eb3c911fe3f06, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -1369,7 +1446,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 19144, y: -248}
+  position: {x: 19624, y: -184}
   ports:
     keys:
     - entry
@@ -1749,7 +1826,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 20040, y: -216}
+  position: {x: 20520, y: -152}
   ports:
     keys:
     - entry
@@ -1882,7 +1959,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 19736, y: -232}
+  position: {x: 20216, y: -168}
   ports:
     keys:
     - entry
@@ -2002,7 +2079,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 18536, y: -472}
+  position: {x: 19016, y: -408}
   ports:
     keys:
     - entry
@@ -2160,7 +2237,7 @@ MonoBehaviour:
     followed by a Cultist Zealot cloaked in flame-tattered robes.\nZealot: \"Fools.
     The Pyrelord has foreseen this. The Last Elder is already his. The Mystic Pet
     Shrine will burn, and from its ashes\u2014rebirth.\" With a crack of his staff,
-    fire erupts.\nCombat begins."
+    fire erupts."
   dialogImage: {fileID: 2596552556267567030, guid: 13d430700253cf249b4ef86420b8de8e, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -2311,7 +2388,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 17112, y: -296}
+  position: {x: 17592, y: -232}
   ports:
     keys:
     - entry
@@ -2369,7 +2446,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 15592, y: -312}
+  position: {x: 16072, y: -248}
   ports:
     keys:
     - entry
@@ -3389,7 +3466,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 5994845120879410619}
+        node: {fileID: -7783906079818320589}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3401,7 +3478,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -6569230669198525839}
+        node: {fileID: 8575995799495078141}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3413,7 +3490,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 8684881528478117327}
+        node: {fileID: 5432397894384050241}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3894,7 +3971,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 16360, y: -296}
+  position: {x: 16840, y: -232}
   ports:
     keys:
     - entry
@@ -4198,6 +4275,9 @@ MonoBehaviour:
   - {fileID: -8812800091422848167}
   - {fileID: 4007753033323605376}
   - {fileID: 5623157425622863772}
+  - {fileID: -7783906079818320589}
+  - {fileID: 8575995799495078141}
+  - {fileID: 5432397894384050241}
 --- !u!114 &319222871847691073
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4327,7 +4407,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 16616, y: -296}
+  position: {x: 17096, y: -232}
   ports:
     keys:
     - entry
@@ -4788,7 +4868,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 19736, y: 200}
+  position: {x: 20216, y: 264}
   ports:
     keys:
     - entry
@@ -4916,7 +4996,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 17848, y: -296}
+  position: {x: 18328, y: -232}
   ports:
     keys:
     - entry
@@ -4974,7 +5054,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 17368, y: -296}
+  position: {x: 17848, y: -232}
   ports:
     keys:
     - entry
@@ -5366,7 +5446,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 16088, y: -296}
+  position: {x: 16568, y: -232}
   ports:
     keys:
     - entry
@@ -5751,7 +5831,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 18888, y: -264}
+  position: {x: 19368, y: -200}
   ports:
     keys:
     - entry
@@ -5813,7 +5893,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 20616, y: -120}
+  position: {x: 21096, y: -56}
   ports:
     keys:
     - entry
@@ -5977,7 +6057,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14792, y: -328}
+  position: {x: 15272, y: -264}
   ports:
     keys:
     - entry
@@ -6387,6 +6467,74 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
+--- !u!114 &5432397894384050241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b4523b0b27ac443a978919bf27a9be, type: 3}
+  m_Name: Ability Check
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 14312, y: 216}
+  ports:
+    keys:
+    - entry
+    - success
+    - failed
+    values:
+    - _fieldName: entry
+      _node: {fileID: 5432397894384050241}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: c
+        node: {fileID: -1545312085561119160}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: success
+      _node: {fileID: 5432397894384050241}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 8684881528478117327}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: failed
+      _node: {fileID: 5432397894384050241}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -7171773310609265922}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
+  GUID: f0f46d27-a39e-4947-a507-541863e06aa7
+  entry: 
+  success: 
+  failed: 
+  dialogText: "The Feral Nomad Chief grips his spear, yellow eyes judging. \u201COnly
+    the worthy enter the Shrine,\u201D he rumbles. \u201CProve yourself through battle.
+    Raise your weapons!\u201D He shifts into a battle stance."
+  dialogImage: {fileID: 7657890851316837750, guid: 3ff1aba96eb6aec4b899247e37e564fa, type: 3}
+  abilityCheck: 0
+  difficultyCheckValue: 15
 --- !u!114 &5444783762536500348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6593,7 +6741,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14184, y: -632}
+  position: {x: 14664, y: -744}
   ports:
     keys:
     - entry
@@ -6604,8 +6752,8 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: a
-        node: {fileID: -1545312085561119160}
+      - fieldName: success
+        node: {fileID: -7783906079818320589}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -6713,7 +6861,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 15064, y: -312}
+  position: {x: 15544, y: -248}
   ports:
     keys:
     - entry
@@ -7177,7 +7325,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 15832, y: -312}
+  position: {x: 16312, y: -248}
   ports:
     keys:
     - entry
@@ -7426,7 +7574,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 20328, y: -200}
+  position: {x: 20808, y: -136}
   ports:
     keys:
     - entry
@@ -7542,7 +7690,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 18152, y: -280}
+  position: {x: 18632, y: -216}
   ports:
     keys:
     - entry
@@ -7596,7 +7744,7 @@ MonoBehaviour:
     fate of Aetheria rests in your hands.\n"
   dialogImage: {fileID: 0}
   abilityCheck: 0
-  difficultyCheckValue: 14
+  difficultyCheckValue: 15
 --- !u!114 &8440602532191338307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7656,6 +7804,74 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
+--- !u!114 &8575995799495078141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b4523b0b27ac443a978919bf27a9be, type: 3}
+  m_Name: Ability Check
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 14312, y: -184}
+  ports:
+    keys:
+    - entry
+    - success
+    - failed
+    values:
+    - _fieldName: entry
+      _node: {fileID: 8575995799495078141}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: b
+        node: {fileID: -1545312085561119160}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: success
+      _node: {fileID: 8575995799495078141}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -6569230669198525839}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: failed
+      _node: {fileID: 8575995799495078141}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: -7171773310609265922}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  backgroundVideo: {fileID: 0}
+  voiceOver: {fileID: 0}
+  GUID: f0f46d27-a39e-4947-a507-541863e06aa7
+  entry: 
+  success: 
+  failed: 
+  dialogText: "The Feral Nomad Chief grips his spear, yellow eyes judging. \u201COnly
+    the worthy enter the Shrine,\u201D he rumbles. \u201CProve yourself through battle.
+    Raise your weapons!\u201D He shifts into a battle stance."
+  dialogImage: {fileID: 7657890851316837750, guid: 3ff1aba96eb6aec4b899247e37e564fa, type: 3}
+  abilityCheck: 2
+  difficultyCheckValue: 15
 --- !u!114 &8684881528478117327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7669,7 +7885,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 14184, y: 232}
+  position: {x: 14648, y: 296}
   ports:
     keys:
     - entry
@@ -7680,8 +7896,8 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: c
-        node: {fileID: -1545312085561119160}
+      - fieldName: success
+        node: {fileID: 5432397894384050241}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -7840,7 +8056,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 15320, y: -312}
+  position: {x: 15800, y: -248}
   ports:
     keys:
     - entry
