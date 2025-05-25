@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      old-paper-parchment-scroll-ancient-papyrus 1_0: 4136182167361210658
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
