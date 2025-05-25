@@ -121,7 +121,7 @@ MonoBehaviour:
   exit: 
   dialogText: "\u201CYour attack fails to break the pillar. Suddenly, the glowing
     red energy surging through it flares violently! A shockwave of searing heat bursts
-    outward, engulfing you all!\"\n \n(Party takes 10 fire DMG)"
+    outward, engulfing you all!\""
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -939,7 +939,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: b0f954bfca9b65147824f3aca7c99bdc, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: f9c056f3328485c4bac2b90ac937bcf4, type: 3}
   GUID: 7f9f167c-1a25-4bcf-928c-debd8ff61519
   entry: 
   exit: 
@@ -1282,7 +1282,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 33e4bb0e1eab7c04f943436a4dfca212, type: 3}
   GUID: 23088fad-bbe0-4496-9681-e0e71015f33f
   entry: 
   exit: 
@@ -1400,7 +1400,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 4467c65f04847a64798831c023cead69, type: 3}
   GUID: 0216bddc-15f1-47ca-a980-a3d80285e466
   entry: 
   exit: 
@@ -1780,7 +1780,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 16ba82f33f0938f4bbc8bdeac75c5fbf, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 97d35ea72a146dd469fda3c052c05146, type: 3}
   GUID: 445a9fe1-dcfc-47e5-ab60-4d94681fb78d
   entry: 
   exit: 
@@ -2038,7 +2038,7 @@ MonoBehaviour:
   entry: 
   exit: 
   dialogText: "\u201CCracks form along the pillar\u2019s surface! Energy flickers
-    wildly as its glow weakens.\u201D\n\n(Mark progresses toward destruction)"
+    wildly as its glow weakens.\u201D"
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -2342,7 +2342,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 6a7f64fc31215af4380624ac66270ee6, type: 3}
   GUID: 982c6b36-6d32-4ad5-9505-28476204cadc
   entry: 
   exit: 
@@ -2927,7 +2927,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 40b7b5b7329bb0043a4a3cf22f3e400c, type: 3}
   GUID: 33cf42f7-321e-4a15-9eee-762f9499889a
   entry: 
   exit: 
@@ -3420,7 +3420,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: efb532e150a610a47aaeee3ece9613bc, type: 3}
   GUID: 79694052-0cb1-422b-9fbe-119a98aac269
   entry: 
   a: 
@@ -3925,7 +3925,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 0bbd93e403a3d614584c8bc7b111a8fa, type: 3}
   GUID: c9a367a8-04ba-4d4c-864c-78ff84f3ece2
   entry: 
   exit: 
@@ -4947,7 +4947,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 556697a85909314459f50934e3da0573, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 16b1f590ce786694d80480d612346ce8, type: 3}
   GUID: 6938d8bc-126c-4909-bb09-7c43905f2bdb
   entry: 
   exit: 
@@ -5397,7 +5397,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: f7fbe45a81640b34a9d1b3bffe9312f6, type: 3}
   GUID: 1aa9490d-f8c7-4654-9b97-929589cc85a8
   entry: 
   exit: 
@@ -6624,7 +6624,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 09adc7192dab9834bb72cc0fa071a6f9, type: 3}
   GUID: 8c312172-5358-4f28-ab6c-69f5e2a7e885
   entry: 
   exit: 
@@ -7457,7 +7457,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: f006cdb4cd232ba418a96303532fe8c9, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: bdfc7e8f57d164746a8eab87e3d2dddc, type: 3}
   GUID: 7ee68832-a4f2-48e1-ba80-c1b16018baf4
   entry: 
   exit: 
@@ -7700,7 +7700,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: e9cbbf16225be9241a29f5752d61c3cf, type: 3}
   GUID: b718cb58-8423-4e95-af1a-8645a69e60b9
   entry: 
   exit: 
