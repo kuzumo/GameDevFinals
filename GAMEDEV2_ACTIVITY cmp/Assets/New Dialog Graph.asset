@@ -494,7 +494,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 8a0a5f9072cb4154090ceb8693e80eb7, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: eddeb8113e0904e41a725923a5f78153, type: 3}
   GUID: 8bd5395b-0ace-4ab9-ab55-a4c4ec77e29e
   entry: 
   exit: 
@@ -1472,7 +1472,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
   voiceOver: {fileID: 0}
   GUID: 2f273498-7f94-4ac0-8033-488a8374482b
   entry: 
@@ -2090,7 +2090,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 3416ee65774f2f74197440990190706c, type: 3}
   GUID: 95a9b503-db90-4f32-af42-10961ec8dc7a
   entry: 
   exit: 
@@ -2149,8 +2149,8 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
-  voiceOver: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: dddb2d5b2fd32b14cb0383a3178affd6, type: 3}
+  voiceOver: {fileID: 8300000, guid: cf91e8e8b19087f42baf03c2fb902ee9, type: 3}
   GUID: bdf9c508-abf9-4759-b2ec-04454a83f86f
   entry: 
   exit: 
@@ -2868,7 +2868,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: e2d2730bb69d3de41a74daa5e2237b35, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 699949e1a9596454d9e1f3ad22bb449a, type: 3}
   GUID: d890d7a6-7019-46d6-aed7-4ed96e12f74d
   entry: 
   exit: 
@@ -3046,7 +3046,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: 5833a5727e862694091a3b5db308803f, type: 3}
   GUID: fde55d8a-8c38-4471-a41b-4c79189fe3b4
   entry: 
   c: 
@@ -3217,7 +3217,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 599b183e924b9ac4ab68ce641024cc6b, type: 3}
   voiceOver: {fileID: 0}
   GUID: 94ac76c8-340e-4c2b-8a64-9dd0f431c33b
   entry: 
@@ -3820,7 +3820,7 @@ MonoBehaviour:
   dialogText: "Dense canopy. Whispers drift through the trees. The path splits\u2014left:
     overgrown thicket. Right: fallen tree and louder \nwhispers."
   dialogImage: {fileID: 0}
-  abilityCheck: 0
+  abilityCheck: 2
   difficultyCheckValue: 14
 --- !u!114 &-517340875823498008
 MonoBehaviour:
@@ -5181,7 +5181,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 3c87497ba70ffb04597c1efb054f3f36, type: 3}
   voiceOver: {fileID: 0}
   GUID: 38b18b4f-7298-4b5b-93b1-1dcd2a3e9d80
   entry: 
@@ -5264,7 +5264,7 @@ MonoBehaviour:
   dialogText: "Dense canopy. Whispers drift through the trees. The path splits\u2014left:
     overgrown thicket. Right: fallen tree and louder \nwhispers."
   dialogImage: {fileID: 0}
-  abilityCheck: 0
+  abilityCheck: 1
   difficultyCheckValue: 13
 --- !u!114 &3264521841135749040
 MonoBehaviour:
@@ -5605,7 +5605,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 2ec8feba90ce10644af885b72abe5392, type: 3}
   voiceOver: {fileID: 0}
   GUID: 55c54897-b9d3-40cb-a5c2-dc317751f0c5
   entry: 
@@ -6250,7 +6250,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: de4adaa89a78b0b4e9481c44c6cea95c, type: 3}
   voiceOver: {fileID: 0}
   GUID: 3026f3fb-6ae6-4bf5-8706-63c27cf1e833
   entry: 
@@ -6372,7 +6372,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: cc63711f1d5a4d04dbb5681dca6d4ff1, type: 3}
-  voiceOver: {fileID: 0}
+  voiceOver: {fileID: 8300000, guid: f19ec0c44354c974cb92abf0e994eaf6, type: 3}
   GUID: 4d222b73-5205-474e-b437-d41488c45764
   entry: 
   exit: 
@@ -6430,7 +6430,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: d56c69d0730811f4aaf9a2293c947741, type: 3}
   voiceOver: {fileID: 0}
   GUID: 9f99cb0e-71cc-421d-b0a3-de09276819f1
   entry: 
@@ -6492,7 +6492,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 32d2b5281a557bb49b23f7cfb74e486e, type: 3}
   voiceOver: {fileID: 0}
   GUID: 13dc091f-355c-435c-a38a-9859b20ed00d
   entry: 
@@ -6681,7 +6681,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 0}
+  backgroundVideo: {fileID: 32900000, guid: 3c87497ba70ffb04597c1efb054f3f36, type: 3}
   voiceOver: {fileID: 0}
   GUID: 0523d5e0-7c08-4c23-9265-85dd388ed1f2
   entry: 
@@ -7757,7 +7757,7 @@ MonoBehaviour:
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 75524f9fb5ee2c64699447853f58ff85, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: 658e2a0e5db6b874ebf9fa54f8278833, type: 3}
   voiceOver: {fileID: 0}
   GUID: 57253c73-0891-4c85-9563-dabad0caa3a0
   entry: 

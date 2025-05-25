@@ -29,6 +29,8 @@ public class NodeReader : MonoBehaviour
     public AudioClip bgm;
     public AudioSource bgmObject;
     public AudioClip Happy, Adventure, Drama, Suspense;
+    [SerializeField] private AudioSource voiceAudioSource;
+
 
     public Sprite actor;
     public GameObject actorObject;
@@ -199,6 +201,8 @@ public class NodeReader : MonoBehaviour
         {
             actorObject.GetComponent<Animator>().enabled = true;
         }
+        PlayNode(node);
+
     }
 
     public void AdvanceDialog()
@@ -289,6 +293,15 @@ public class NodeReader : MonoBehaviour
         else
         {
             nextButtonGO.SetActive(true);
+        }
+    }
+
+    public void PlayNode(BaseNode node)
+    {
+        if (node.voiceOver != null)
+        {
+            voiceAudioSource.clip = node.voiceOver;
+            voiceAudioSource.Play();
         }
     }
 
