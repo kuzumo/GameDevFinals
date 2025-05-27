@@ -284,13 +284,19 @@ public class NodeReader : MonoBehaviour
             actorObject.GetComponent<Image>().sprite = actor;
         }
 
+        // First: check the enum
         switch (node.getBGMName())
         {
             case BGM.HAPPY: bgm = Happy; break;
             case BGM.DRAMA: bgm = Drama; break;
             case BGM.ADVENTURE: bgm = Adventure; break;
             case BGM.SUSPENSE: bgm = Suspense; break;
+            case BGM.NONE:
+                // If enum is NONE, try the manual AudioClip instead
+                bgm = node.getBGMClip(); // 🧠 this method should return the `Bgm` AudioClip from the node
+                break;
         }
+
 
         bgmObject.clip = bgm;
         bgmObject.Play();

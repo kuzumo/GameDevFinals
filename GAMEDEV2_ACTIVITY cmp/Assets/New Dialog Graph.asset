@@ -57,6 +57,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: bdd32deb-db8d-49b8-aac2-f9018e6575d7
   entry: 
@@ -115,6 +116,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 26915c1999cb7164fa366b9b6bcd0855, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: 1f62fe49-3235-4385-bde7-4557e300ac83
   entry: 
@@ -124,7 +126,7 @@ MonoBehaviour:
     outward, engulfing you all!\""
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -173,6 +175,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: d5e6c747-777c-465a-ac5c-274c605550f5
   entry: 
@@ -180,7 +183,7 @@ MonoBehaviour:
   dialogText: A crumbling stone gives way, causing a minor fall
   dialogImage: {fileID: 7539523292233860857, guid: 912b8a94a2e4d404ca67fd7b9dae0dea, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -260,6 +263,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 8a0a5f9072cb4154090ceb8693e80eb7, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: eddeb8113e0904e41a725923a5f78153, type: 3}
   GUID: 8bd5395b-0ace-4ab9-ab55-a4c4ec77e29e
   entry: 
@@ -317,6 +321,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 4a0ff9f25cf7e8c408cca58e3645c1ba, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 15b0dce2-9302-40a6-8960-fe094a10a59f
   entry: 
@@ -328,7 +333,7 @@ MonoBehaviour:
     ancient runes and feathers from his ancestors, rested in his talons.
   dialogImage: {fileID: 5924434085627715385, guid: 5581c66e27ceebf4e8b31d7a944bd352, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -390,6 +395,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: 392b793a-2a1e-4aa0-8690-b933a3702b59
   entry: 
@@ -401,7 +407,7 @@ MonoBehaviour:
   dialogImage: {fileID: 0}
   aText: "End Elder Rynn\u2019s Life (Sacrifice for the World)"
   bText: Spare Elder Rynn (Mercy Over Fate)
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
@@ -466,6 +472,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   voiceOver: {fileID: 0}
   GUID: f0f46d27-a39e-4947-a507-541863e06aa7
   entry: 
@@ -521,6 +528,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 79cad9bb5b56a9340b95051f3f6a2873, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 9b2dfe7f-7bbe-4fba-8325-c216cc5974d9
   entry: 
@@ -531,7 +539,7 @@ MonoBehaviour:
     taken key positions, \nmaking the battle even harder."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -580,6 +588,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: b0f954bfca9b65147824f3aca7c99bdc, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: f9c056f3328485c4bac2b90ac937bcf4, type: 3}
   GUID: 7f9f167c-1a25-4bcf-928c-debd8ff61519
   entry: 
@@ -644,6 +653,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   voiceOver: {fileID: 0}
   GUID: 3ea92ae8-cf6d-4b5f-919a-9b495c5d4c10
   entry: 
@@ -653,7 +663,7 @@ MonoBehaviour:
     \u201CCorruption has taken root\u2026\u201D"
   dialogImage: {fileID: -5265630166424169416, guid: 377e9297588479f40824fbce7c6be96b, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Feral Nomad Chief
@@ -715,6 +725,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 4ac4826a-cbd5-406a-b878-32a6b5c92c71
   entry: 
@@ -799,6 +810,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 50419966-8499-4284-ad2a-580de67c2abf
   entry: 
@@ -837,6 +849,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 0}
   GUID: 5c4b53e0-c902-4457-bfba-dc51d7f4b0d2
   exit: 
@@ -884,6 +897,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: 64e9e27e-5b0b-4187-912f-343f1b239b90
   entry: 
@@ -892,7 +906,7 @@ MonoBehaviour:
     through the scorched earth. The chamber quakes as the ritual nears its climax.
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -941,6 +955,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 33e4bb0e1eab7c04f943436a4dfca212, type: 3}
   GUID: 23088fad-bbe0-4496-9681-e0e71015f33f
   entry: 
@@ -1002,6 +1017,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: aaa94fcf65364144bb4e60c9c17a1953, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 651af8e4-7df8-4a10-8a69-170bd8b4f9d7
   entry: 
@@ -1010,7 +1026,7 @@ MonoBehaviour:
     hand. The Battle Begins '
   dialogImage: {fileID: 5065051081347183668, guid: b92e8da358875d24084eb3c911fe3f06, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -1059,6 +1075,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 4467c65f04847a64798831c023cead69, type: 3}
   GUID: 0216bddc-15f1-47ca-a980-a3d80285e466
   entry: 
@@ -1132,6 +1149,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 2f273498-7f94-4ac0-8033-488a8374482b
   entry: 
@@ -1143,7 +1161,7 @@ MonoBehaviour:
   dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
   aText: Yes
   bText: No
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
@@ -1207,6 +1225,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 40c8791a-7f06-4b77-aef2-9390d2da22f9
   entry: 
@@ -1217,7 +1236,7 @@ MonoBehaviour:
     beneath moss and decay."
   dialogImage: {fileID: -8933455675018246148, guid: 25d5431d0e9912c4c959cefd4f75fa6e, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -1266,6 +1285,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 614111e0-2c50-4ade-9e75-3866c3939d47
   entry: 
@@ -1276,7 +1296,7 @@ MonoBehaviour:
     if awaiting the one who can awaken its ancient power."
   dialogImage: {fileID: 4653176916216709083, guid: b0a7be055bd3e7e48872dd49bdbd7492, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -1325,6 +1345,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 16ba82f33f0938f4bbc8bdeac75c5fbf, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 97d35ea72a146dd469fda3c052c05146, type: 3}
   GUID: 445a9fe1-dcfc-47e5-ab60-4d94681fb78d
   entry: 
@@ -1397,6 +1418,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7d65a112129709245b416842cbde46b9, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 475ea47e-2d5d-44fa-b827-8a20543f3aec
   entry: 
@@ -1458,6 +1480,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 9406677983ded9541b0a15d538a69215, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: ee878a57-bc04-49d9-b240-5536a3f1d075
   entry: 
@@ -1470,7 +1493,7 @@ MonoBehaviour:
     power is unleashed."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -1519,6 +1542,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 41f3332277668c34383364dfc7038463, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 42cbcc0c-d41d-4ac7-9df7-405fb1dc1f06
   entry: 
@@ -1529,7 +1553,7 @@ MonoBehaviour:
     Eternal Flame has arrived."
   dialogImage: {fileID: 0}
   cText: Scan the area
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
@@ -1578,6 +1602,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: ab39aaf60f2e8a648ab229bc59d8d143, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: c11e6924-97a9-4ae6-966f-394ffb0adab0
   entry: 
@@ -1586,7 +1611,7 @@ MonoBehaviour:
     wildly as its glow weakens.\u201D"
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -1635,6 +1660,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 3416ee65774f2f74197440990190706c, type: 3}
   GUID: 95a9b503-db90-4f32-af42-10961ec8dc7a
   entry: 
@@ -1695,6 +1721,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: dddb2d5b2fd32b14cb0383a3178affd6, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: cf91e8e8b19087f42baf03c2fb902ee9, type: 3}
   GUID: bdf9c508-abf9-4759-b2ec-04454a83f86f
   entry: 
@@ -1770,6 +1797,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 780f46d7e1ba9974a9ad3ae208c69ce0, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: abf0e137-726a-4252-851d-c885b0bc5212
   entry: 
@@ -1781,7 +1809,7 @@ MonoBehaviour:
   dialogImage: {fileID: -577172545017557598, guid: f7936b36b33d5a64993f0a7fe75eea66, type: 3}
   aText: Stay
   bText: Leave
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
@@ -1830,6 +1858,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 35c542d37c983fa47a4e8f754a700a01, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 6a7f64fc31215af4380624ac66270ee6, type: 3}
   GUID: 982c6b36-6d32-4ad5-9505-28476204cadc
   entry: 
@@ -1888,6 +1917,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: b473e37e-145b-4c72-a248-a798753c13f4
   entry: 
@@ -1898,7 +1928,7 @@ MonoBehaviour:
     form, draining his strength as the cult channels their dark ritual."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -1947,6 +1977,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 0c2051bc-1f80-4abd-8bfe-febe6a92d83e
   entry: 
@@ -1956,7 +1987,7 @@ MonoBehaviour:
     The climb intensifies, a sense of scrutiny growing stronger.
   dialogImage: {fileID: -824333041614429489, guid: 4968edb565ec12343854ae3a4ae748a3, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2005,6 +2036,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 780f46d7e1ba9974a9ad3ae208c69ce0, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 1a36b13c-e884-4438-a90c-14fe1ecb1895
   entry: 
@@ -2064,6 +2096,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 66da3c187ecc8b54987fd60ab558b80a, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 7ab0b1ff-8361-4126-b298-1df194990b13
   entry: 
@@ -2074,7 +2107,7 @@ MonoBehaviour:
     intercepts them before they can strike, stopping the ambush before it begins."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2123,6 +2156,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 03501d15-f88d-4b6f-9534-5795a5a53565
   entry: 
@@ -2132,7 +2166,7 @@ MonoBehaviour:
     debris and making it to safety before the flames consume their homes."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2181,6 +2215,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: e2d2730bb69d3de41a74daa5e2237b35, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 699949e1a9596454d9e1f3ad22bb449a, type: 3}
   GUID: d890d7a6-7019-46d6-aed7-4ed96e12f74d
   entry: 
@@ -2240,6 +2275,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 40b7b5b7329bb0043a4a3cf22f3e400c, type: 3}
   GUID: 33cf42f7-321e-4a15-9eee-762f9499889a
   entry: 
@@ -2302,6 +2338,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 5833a5727e862694091a3b5db308803f, type: 3}
   GUID: fde55d8a-8c38-4471-a41b-4c79189fe3b4
   entry: 
@@ -2361,6 +2398,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 599b183e924b9ac4ab68ce641024cc6b, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 94ac76c8-340e-4c2b-8a64-9dd0f431c33b
   entry: 
@@ -2370,7 +2408,7 @@ MonoBehaviour:
     the forest."
   dialogImage: {fileID: 907054614553007887, guid: f6b89c18f9fba8946ad1ea72cd1330f3, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2419,6 +2457,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: e56320f86502d7c4297f0d2e83ad403f, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: f5faf886-b04d-49ef-88aa-ea1b44e3ba8f
   entry: 
@@ -2429,7 +2468,7 @@ MonoBehaviour:
     cries\u2014the party \nwas too late to save everyone."
   dialogImage: {fileID: -1827983381191636848, guid: 3319527a448c5b04c967702a322a9aef, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2504,6 +2543,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: efb532e150a610a47aaeee3ece9613bc, type: 3}
   GUID: 79694052-0cb1-422b-9fbe-119a98aac269
   entry: 
@@ -2566,6 +2606,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: da00cf4f1e18ba942af0e910887dec5e, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: aa627b80-f705-44f8-9221-41a02d14815e
   entry: 
@@ -2575,7 +2616,7 @@ MonoBehaviour:
     Balance, partially buried beneath moss."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2624,6 +2665,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 9c6006fa-b64b-4e45-aabe-cf3e0c96eb10
   entry: 
@@ -2633,7 +2675,7 @@ MonoBehaviour:
     A shadowed figure blocks your path.
   dialogImage: {fileID: 3129370254906604291, guid: bafc9a8b309c3b94a9387cd0ef31b20e, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2682,6 +2724,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 701aa63f-0699-4070-b540-e96fdb01e09e
   entry: 
@@ -2690,7 +2733,7 @@ MonoBehaviour:
     for the group.
   dialogImage: {fileID: -484192509427956216, guid: 4b221160a0e56a749954f503b9a56d4e, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2770,6 +2813,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 145854eb-e14b-41fe-9a2e-6b183fdcbff0
   entry: 
@@ -2777,7 +2821,7 @@ MonoBehaviour:
   dialogText: The party finds stable footholds, descending carefully without incident.
   dialogImage: {fileID: -5716892043197965705, guid: 4947807502b8ab4409149208d0ff410c, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -2858,6 +2902,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: aaa94fcf65364144bb4e60c9c17a1953, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 7e465c54-50a0-4b20-8388-fa922d59b2ab
   entry: 
@@ -2922,6 +2967,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 14ebfd93-bb72-411e-8f42-003836fe18a7
   entry: 
@@ -2976,6 +3022,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 0bbd93e403a3d614584c8bc7b111a8fa, type: 3}
   GUID: c9a367a8-04ba-4d4c-864c-78ff84f3ece2
   entry: 
@@ -3147,6 +3194,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5ae38b919ff9b19498698f6436ba6864, type: 3}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 1db40d76-2205-4f1c-8400-167a6d9430cd
   entry: 
@@ -3155,7 +3203,7 @@ MonoBehaviour:
     of the stairway to collapse further.
   dialogImage: {fileID: 8934231772791529261, guid: b489bdb91720a424dbdd52c88ab53e28, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -3204,6 +3252,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7583bf2df7dd259468b14e9aec0cfde9, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: f01a39c0-725f-45ad-99d0-9d35a1855cb2
   entry: 
@@ -3213,7 +3262,7 @@ MonoBehaviour:
     The Cindermaw Titan."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -3306,6 +3355,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 599a5121-0b08-45fe-8186-b7006249ea80
   entry: 
@@ -3360,6 +3410,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 38d7569c08b084644b922b1a3e431e05, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 1f176087-5bef-4ee7-9add-69e08dc49387
   entry: 
@@ -3369,7 +3420,7 @@ MonoBehaviour:
     to escape their presence."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -3431,6 +3482,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 41f3332277668c34383364dfc7038463, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: a09eeca2-0b91-4e2a-a611-a5ca3034c99c
   entry: 
@@ -3487,6 +3539,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: c87a36ef92813cf48bc68a41b5666220, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: dfcb1a3d-aca4-4f6b-8bc3-134d20306a71
   entry: 
@@ -3497,7 +3550,7 @@ MonoBehaviour:
     The shadows grow restless, and I fear their gaze has turned upon us."
   dialogImage: {fileID: -3338622859618472693, guid: faa454b0765dd594e91e13f785593114, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Elder Rynn
@@ -3546,6 +3599,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: f7d4ce0b-4e59-421d-9d1e-438000307c2a
   entry: 
@@ -3556,7 +3610,7 @@ MonoBehaviour:
     world burns, Pyrelord Harbinger\u2019s laughter echoes through the void."
   dialogImage: {fileID: 8830335805779661438, guid: 01c5e44eb374bfe42a397cb1ea28e00a, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -3618,6 +3672,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: f293d794-53b1-4b02-abdf-4b375200d16a
   entry: 
@@ -3674,6 +3729,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 556697a85909314459f50934e3da0573, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 16b1f590ce786694d80480d612346ce8, type: 3}
   GUID: 6938d8bc-126c-4909-bb09-7c43905f2bdb
   entry: 
@@ -3770,6 +3826,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 83cea25a-53b7-4eaa-aad0-54ba780466a1
   entry: 
@@ -3824,6 +3881,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: d5b4a432468d8994582d1bf926f979c0, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: e6fcd018-ea43-4a0f-9b9c-48ac00943a0e
   entry: 
@@ -3834,7 +3892,7 @@ MonoBehaviour:
     his blade."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -3883,6 +3941,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: c87a36ef92813cf48bc68a41b5666220, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 0aa64131-2a35-4e8a-8fc4-8b577ee2e0b3
   entry: 
@@ -3893,7 +3952,7 @@ MonoBehaviour:
     as if the very village was holding its breath.\n\n"
   dialogImage: {fileID: -3338622859618472693, guid: faa454b0765dd594e91e13f785593114, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -3942,6 +4001,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3c87497ba70ffb04597c1efb054f3f36, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 38b18b4f-7298-4b5b-93b1-1dcd2a3e9d80
   entry: 
@@ -3954,7 +4014,7 @@ MonoBehaviour:
     fur tinged gray from years of hard work, greeted them with a forced smile.
   dialogImage: {fileID: 6576456232356290626, guid: 9a2d667a249fed24aa9a3d9b3630dc58, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -4016,6 +4076,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 61665939-a0ec-4338-8fb5-6930a4880b13
   entry: 
@@ -4096,6 +4157,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 5e36a4facfa8b1448b64627b06988a76, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 210690dc-a373-4eca-8265-f000a112852e
   entry: 
@@ -4108,7 +4170,7 @@ MonoBehaviour:
   aText: Push through thicket
   bText: Clear the fallen tree
   cText: Listen to the whispers
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
@@ -4157,6 +4219,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: f7fbe45a81640b34a9d1b3bffe9312f6, type: 3}
   GUID: 1aa9490d-f8c7-4654-9b97-929589cc85a8
   entry: 
@@ -4244,6 +4307,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 85d5d3de-6e68-4ff3-8a97-ce30eefa3f56
   entry: 
@@ -4260,7 +4324,7 @@ MonoBehaviour:
   aText: Climbing Down Safely
   bText: Finding a Stable Path
   cText: Listening to the Echoes Below
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
@@ -4309,6 +4373,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 2ec8feba90ce10644af885b72abe5392, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 55c54897-b9d3-40cb-a5c2-dc317751f0c5
   entry: 
@@ -4320,7 +4385,7 @@ MonoBehaviour:
     unrest."
   dialogImage: {fileID: 919727893511088379, guid: edbf4ffa0e20854439fd2af1dc70a5a0, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -4369,6 +4434,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: da685e77-1f59-424c-982e-b73782c62ba7
   entry: 
@@ -4377,7 +4443,7 @@ MonoBehaviour:
     for the group.
   dialogImage: {fileID: -8603383069536422431, guid: dd806e7f74fe38b4ea28c9622fba6664, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -4426,6 +4492,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 2ff1402f5c233a54c808286f0944c929, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: f26c5314-5629-4df5-b5aa-0965972727d3
   entry: 
@@ -4436,7 +4503,7 @@ MonoBehaviour:
     to rise.\""
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -4548,6 +4615,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: aaa94fcf65364144bb4e60c9c17a1953, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: a09ccbee-be6d-4929-b808-396e03612e7b
   entry: 
@@ -4602,6 +4670,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   voiceOver: {fileID: 0}
   GUID: 4b97e780-ae9e-4c9a-be1f-1be6a001a68c
   entry: 
@@ -4610,7 +4679,7 @@ MonoBehaviour:
     the hidden path\u2014stop their ritual!\u201D, \nThe Chief commands."
   dialogImage: {fileID: -8729402237340027166, guid: 000e0862ac3530745867f618e8b5b6bc, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Feral Nomad Chief
@@ -4659,6 +4728,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7d65a112129709245b416842cbde46b9, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 30cdfac3-daf1-4066-b5aa-7766db0b491e
   entry: 
@@ -4730,6 +4800,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 85a7f355-6c39-487a-a75a-bdd40999a20a
   entry: 
@@ -4786,6 +4857,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: de4adaa89a78b0b4e9481c44c6cea95c, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 3026f3fb-6ae6-4bf5-8706-63c27cf1e833
   entry: 
@@ -4798,7 +4870,7 @@ MonoBehaviour:
     letting the room reveal itself."
   dialogImage: {fileID: -3925036709322436620, guid: 82843ecbf62fb52498f639d8b8e322ad, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -4847,6 +4919,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 0f08b669-ac78-4821-8c5a-49d74554d394
   entry: 
@@ -4855,7 +4928,7 @@ MonoBehaviour:
     open, dust cascading from above as it reveals a dark passage beyond.
   dialogImage: {fileID: -1706839715261680557, guid: 006614b1f8927ed4abf33861136a37ea, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -4907,6 +4980,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: cc63711f1d5a4d04dbb5681dca6d4ff1, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: f19ec0c44354c974cb92abf0e994eaf6, type: 3}
   GUID: 4d222b73-5205-474e-b437-d41488c45764
   entry: 
@@ -4982,6 +5056,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   voiceOver: {fileID: 0}
   GUID: f0f46d27-a39e-4947-a507-541863e06aa7
   entry: 
@@ -5037,6 +5112,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: d56c69d0730811f4aaf9a2293c947741, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 9f99cb0e-71cc-421d-b0a3-de09276819f1
   entry: 
@@ -5047,7 +5123,7 @@ MonoBehaviour:
     heavy in the air."
   dialogImage: {fileID: 7385049515850078806, guid: 8fc366e8e9b99eb42b0c34d09718f171, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -5099,6 +5175,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 32d2b5281a557bb49b23f7cfb74e486e, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 13dc091f-355c-435c-a38a-9859b20ed00d
   entry: 
@@ -5107,7 +5184,7 @@ MonoBehaviour:
     And in the distant woods beyond the palisade, something watched.
   dialogImage: {fileID: -68521462331337607, guid: 6b6df12796de3ee408e9ad856d05eb31, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -5171,6 +5248,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 87706b9a569f4de47814ac17a62e8b1c, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: ea68b6c8-ff42-46b1-b1b9-9baa52be6857
   entry: 
@@ -5181,7 +5259,7 @@ MonoBehaviour:
     \nwith history, and beyond the ancient gates, something stirs\u2026"
   dialogImage: {fileID: 0}
   cText: Approach the ruins
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   actorImage: {fileID: 0}
   slideInActor: 0
@@ -5230,6 +5308,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: 09adc7192dab9834bb72cc0fa071a6f9, type: 3}
   GUID: 8c312172-5358-4f28-ab6c-69f5e2a7e885
   entry: 
@@ -5288,6 +5367,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3c87497ba70ffb04597c1efb054f3f36, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 0523d5e0-7c08-4c23-9265-85dd388ed1f2
   entry: 
@@ -5301,7 +5381,7 @@ MonoBehaviour:
     tension of the village lingering in the air."
   dialogImage: {fileID: 6576456232356290626, guid: 9a2d667a249fed24aa9a3d9b3630dc58, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Inn Keeper
@@ -5350,6 +5430,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   voiceOver: {fileID: 0}
   GUID: 9de6d4f4-744a-493c-9fcd-5d7e9bbd8501
   entry: 
@@ -5360,7 +5441,7 @@ MonoBehaviour:
     holds the cultists at bay. The shrine awaits, and The Balance hangs in the balance."
   dialogImage: {fileID: 6827726734429854233, guid: 9a4a3a694878c1449b03d1282f5754e0, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -5409,6 +5490,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 9d1a5cea-d285-46b5-844c-ae997769dafb
   entry: 
@@ -5417,7 +5499,7 @@ MonoBehaviour:
     of the stairway to collapse further.
   dialogImage: {fileID: 8090710722817869303, guid: 2e07a8d0c484a194aa38809e5250ae7f, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -5466,6 +5548,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: e5bd721dee0f1534794f01a16cffb49b, type: 3}
+  Bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   voiceOver: {fileID: 0}
   GUID: 0c10e409-efe9-4606-94b6-9d21daaf0988
   entry: 
@@ -5476,7 +5559,7 @@ MonoBehaviour:
     skirts, stared wide-eyed before being gently ushered away."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: c7aee88bc6ad7e34faf14fa2874f6464, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -5525,6 +5608,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: ab5d627700f8d3041bb4bf074cb72a5a, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 9593ba49-3cba-4bbf-a714-ea72c05bf6f9
   entry: 
@@ -5534,7 +5618,7 @@ MonoBehaviour:
     them."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -5583,6 +5667,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: e30dd645f965e134391e3f886546148b, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 83a77a89-3027-497f-9ed7-9679d43a4992
   entry: 
@@ -5590,7 +5675,7 @@ MonoBehaviour:
   dialogText: "Voices crowd your thoughts. Everything feels\u2026 wrong."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -5639,6 +5724,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 3744158cceff07d4390218bcb399daa3, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: c0fa452c-e200-49e0-910d-ede026bbdf5c
   entry: 
@@ -5649,7 +5735,7 @@ MonoBehaviour:
     through the burning chamber."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -5711,6 +5797,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: d1fa28ea-6560-4d0d-8e34-36f72eb5925e
   entry: 
@@ -5769,6 +5856,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: f006cdb4cd232ba418a96303532fe8c9, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: bdfc7e8f57d164746a8eab87e3d2dddc, type: 3}
   GUID: 7ee68832-a4f2-48e1-ba80-c1b16018baf4
   entry: 
@@ -5797,7 +5885,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 18632, y: -216}
+  position: {x: 18616, y: -232}
   ports:
     keys:
     - entry
@@ -5844,6 +5932,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 556697a85909314459f50934e3da0573, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: 81d7b5d9-8b72-4655-a7d3-d566fe438b71
   entry: 
@@ -5915,6 +6004,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 8300000, guid: 1f7f2484931a459458ff941cef90a746, type: 3}
   voiceOver: {fileID: 0}
   GUID: f0f46d27-a39e-4947-a507-541863e06aa7
   entry: 
@@ -5970,6 +6060,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 0}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 8300000, guid: e9cbbf16225be9241a29f5752d61c3cf, type: 3}
   GUID: b718cb58-8423-4e95-af1a-8645a69e60b9
   entry: 
@@ -6028,6 +6119,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 658e2a0e5db6b874ebf9fa54f8278833, type: 3}
+  Bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   voiceOver: {fileID: 0}
   GUID: 57253c73-0891-4c85-9563-dabad0caa3a0
   entry: 
@@ -6036,7 +6128,7 @@ MonoBehaviour:
     The ruins tremble, and a hidden trap releases a burst of elemental energy
   dialogImage: {fileID: 1208040086343421634, guid: fbf4fdd4ab2eb5141963616eb917f1a5, type: 3}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 8f181489cbec67c4ab24bb84d3ab3cdf, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -6085,6 +6177,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 38d7569c08b084644b922b1a3e431e05, type: 3}
+  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   voiceOver: {fileID: 0}
   GUID: 03e9c8b1-afeb-44a5-8ada-012a5212132c
   entry: 
@@ -6092,7 +6185,7 @@ MonoBehaviour:
   dialogText: "You\u2019re cut by thorns. It slows you down."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
@@ -6141,6 +6234,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: d0b0fd4f18b2b08409f4a267c6f28a2d, type: 3}
+  Bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   voiceOver: {fileID: 0}
   GUID: 5c58d883-8371-4fe7-b2ef-e349a3634d50
   entry: 
@@ -6152,7 +6246,7 @@ MonoBehaviour:
     is thick with ash, suffocating and heavy."
   dialogImage: {fileID: 0}
   actorImage: {fileID: 0}
-  bgm: {fileID: 0}
+  bgm: {fileID: 8300000, guid: 88227c47f7b19f04da37d0380e0b19e9, type: 3}
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator

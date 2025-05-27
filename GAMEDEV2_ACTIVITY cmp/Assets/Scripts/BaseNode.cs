@@ -52,7 +52,14 @@ public class BaseNode : Node
         return backgroundVideo;
     }
 
-    
+    public AudioClip Bgm;
+
+    public virtual AudioClip getBGMClip()
+    {
+        return Bgm; 
+    }
+
+
     [Tooltip("Assign an audio clip for the character's voice-over.")]
     public AudioClip voiceOver;
     public AudioClip getVoiceOver()
