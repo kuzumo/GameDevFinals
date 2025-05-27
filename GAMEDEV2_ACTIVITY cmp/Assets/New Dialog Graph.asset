@@ -185,178 +185,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &-9053730791318960325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 2184, y: -328}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -9053730791318960325}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -7704043182446851582}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -9053730791318960325}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8409277043635235717}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: f36d21ec-549d-4266-9d21-4ce859a7d796
-  entry: 
-  exit: 
-  dialogText: "\u201CThis place smells too clean. Trouble always follows silence.\u201D"
-  dialogImage: {fileID: 1571216789309899512, guid: 3b09290f9d79e634082594878812124b, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Ashen
-  nextButtonLabel: Continue
---- !u!114 &-8995019962251530544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 984, y: 1880}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -8995019962251530544}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: f
-        node: {fileID: 4260100624698592924}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -8995019962251530544}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -3482424682137632313}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 40ff44a2-5257-44d8-97d5-cf53b6b71275
-  entry: 
-  exit: 
-  dialogText: What does your character look like as they walk this winding road? 
-    Are they tall and imposing, their cloak billowing behind them? Do they walk with
-    a confident stride, or are they cautious, scanning the treetops for threats?
-    Is their fur or plumage well-kept, or does the road show its wear on them?
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &-8969208514357018924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1688, y: 104}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -8969208514357018924}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -517340875823498008}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -8969208514357018924}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8644815307429425332}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 40932d30-c2bc-4c35-b22d-297c2db96ae7
-  entry: 
-  exit: 
-  dialogText: "\u201CCoin\u2019s coin. If there\u2019s work, I\u2019ll take it. Killing
-    cultists just sweetens the deal.\u201D"
-  dialogImage: {fileID: -8902689493532227885, guid: d5bdfff70bd7f3d489548b107ea65494, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Draven
-  nextButtonLabel: Continue
 --- !u!114 &-8812800091422848167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,68 +216,6 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
---- !u!114 &-8644815307429425332
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1944, y: 104}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -8644815307429425332}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -8969208514357018924}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -8644815307429425332}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 6764399665660084675}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: d86d2d85-f2ff-4abf-9154-a36b2d2b871c
-  entry: 
-  exit: 
-  dialogText: 'What are you thinking as you approach this village? Does it remind
-    you of home, or does it feel foreign?
-
-    Are you expecting danger, or do you
-    believe this will be a simple task?
-
-'
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &-8603266242263628414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,7 +286,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2520, y: -328}
+  position: {x: 1480, y: -376}
   ports:
     keys:
     - entry
@@ -531,23 +297,8 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: exit
-        node: {fileID: -9053730791318960325}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: 6764399665660084675}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: -2334483521088812523}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: 8165914034494314143}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: 3643914784056897725}
-        reroutePoints: []
-      - fieldName: exit
-        node: {fileID: 7609142570608268513}
+      - fieldName: a
+        node: {fileID: -4834039522636784575}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -581,125 +332,6 @@ MonoBehaviour:
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &-8293324269626421889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1944, y: 1880}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -8293324269626421889}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -2406688743166226139}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -8293324269626421889}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 7609142570608268513}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 12127630-fe90-417a-a31a-67bd98fd8134
-  entry: 
-  exit: 
-  dialogText: 'What are you thinking as you approach this village? Does it remind
-    you of home, or does it feel foreign?
-
-    Are you expecting danger, or do you
-    believe this will be a simple task?
-
-'
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &-8061440226768125662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1688, y: 984}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -8061440226768125662}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 319222871847691073}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -8061440226768125662}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 6356852929258111465}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 3b80d804-b366-4aad-9c59-7d5e9266a01d
-  entry: 
-  exit: 
-  dialogText: "\u201CI\u2019ve heard whispers of corruption spreading through the
-    roots. I must see for myself.\u201D"
-  dialogImage: {fileID: 3070204904303785567, guid: d1fc780bc31b1ed41a6fb0a39af9c702, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Bramble
   nextButtonLabel: Continue
 --- !u!114 &-7911520078207256097
 MonoBehaviour:
@@ -842,68 +474,6 @@ MonoBehaviour:
   dialogImage: {fileID: 7657890851316837750, guid: 3ff1aba96eb6aec4b899247e37e564fa, type: 3}
   abilityCheck: 0
   difficultyCheckValue: 15
---- !u!114 &-7704043182446851582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1944, y: -328}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -7704043182446851582}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -2841360198492131358}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -7704043182446851582}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -9053730791318960325}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: f79e9570-cfd1-4765-aed3-b7b5e99b29bd
-  entry: 
-  exit: 
-  dialogText: 'What are you thinking as you approach this village? Does it remind
-    you of home, or does it feel foreign?
-
-    Are you expecting danger, or do you
-    believe this will be a simple task?
-
-'
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &-7314842188658068516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -917,7 +487,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6120, y: -200}
+  position: {x: 5080, y: -248}
   ports:
     keys:
     - entry
@@ -1165,65 +735,6 @@ MonoBehaviour:
   dialogImage: {fileID: 7261623678093556276, guid: 180089864c336804f8af17e29bfa9be8, type: 3}
   abilityCheck: 0
   difficultyCheckValue: 13
---- !u!114 &-6795091678798902033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 984, y: 1432}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -6795091678798902033}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: e
-        node: {fileID: 4260100624698592924}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -6795091678798902033}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 1500427053258089599}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 0610b997-f027-4038-94d8-118a6f0be15a
-  entry: 
-  exit: 
-  dialogText: What does your character look like as they walk this winding road? 
-    Are they tall and imposing, their cloak billowing behind them? Do they walk with
-    a confident stride, or are they cautious, scanning the treetops for threats?
-    Is their fur or plumage well-kept, or does the road show its wear on them?
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &-6681492779504562298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1237,7 +748,7 @@ MonoBehaviour:
   m_Name: Start
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -824, y: 232}
+  position: {x: -24, y: -72}
   ports:
     keys:
     - exit
@@ -1386,7 +897,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7446.256, y: -394.14563}
+  position: {x: 6408, y: -456}
   ports:
     keys:
     - entry
@@ -1413,7 +924,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: -2307057150496571547}
+        node: {fileID: -979846111287826154}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -1425,7 +936,7 @@ MonoBehaviour:
   entry: 
   exit: 
   dialogText: 'Cultists and Infernal Ash Hounds approach. One raises a fire-wreathed
-    hand. '
+    hand. The Battle Begins '
   dialogImage: {fileID: 5065051081347183668, guid: b92e8da358875d24084eb3c911fe3f06, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
@@ -1506,7 +1017,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4312, y: -312}
+  position: {x: 3272, y: -360}
   ports:
     keys:
     - entry
@@ -1640,120 +1151,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &-6175387485545773145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1208, y: 984}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -6175387485545773145}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -4433581832622727823}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -6175387485545773145}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 319222871847691073}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: c678b872-4553-4123-b1cb-30f6e0d53442
-  entry: 
-  exit: 
-  dialogText: A small, nimble creature with moss in their fur and a walking stick.
-    Their eyes scan the trees with practiced caution.
-  dialogImage: {fileID: 3070204904303785567, guid: d1fc780bc31b1ed41a6fb0a39af9c702, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Bramble
-  nextButtonLabel: Continue
---- !u!114 &-5719761453482384059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1208, y: -328}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -5719761453482384059}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 2781543629655985154}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -5719761453482384059}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -3779351457442170414}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: ac2819fa-30c8-4917-ae61-fb52f5ec3f76
-  entry: 
-  exit: 
-  dialogText: A tall, stoic figure with a scarred cheek and a long, weathered cloak.
-    His stride is steady and silent, a sword resting on his back.
-  dialogImage: {fileID: 1571216789309899512, guid: 3b09290f9d79e634082594878812124b, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Ashen
-  nextButtonLabel: Continue
 --- !u!114 &-5567460562259300080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1885,7 +1282,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -520, y: 24}
+  position: {x: 280, y: -280}
   ports:
     keys:
     - entry
@@ -2020,7 +1417,7 @@ MonoBehaviour:
   m_Name: One Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 5416, y: -408}
+  position: {x: 4376, y: -456}
   ports:
     keys:
     - entry
@@ -2245,63 +1642,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &-4854190593081001583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1688, y: 536}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -4854190593081001583}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -1895922097201688384}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -4854190593081001583}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 7600892929875235233}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 2f37b1a2-86a1-483e-b3da-87e3e9f7a4cc
-  entry: 
-  exit: 
-  dialogText: "\u201CI owe someone a debt. They vanished near Hearthglen. I need
-    answers.\u201D"
-  dialogImage: {fileID: -7958464205076530917, guid: e50ce358c43c6ee418db2e11874ed71e, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Zyra
-  nextButtonLabel: Continue
 --- !u!114 &-4834039522636784575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2315,7 +1655,7 @@ MonoBehaviour:
   m_Name: Multiple Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 312, y: -72}
+  position: {x: 1112, y: -376}
   ports:
     keys:
     - entry
@@ -2340,7 +1680,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 4260100624698592924}
+        node: {fileID: -8409277043635235717}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2492,65 +1832,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &-4433581832622727823
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 984, y: 984}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -4433581832622727823}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: d
-        node: {fileID: 4260100624698592924}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -4433581832622727823}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -6175387485545773145}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: afc8e760-5c37-409b-98db-9794f0c28fb3
-  entry: 
-  exit: 
-  dialogText: What does your character look like as they walk this winding road? 
-    Are they tall and imposing, their cloak billowing behind them? Do they walk with
-    a confident stride, or are they cautious, scanning the treetops for threats?
-    Is their fur or plumage well-kept, or does the road show its wear on them?
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &-4418526386445728054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2622,7 +1903,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 24, y: 24}
+  position: {x: 824, y: -280}
   ports:
     keys:
     - entry
@@ -2681,7 +1962,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6120, y: -632}
+  position: {x: 5080, y: -680}
   ports:
     keys:
     - entry
@@ -2740,7 +2021,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7064, y: -664}
+  position: {x: 6024, y: -712}
   ports:
     keys:
     - entry
@@ -2784,122 +2065,6 @@ MonoBehaviour:
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &-3779351457442170414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1448, y: -328}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -3779351457442170414}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -5719761453482384059}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -3779351457442170414}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -2841360198492131358}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 8200c34d-87de-4335-b72f-7dd301f57fe2
-  entry: 
-  exit: 
-  dialogText: "What has brought you to Hearthglen?  Are you answering the call for
-    mercenary work, looking for coin?\nWere you drawn by rumors of the Cult of Eternal
-    Flame?  Is there a personal reason for coming here\u2014perhaps a debt, a lost
-    friend, or an old grudge?"
-  dialogImage: {fileID: 7385049515850078806, guid: 8fc366e8e9b99eb42b0c34d09718f171, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &-3482424682137632313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1224, y: 1880}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -3482424682137632313}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -8995019962251530544}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -3482424682137632313}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 8440602532191338307}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: c2a42ae2-937a-4eb5-a5ce-839f452a94df
-  entry: 
-  exit: 
-  dialogText: Cloaked in tattered robes, their face hidden beneath a hood, footsteps
-    nearly silent.
-  dialogImage: {fileID: 2697308092670967106, guid: c988ea026c241294391fda0136543127, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Vyrix
   nextButtonLabel: Continue
 --- !u!114 &-3409235895161636059
 MonoBehaviour:
@@ -3019,63 +2184,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &-2841360198492131358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1688, y: -328}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -2841360198492131358}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -3779351457442170414}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -2841360198492131358}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -7704043182446851582}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: b555d539482f15d43827ceb5c8b59746, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 0a544c1e-e201-4d83-b72c-60089de78597
-  entry: 
-  exit: 
-  dialogText: "\u201CThe Cult took something from me years ago. I aim to take it
-    back.\u201D"
-  dialogImage: {fileID: 1571216789309899512, guid: 3b09290f9d79e634082594878812124b, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Ashen
-  nextButtonLabel: Continue
 --- !u!114 &-2562882295888569406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3089,7 +2197,7 @@ MonoBehaviour:
   m_Name: One Choice Dialog
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6456, y: -376}
+  position: {x: 5416, y: -424}
   ports:
     keys:
     - entry
@@ -3138,119 +2246,6 @@ MonoBehaviour:
   actorImage: {fileID: 0}
   slideInActor: 0
   characterName: Narrator
---- !u!114 &-2406688743166226139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1688, y: 1880}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -2406688743166226139}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 8440602532191338307}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -2406688743166226139}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8293324269626421889}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 3eb5731e-5f35-4ec4-8923-a8bb5d9e368a
-  entry: 
-  exit: 
-  dialogText: "\u201CThe fire speaks in riddles. It told me to come. I listen.\u201D"
-  dialogImage: {fileID: 2697308092670967106, guid: c988ea026c241294391fda0136543127, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Vyrix
-  nextButtonLabel: Continue
---- !u!114 &-2334483521088812523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 2184, y: 536}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -2334483521088812523}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 7600892929875235233}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -2334483521088812523}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8409277043635235717}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: a2ddd6fe-8886-4f1c-817f-be23343cf3b6
-  entry: 
-  exit: 
-  dialogText: "\u201CThe closer I get, the more this place feels\u2026 wrong. But
-    I won\u2019t turn back.\u201D"
-  dialogImage: {fileID: -7958464205076530917, guid: e50ce358c43c6ee418db2e11874ed71e, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Zyra
-  nextButtonLabel: Continue
 --- !u!114 &-2307057150496571547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3264,7 +2259,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7768, y: -392}
+  position: {x: 7544, y: -440}
   ports:
     keys:
     - entry
@@ -3275,8 +2270,8 @@ MonoBehaviour:
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
-      - fieldName: exit
-        node: {fileID: -6446282456945250752}
+      - fieldName: victory
+        node: {fileID: 4387134295364355965}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
@@ -3322,7 +2317,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 7064, y: -232}
+  position: {x: 6024, y: -280}
   ports:
     keys:
     - entry
@@ -3362,65 +2357,6 @@ MonoBehaviour:
     a burning beam collapses onto a small house, and the air fills with anguished
     cries\u2014the party \nwas too late to save everyone."
   dialogImage: {fileID: -1827983381191636848, guid: 3319527a448c5b04c967702a322a9aef, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &-1895922097201688384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1448, y: 536}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -1895922097201688384}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -1295209388138209678}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -1895922097201688384}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -4854190593081001583}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: e8b2e3f0-c308-43f1-bc16-9a2f81ecf9cf
-  entry: 
-  exit: 
-  dialogText: "What has brought you to Hearthglen?  Are you answering the call for
-    mercenary work, looking for coin?\nWere you drawn by rumors of the Cult of Eternal
-    Flame?  Is there a personal reason for coming here\u2014perhaps a debt, a lost
-    friend, or an old grudge?"
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -3631,63 +2567,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &-1295209388138209678
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1208, y: 536}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -1295209388138209678}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 4443630038878452906}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -1295209388138209678}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -1895922097201688384}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 81f058dfc5c412b46829444353679497, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: d2664ce0-081c-4ab4-a17e-e41d82a5a860
-  entry: 
-  exit: 
-  dialogText: Lean and lithe with feathers tucked into her cloak, she moves with
-    careful grace.
-  dialogImage: {fileID: -7958464205076530917, guid: e50ce358c43c6ee418db2e11874ed71e, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Zyra
-  nextButtonLabel: Continue
 --- !u!114 &-1272605629404548913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3758,7 +2637,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 584, y: -184}
+  position: {x: 1384, y: -488}
   ports:
     keys:
     - entry
@@ -3832,6 +2711,92 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
+--- !u!114 &-979846111287826154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ca6e07064e87544ae73a4ea1c539a8, type: 3}
+  m_Name: Attack Choice
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6808, y: -456}
+  ports:
+    keys:
+    - entry
+    - a
+    - b
+    - c
+    values:
+    - _fieldName: entry
+      _node: {fileID: -979846111287826154}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: exit
+        node: {fileID: -6446282456945250752}
+        reroutePoints: []
+      - fieldName: success
+        node: {fileID: 4387134295364355965}
+        reroutePoints: []
+      - fieldName: failed
+        node: {fileID: 4387134295364355965}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: a
+      _node: {fileID: -979846111287826154}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 4387134295364355965}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: b
+      _node: {fileID: -979846111287826154}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 4387134295364355965}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: c
+      _node: {fileID: -979846111287826154}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: entry
+        node: {fileID: 4387134295364355965}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  backgroundVideo: {fileID: 32900000, guid: aaa94fcf65364144bb4e60c9c17a1953, type: 3}
+  voiceOver: {fileID: 0}
+  GUID: 7e465c54-50a0-4b20-8388-fa922d59b2ab
+  entry: 
+  a: 
+  b: 
+  c: 
+  nodeText: Choose your attack
+  aText: 
+  bText: 
+  cText: 
 --- !u!114 &-529034215330875749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3899,65 +2864,6 @@ MonoBehaviour:
   dialogImage: {fileID: 0}
   abilityCheck: 2
   difficultyCheckValue: 14
---- !u!114 &-517340875823498008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1448, y: 104}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -517340875823498008}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 7068644281020785152}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -517340875823498008}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8969208514357018924}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 86f8cdce-eb93-4b19-8ca7-a8e71cfb4e66
-  entry: 
-  exit: 
-  dialogText: "What has brought you to Hearthglen?  Are you answering the call for
-    mercenary work, looking for coin?\nWere you drawn by rumors of the Cult of Eternal
-    Flame?  Is there a personal reason for coming here\u2014perhaps a debt, a lost
-    friend, or an old grudge?"
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &-333450411364460548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4018,122 +2924,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Pyrelord Harbinger
   nextButtonLabel: Continue
---- !u!114 &-53611786446185046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1688, y: 1432}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -53611786446185046}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -28180363085689972}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -53611786446185046}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 1500258598629614238}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 2f794975-33de-4b4e-a295-85f1aa6362b0
-  entry: 
-  exit: 
-  dialogText: "\u201CMy sources say the Cult holds knowledge long buried. I want
-    it.\u201D"
-  dialogImage: {fileID: 6538408193174668225, guid: 864411dd70f11134ba6589e768a69d57, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Veyna
-  nextButtonLabel: Continue
---- !u!114 &-28180363085689972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1448, y: 1432}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: -28180363085689972}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 1500427053258089599}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: -28180363085689972}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -53611786446185046}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 27507427-58d0-40be-a603-a63e27670d73
-  entry: 
-  exit: 
-  dialogText: "What has brought you to Hearthglen?  Are you answering the call for
-    mercenary work, looking for coin?\nWere you drawn by rumors of the Cult of Eternal
-    Flame?  Is there a personal reason for coming here\u2014perhaps a debt, a lost
-    friend, or an old grudge?"
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4153,45 +2943,8 @@ MonoBehaviour:
   - {fileID: -4834039522636784575}
   - {fileID: 4617563517124096216}
   - {fileID: -4389404994594820872}
-  - {fileID: 2781543629655985154}
-  - {fileID: 3735351297509094782}
   - {fileID: -1220260218531290939}
-  - {fileID: 4443630038878452906}
-  - {fileID: -4433581832622727823}
-  - {fileID: -6795091678798902033}
-  - {fileID: -8995019962251530544}
-  - {fileID: -5719761453482384059}
-  - {fileID: 7068644281020785152}
-  - {fileID: -1295209388138209678}
-  - {fileID: -6175387485545773145}
-  - {fileID: 1500427053258089599}
-  - {fileID: -3482424682137632313}
-  - {fileID: -2841360198492131358}
-  - {fileID: -8969208514357018924}
-  - {fileID: -4854190593081001583}
-  - {fileID: -8061440226768125662}
-  - {fileID: -53611786446185046}
-  - {fileID: -2406688743166226139}
-  - {fileID: -9053730791318960325}
-  - {fileID: 6764399665660084675}
-  - {fileID: -2334483521088812523}
-  - {fileID: 8165914034494314143}
-  - {fileID: 3643914784056897725}
-  - {fileID: 7609142570608268513}
-  - {fileID: -3779351457442170414}
-  - {fileID: -517340875823498008}
-  - {fileID: -1895922097201688384}
-  - {fileID: 319222871847691073}
-  - {fileID: -28180363085689972}
-  - {fileID: 8440602532191338307}
-  - {fileID: -7704043182446851582}
-  - {fileID: -8644815307429425332}
-  - {fileID: 7600892929875235233}
-  - {fileID: 6356852929258111465}
-  - {fileID: 1500258598629614238}
-  - {fileID: -8293324269626421889}
   - {fileID: -8409277043635235717}
-  - {fileID: 4260100624698592924}
   - {fileID: 2669495091417223274}
   - {fileID: 1936227572221520314}
   - {fileID: 6752840696509294148}
@@ -4278,65 +3031,8 @@ MonoBehaviour:
   - {fileID: -7783906079818320589}
   - {fileID: 8575995799495078141}
   - {fileID: 5432397894384050241}
---- !u!114 &319222871847691073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1448, y: 984}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 319222871847691073}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -6175387485545773145}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 319222871847691073}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8061440226768125662}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 36780181-1702-4e62-9c57-5814d432d57f
-  entry: 
-  exit: 
-  dialogText: "What has brought you to Hearthglen?  Are you answering the call for
-    mercenary work, looking for coin?\nWere you drawn by rumors of the Cult of Eternal
-    Flame?  Is there a personal reason for coming here\u2014perhaps a debt, a lost
-    friend, or an old grudge?"
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
+  - {fileID: -979846111287826154}
+  - {fileID: 4387134295364355965}
 --- !u!114 &689946585619207640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4465,7 +3161,7 @@ MonoBehaviour:
   m_Name: Exit
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -216, y: 472}
+  position: {x: 584, y: 168}
   ports:
     keys:
     - entry
@@ -4608,125 +3304,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &1500258598629614238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1944, y: 1432}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 1500258598629614238}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -53611786446185046}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 1500258598629614238}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 3643914784056897725}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 2fd835cc-d7a5-43b0-8e5c-6ef35b7babb4
-  entry: 
-  exit: 
-  dialogText: 'What are you thinking as you approach this village? Does it remind
-    you of home, or does it feel foreign?
-
-    Are you expecting danger, or do you
-    believe this will be a simple task?
-
-'
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &1500427053258089599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1208, y: 1432}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 1500427053258089599}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -6795091678798902033}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 1500427053258089599}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -28180363085689972}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: a159e85f-c1fb-4ebe-b7b5-622786215364
-  entry: 
-  exit: 
-  dialogText: Cloaked in shadow, she glides quietly along the path, her eyes sharp
-    and calculating.
-  dialogImage: {fileID: 6538408193174668225, guid: 864411dd70f11134ba6589e768a69d57, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Veyna
-  nextButtonLabel: Continue
 --- !u!114 &1596675270519910354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4740,7 +3317,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 5688, y: -408}
+  position: {x: 4648, y: -456}
   ports:
     keys:
     - entry
@@ -4809,7 +3386,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3048, y: -328}
+  position: {x: 2008, y: -376}
   ports:
     keys:
     - entry
@@ -5113,7 +3690,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2792, y: -328}
+  position: {x: 1752, y: -376}
   ports:
     keys:
     - entry
@@ -5159,65 +3736,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &2781543629655985154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 984, y: -328}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 2781543629655985154}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: a
-        node: {fileID: 4260100624698592924}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 2781543629655985154}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -5719761453482384059}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 5d300686-700e-48d0-a900-6abd073cee05
-  entry: 
-  exit: 
-  dialogText: What does your character look like as they walk this winding road? 
-    Are they tall and imposing, their cloak billowing behind them? Do they walk with
-    a confident stride, or are they cautious, scanning the treetops for threats?
-    Is their fur or plumage well-kept, or does the road show its wear on them?
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &2928116455927863788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5231,7 +3749,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3784, y: -328}
+  position: {x: 2744, y: -376}
   ports:
     keys:
     - entry
@@ -5585,63 +4103,6 @@ MonoBehaviour:
   actorImage: {fileID: 0}
   slideInActor: 0
   characterName: Narrator
---- !u!114 &3643914784056897725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 2184, y: 1432}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 3643914784056897725}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 1500258598629614238}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 3643914784056897725}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8409277043635235717}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 5275bf8bcb591a043b77dce6842b5ff3, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: d43ba8d7-111e-4d06-a445-d7e25ea5667b
-  entry: 
-  exit: 
-  dialogText: "\u201COne wrong move and this whole village could burn. Let\u2019s
-    make sure it\u2019s not us.\u201D"
-  dialogImage: {fileID: 6538408193174668225, guid: 864411dd70f11134ba6589e768a69d57, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Veyna
-  nextButtonLabel: Continue
 --- !u!114 &3721556991240165992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5655,7 +4116,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4680, y: -536}
+  position: {x: 3640, y: -584}
   ports:
     keys:
     - entry
@@ -5696,65 +4157,6 @@ MonoBehaviour:
     making polite conversation, others subtly probing the source of the village\u2019s
     unrest."
   dialogImage: {fileID: 919727893511088379, guid: edbf4ffa0e20854439fd2af1dc70a5a0, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &3735351297509094782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 984, y: 104}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 3735351297509094782}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: b
-        node: {fileID: 4260100624698592924}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 3735351297509094782}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 7068644281020785152}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 32db56e0-fd51-4645-8a1a-5a7dcbb2bdba
-  entry: 
-  exit: 
-  dialogText: What does your character look like as they walk this winding road? 
-    Are they tall and imposing, their cloak billowing behind them? Do they walk with
-    a confident stride, or are they cautious, scanning the treetops for threats?
-    Is their fur or plumage well-kept, or does the road show its wear on them?
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
   actorImage: {fileID: 0}
   bgm: {fileID: 0}
   bgmCheck: 0
@@ -5911,7 +4313,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   entry: 
---- !u!114 &4260100624698592924
+--- !u!114 &4387134295364355965
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5920,130 +4322,83 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 463dd01054322cf4fb0ee273b9889597, type: 3}
-  m_Name: Six Choice Dialog
+  m_Script: {fileID: 11500000, guid: 2d99a02272f606e40b7fdd67c720aef0, type: 3}
+  m_Name: Combat Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 616, y: -72}
+  position: {x: 7144, y: -344}
   ports:
     keys:
     - entry
-    - a
-    - b
-    - c
-    - d
-    - e
-    - f
+    - success
+    - failed
+    - victory
     values:
     - _fieldName: entry
-      _node: {fileID: 4260100624698592924}
+      _node: {fileID: 4387134295364355965}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: a
-        node: {fileID: -4834039522636784575}
+        node: {fileID: -979846111287826154}
+        reroutePoints: []
+      - fieldName: b
+        node: {fileID: -979846111287826154}
+        reroutePoints: []
+      - fieldName: c
+        node: {fileID: -979846111287826154}
         reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: a
-      _node: {fileID: 4260100624698592924}
+    - _fieldName: success
+      _node: {fileID: 4387134295364355965}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 2781543629655985154}
+        node: {fileID: -979846111287826154}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: b
-      _node: {fileID: 4260100624698592924}
+    - _fieldName: failed
+      _node: {fileID: 4387134295364355965}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 3735351297509094782}
+        node: {fileID: -979846111287826154}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: c
-      _node: {fileID: 4260100624698592924}
+    - _fieldName: victory
+      _node: {fileID: 4387134295364355965}
       _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 4443630038878452906}
+        node: {fileID: -2307057150496571547}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: d
-      _node: {fileID: 4260100624698592924}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -4433581832622727823}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: e
-      _node: {fileID: 4260100624698592924}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -6795091678798902033}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: f
-      _node: {fileID: 4260100624698592924}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8995019962251530544}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 7558e60b588bbee498ce52af432e45ec, type: 3}
+  backgroundVideo: {fileID: 32900000, guid: aaa94fcf65364144bb4e60c9c17a1953, type: 3}
   voiceOver: {fileID: 0}
-  GUID: eac9dcd4-1520-4e9a-89dd-3e97796e7023
+  GUID: a09ccbee-be6d-4929-b808-396e03612e7b
   entry: 
-  a: 
-  b: 
-  c: 
-  d: 
-  e: 
-  f: 
-  dialogText: 'Before arriving in Hearthglen, allow each player to introduce their
-    character. Ask them the following questions to help flesh out their presence
-    in the world:'
-  dialogImage: {fileID: 2073819850030353410, guid: 3c1671b78ae1ac7409e37c7b31a0a27a, type: 3}
-  aText: Ashen
-  bText: Draven
-  cText: Zyra
-  dText: Bramble
-  eText: Veyna
-  fText: Vyrix
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  actorImage: {fileID: 0}
-  slideInActor: 0
-  characterName: Narrator
+  success: 
+  failed: 
+  victory: 
+  dialogText: 
+  dialogImage: {fileID: 0}
+  abilityUsed: 0
+  difficultyCheckValue: 8
 --- !u!114 &4434485909198378408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6101,65 +4456,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Feral Nomad Chief
   nextButtonLabel: Continue
---- !u!114 &4443630038878452906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 984, y: 536}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 4443630038878452906}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: c
-        node: {fileID: 4260100624698592924}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 4443630038878452906}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -1295209388138209678}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 50101f3b-51ee-4ccb-959c-d4f613ae79ed
-  entry: 
-  exit: 
-  dialogText: What does your character look like as they walk this winding road? 
-    Are they tall and imposing, their cloak billowing behind them? Do they walk with
-    a confident stride, or are they cautious, scanning the treetops for threats?
-    Is their fur or plumage well-kept, or does the road show its wear on them?
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &4617563517124096216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6173,7 +4469,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -216, y: 24}
+  position: {x: 584, y: -280}
   ports:
     keys:
     - entry
@@ -6231,7 +4527,7 @@ MonoBehaviour:
   m_Name: Ability Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 6744, y: -376}
+  position: {x: 5704, y: -424}
   ports:
     keys:
     - entry
@@ -6300,7 +4596,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4680, y: -104}
+  position: {x: 3640, y: -152}
   ports:
     keys:
     - entry
@@ -6548,7 +4844,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3544, y: -328}
+  position: {x: 2504, y: -376}
   ports:
     keys:
     - entry
@@ -6607,7 +4903,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 5016, y: -344}
+  position: {x: 3976, y: -392}
   ports:
     keys:
     - entry
@@ -6799,7 +5095,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 4024, y: -328}
+  position: {x: 2984, y: -376}
   ports:
     keys:
     - entry
@@ -6964,68 +5260,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: Continue
---- !u!114 &6356852929258111465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1944, y: 984}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 6356852929258111465}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -8061440226768125662}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 6356852929258111465}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: 8165914034494314143}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: dc60f177-0a34-4ed5-855d-ad32de2f5b41
-  entry: 
-  exit: 
-  dialogText: 'What are you thinking as you approach this village? Does it remind
-    you of home, or does it feel foreign?
-
-    Are you expecting danger, or do you
-    believe this will be a simple task?
-
-'
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &6752840696509294148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7039,7 +5273,7 @@ MonoBehaviour:
   m_Name: Simple Dialog V2
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 3304, y: -328}
+  position: {x: 2264, y: -376}
   ports:
     keys:
     - entry
@@ -7084,62 +5318,6 @@ MonoBehaviour:
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &6764399665660084675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 2184, y: 120}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 6764399665660084675}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -8644815307429425332}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 6764399665660084675}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8409277043635235717}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 58c8ef20-c8cc-4ef2-be97-75e4928a831b
-  entry: 
-  exit: 
-  dialogText: "\u201CLooks peaceful. Never trust peaceful.\u201D"
-  dialogImage: {fileID: -8902689493532227885, guid: d5bdfff70bd7f3d489548b107ea65494, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Draven
   nextButtonLabel: Continue
 --- !u!114 &6975715013778619515
 MonoBehaviour:
@@ -7198,63 +5376,6 @@ MonoBehaviour:
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &7068644281020785152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1208, y: 104}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 7068644281020785152}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 3735351297509094782}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 7068644281020785152}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -517340875823498008}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: bd5dbdac1730bee439ecaf23eb149bc2, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 5f439a6e-ebd1-4c08-8b0c-3c774c6859cf
-  entry: 
-  exit: 
-  dialogText: Broad-shouldered and armored, he walks with practiced confidence, his
-    axe glinting faintly.
-  dialogImage: {fileID: -8902689493532227885, guid: d5bdfff70bd7f3d489548b107ea65494, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Draven
   nextButtonLabel: Continue
 --- !u!114 &7227921658253615539
 MonoBehaviour:
@@ -7370,125 +5491,6 @@ MonoBehaviour:
   bgmCheck: 0
   slideInActor: 0
   characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &7600892929875235233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1944, y: 536}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 7600892929875235233}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -4854190593081001583}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 7600892929875235233}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -2334483521088812523}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: e6ddd1fc-32f5-4fb5-ba2a-4c4b9f068ed8
-  entry: 
-  exit: 
-  dialogText: 'What are you thinking as you approach this village? Does it remind
-    you of home, or does it feel foreign?
-
-    Are you expecting danger, or do you
-    believe this will be a simple task?
-
-'
-  dialogImage: {fileID: 3147562015328016882, guid: 33ba164a8f4ab504c8ea30d910455e47, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
---- !u!114 &7609142570608268513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 2184, y: 1880}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 7609142570608268513}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -8293324269626421889}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 7609142570608268513}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8409277043635235717}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: 7ea8d7ca0bc84f54c8ed8c23255e7c7c, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 39dc5a42-07f2-4468-8fc6-1f8561481571
-  entry: 
-  exit: 
-  dialogText: "\u201CSomething stirs ahead. Something ancient. It\u2019s not fear\u2014it\u2019s
-    recognition.\u201D"
-  dialogImage: {fileID: 2697308092670967106, guid: c988ea026c241294391fda0136543127, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Vyrix
   nextButtonLabel: Continue
 --- !u!114 &7843971825371885264
 MonoBehaviour:
@@ -7620,63 +5622,6 @@ MonoBehaviour:
   slideInActor: 0
   characterName: Narrator
   nextButtonLabel: The End
---- !u!114 &8165914034494314143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 2184, y: 984}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 8165914034494314143}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: 6356852929258111465}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 8165914034494314143}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -8409277043635235717}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: aba260fcdb325e84eaba3b99cc5180ed, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: 3e239e49-f04d-409f-a013-e765f6d644c8
-  entry: 
-  exit: 
-  dialogText: "\u201CThe forest here is sick. I can feel it in the wind. Hearthglen
-    needs healing.\u201D"
-  dialogImage: {fileID: 3070204904303785567, guid: d1fc780bc31b1ed41a6fb0a39af9c702, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Bramble
-  nextButtonLabel: Continue
 --- !u!114 &8289779961958608740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7745,65 +5690,6 @@ MonoBehaviour:
   dialogImage: {fileID: 0}
   abilityCheck: 0
   difficultyCheckValue: 15
---- !u!114 &8440602532191338307
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bea6c6ce6988e348a9d046613bce876, type: 3}
-  m_Name: Simple Dialog V2
-  m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 1448, y: 1880}
-  ports:
-    keys:
-    - entry
-    - exit
-    values:
-    - _fieldName: entry
-      _node: {fileID: 8440602532191338307}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: exit
-        node: {fileID: -3482424682137632313}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-    - _fieldName: exit
-      _node: {fileID: 8440602532191338307}
-      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: entry
-        node: {fileID: -2406688743166226139}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 0
-  backgroundVideo: {fileID: 32900000, guid: afba31d7b27bd264eab09e3040b53b15, type: 3}
-  voiceOver: {fileID: 0}
-  GUID: e0e96754-cdab-4146-8f41-37e6985f7a4c
-  entry: 
-  exit: 
-  dialogText: "What has brought you to Hearthglen?  Are you answering the call for
-    mercenary work, looking for coin?\nWere you drawn by rumors of the Cult of Eternal
-    Flame?  Is there a personal reason for coming here\u2014perhaps a debt, a lost
-    friend, or an old grudge?"
-  dialogImage: {fileID: 5924434085627715385, guid: 5581c66e27ceebf4e8b31d7a944bd352, type: 3}
-  actorImage: {fileID: 0}
-  bgm: {fileID: 0}
-  bgmCheck: 0
-  slideInActor: 0
-  characterName: Narrator
-  nextButtonLabel: Continue
 --- !u!114 &8575995799495078141
 MonoBehaviour:
   m_ObjectHideFlags: 0

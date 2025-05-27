@@ -60,11 +60,84 @@ public class NodeReader : MonoBehaviour
         nodeHistory.Clear();
         normalTypingSpeed = PlayerPrefs.GetFloat("TypingSpeed", 0.02f);
         typingSpeed = normalTypingSpeed;
-
-
+      
         Debug.Log("NodeReader Start() called.");
 
         bool isNewGame = PlayerPrefs.GetInt("IsNewGame", 1) == 1;
+
+        string selectedCharacter = PlayerPrefs.GetString("SelectedCharacter", "");
+        characterStats = FindObjectOfType<CharacterStats>();
+
+        if (characterStats == null)
+        {
+            Debug.LogError("❌ NodeReader: CharacterStats not found in scene.");
+            return;
+        }
+
+
+        if (selectedCharacter == "Veyna")
+        {
+            characterStats.characterName = "Veyna";
+            characterStats.race = "Skyborn Seeker";
+            characterStats.characterClass = "Tactical & Ranged";
+            characterStats.alignment = "PL";
+
+            characterStats.STR = 6; characterStats.CON = 4; characterStats.WIS = 5;
+            characterStats.CHA = 4; characterStats.INT = 1; characterStats.DEX = 6;
+
+            characterStats.hp = 15;
+            characterStats.naturalArmor = 5;
+            characterStats.sacralGuard = 11;
+
+            characterStats.characteristic1 = "Observant";
+            characterStats.characteristic2 = "Agile";
+
+            characterStats.trait1 = "Keen Senses (WIS)";
+            characterStats.trait2 = "Empathy (WIS)";
+            characterStats.trait3 = "Lunar Sensitivity (WIS)";
+            characterStats.trait4 = "Wilderness Instinct (WIS)";
+
+            characterStats.passiveTrait = "Predator’s Focus (DEX) – Enhances aim and reflexes when tracking.";
+
+            characterStats.attacks = new List<Attack>()
+    {
+        new Attack { name = "Piercing Talon", toHitModifier = 1, damage = 11 },
+        new Attack { name = "Skyborne Volley", toHitModifier = 3, damage = 9 },
+        new Attack { name = "Falcon’s Dive", toHitModifier = 2, damage = 14 }
+    };
+        }
+        else if (selectedCharacter == "Veyrix")
+        {
+            characterStats.characterName = "Veyrix";
+            characterStats.race = "Abyssal Revenant";
+            characterStats.characterClass = "Doom Herald";
+            characterStats.alignment = "CA";
+
+            characterStats.STR = 6; characterStats.CON = 4; characterStats.WIS = 3;
+            characterStats.CHA = 1; characterStats.INT = 1; characterStats.DEX = 5;
+
+            characterStats.hp = 15;
+            characterStats.naturalArmor = 4;
+            characterStats.sacralGuard = 9;
+
+            characterStats.characteristic1 = "Shadowborn";
+            characterStats.characteristic2 = "Cold Intellect";
+
+            characterStats.trait1 = "Dominance (CHA)";
+            characterStats.trait2 = "Curiosity (INT)";
+            characterStats.trait3 = "Guardian Instinct (WIS)";
+            characterStats.trait4 = "Instinctive Tracking (INT)";
+
+            characterStats.passiveTrait = "Doomspeaker (CHA) – Prophetic whispers weaken enemy morale and fear resistance.";
+
+            characterStats.attacks = new List<Attack>()
+    {
+        new Attack { name = "Titan’s Crush", toHitModifier = 4, damage = 12 },
+        new Attack { name = "Relentless Charge", toHitModifier = 5, damage = 9 },
+        new Attack { name = "Savage Rend", toHitModifier = 6, damage = 11 }
+    };
+        }
+
 
         if (!isNewGame && (PlayerPrefs.HasKey("SavedNodeGUID") || PlayerPrefs.HasKey("SavedNodeName")))
         {
@@ -108,6 +181,20 @@ public class NodeReader : MonoBehaviour
             lastChoiceNode = node;
             previousButtonGO.SetActive(true);
         }
+
+        else if (node is CombatCheckNode combatNode)
+        {
+            HandleCombatCheck(combatNode);
+            return;
+        }
+
+        else if (node is AttackChoiceNode)
+        {
+            ShowAttackChoiceNode((AttackChoiceNode)node);
+            return;
+        }
+
+
         else
         {
             previousButtonGO.SetActive(false);
@@ -178,6 +265,7 @@ public class NodeReader : MonoBehaviour
             }
         }
 
+
         actorObject.SetActive(false);
         actor = node.getActorSprite();
         if (actor != null)
@@ -202,6 +290,56 @@ public class NodeReader : MonoBehaviour
             actorObject.GetComponent<Animator>().enabled = true;
         }
         PlayNode(node);
+
+    }
+
+    public DiceRollCombatPanelController diceRollCombat;
+
+    public CharacterStats enemyStats; // assign enemy in inspector
+
+    private void HandleCombatCheck(CombatCheckNode node)
+    {
+        string ability = node.getAbility().ToString();
+        int dc = Mathf.RoundToInt(node.getDC());
+
+        DisableAllButtons();
+
+        // Start combat panel logic
+        diceRollCombat.characterStats = characterStats;
+        diceRollCombat.Show(ability, dc, result =>
+        {
+            // 🛡 Check if enemy has been defeated
+            if (enemyStats.hp <= 0)
+            {
+                Debug.Log("🗡 Enemy defeated!");
+
+                // Jump to a special "Victory" port if one exists
+                var victoryNode = currentNode.GetOutputPort("victory")?.Connection.node as BaseNode;
+
+                if (victoryNode != null)
+                {
+                    currentNode = victoryNode;
+                    displayNode(currentNode);
+                }
+                else
+                {
+                    Debug.LogWarning("⚠ No 'victory' port connected. Staying in current node.");
+                }
+            }
+            else
+            {
+                // Normal combat outcome → success or fail loop
+                BaseNode nextNode = result
+                    ? currentNode.GetOutputPort("success")?.Connection.node as BaseNode
+                    : currentNode.GetOutputPort("failed")?.Connection.node as BaseNode;
+
+                if (nextNode != null)
+                {
+                    currentNode = nextNode;
+                    displayNode(currentNode);
+                }
+            }
+        }, enemyStats);
 
     }
 
@@ -320,39 +458,62 @@ public class NodeReader : MonoBehaviour
 
     private BaseNode GetNextNode(BaseNode node)
     {
-        string clicked = EventSystem.current.currentSelectedGameObject.GetComponentInChildren<TMP_Text>().text;
+        GameObject clickedObj = EventSystem.current.currentSelectedGameObject;
+        string clickedText = clickedObj.GetComponentInChildren<TMP_Text>().text;
+        string clickedName = clickedObj.name;
+
+        if (node is AttackChoiceNode)
+        {
+
+            if (clickedObj == null)
+            {
+                Debug.LogWarning("❗ No button was clicked (EventSystem returned null).");
+                return null;
+            }
+
+            string clickedTag = clickedObj.tag;
+            Debug.Log("🔍 Clicked button tag: " + clickedTag);
+
+            if (clickedTag == "ButtonA") return node.GetOutputPort("a")?.Connection.node as BaseNode;
+            if (clickedTag == "ButtonB") return node.GetOutputPort("b")?.Connection.node as BaseNode;
+            if (clickedTag == "ButtonC") return node.GetOutputPort("c")?.Connection.node as BaseNode;
+
+            Debug.LogWarning("❗ No matching port found for AttackChoiceNode.");
+            return null;
+        }
+
 
         if (node is SixChoiceDialog scd)
         {
-            if (clicked == scd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
-            if (clicked == scd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
-            if (clicked == scd.cText) return node.GetOutputPort("c")?.Connection.node as BaseNode;
-            if (clicked == scd.dText) return node.GetOutputPort("d")?.Connection.node as BaseNode;
-            if (clicked == scd.eText) return node.GetOutputPort("e")?.Connection.node as BaseNode;
-            if (clicked == scd.fText) return node.GetOutputPort("f")?.Connection.node as BaseNode;
-            return node.GetOutputPort("exit")?.Connection.node as BaseNode;
+            if (clickedText == scd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
+            if (clickedText == scd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
+            if (clickedText == scd.cText) return node.GetOutputPort("c")?.Connection.node as BaseNode;
+            if (clickedText == scd.dText) return node.GetOutputPort("d")?.Connection.node as BaseNode;
+            if (clickedText == scd.eText) return node.GetOutputPort("e")?.Connection.node as BaseNode;
+            if (clickedText == scd.fText) return node.GetOutputPort("f")?.Connection.node as BaseNode;
         }
 
         if (node is ThreeChoiceDialog tcd)
         {
-            if (clicked == tcd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
-            if (clicked == tcd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
-            if (clicked == tcd.cText) return node.GetOutputPort("c")?.Connection.node as BaseNode;
+            if (clickedText == tcd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
+            if (clickedText == tcd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
+            if (clickedText == tcd.cText) return node.GetOutputPort("c")?.Connection.node as BaseNode;
         }
 
         if (node is MultipleChoiceDialog mcd)
         {
-            if (clicked == mcd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
-            if (clicked == mcd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
+            if (clickedText == mcd.aText) return node.GetOutputPort("a")?.Connection.node as BaseNode;
+            if (clickedText == mcd.bText) return node.GetOutputPort("b")?.Connection.node as BaseNode;
         }
 
         if (node is OneChoiceDialog ocd)
         {
-            if (clicked == ocd.GetChoiceAText()) return node.GetOutputPort("c")?.Connection.node as BaseNode;
+            if (clickedText == ocd.GetChoiceAText()) return node.GetOutputPort("c")?.Connection.node as BaseNode;
         }
 
         return node.GetOutputPort("exit")?.Connection.node as BaseNode;
     }
+
 
     private void HandleAbilityCheck(AbilityCheckNode node)
     {
@@ -537,6 +698,23 @@ public class NodeReader : MonoBehaviour
         }
     }
 
+    public void ShowAttackChoiceNode(AttackChoiceNode node)
+    {
+        var attacks = characterStats.attacks;
+
+        if (attacks.Count < 3)
+        {
+            Debug.LogWarning("Not enough attacks assigned.");
+            return;
+        }
+
+        buttonA.SetActive(true); buttonAText.text = attacks[0].name;
+        buttonB.SetActive(true); buttonBText.text = attacks[1].name;
+        buttonC.SetActive(true); buttonCText.text = attacks[2].name;
+
+        choicesPanel.SetActive(true);
+        nextButtonGO.SetActive(false);
+    }
 
 
     private void UpdateSkipButtonUI(bool skipping)
@@ -548,13 +726,15 @@ public class NodeReader : MonoBehaviour
     }
 
     private bool IsChoiceNode(BaseNode node)
-    {
-        return node is MultipleChoiceDialog ||
-               node is ThreeChoiceDialog ||
-               node is SixChoiceDialog ||
-               node is OneChoiceDialog ||
-               node is AbilityCheckNode;
-    }
+{
+    return node is MultipleChoiceDialog ||
+           node is ThreeChoiceDialog ||
+           node is SixChoiceDialog ||
+           node is OneChoiceDialog ||
+           node is AbilityCheckNode ||
+           node is AttackChoiceNode;
+}
+
 
 
 }
