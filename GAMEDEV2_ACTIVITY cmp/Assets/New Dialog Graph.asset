@@ -4800,7 +4800,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   backgroundVideo: {fileID: 32900000, guid: 7ff4dcbf8b2375e41aa1233cf9c1dbd5, type: 3}
-  Bgm: {fileID: 8300000, guid: 729232f3e3e5a074496f5b5025726320, type: 3}
+  Bgm: {fileID: 0}
   voiceOver: {fileID: 0}
   GUID: 85a7f355-6c39-487a-a75a-bdd40999a20a
   entry: 
