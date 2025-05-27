@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4b221160a0e56a749954f503b9a56d4e
+guid: 2d46e7193311ba84fb0b254f99758ad3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -484192509427956216
-    second: image 24_0
+      213: -7979706570497487379
+    second: COA_theburning_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,12 +113,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: image 24_0
+      name: COA_theburning_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1440
+        width: 1024
         height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80644a06a7dc749f0800000000000000
-      internalID: -484192509427956216
+      spriteID: ded85a50723624190800000000000000
+      internalID: -7979706570497487379
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      image 24_0: -484192509427956216
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

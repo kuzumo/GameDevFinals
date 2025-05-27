@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using XNode;
 using UnityEngine.EventSystems;
-using Random = UnityEngine.Random;
 using UnityEngine.Video;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine.SceneManagement;
 
 public class NodeReader : MonoBehaviour

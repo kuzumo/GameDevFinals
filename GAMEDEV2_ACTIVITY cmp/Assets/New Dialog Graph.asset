@@ -769,6 +769,12 @@ MonoBehaviour:
       - fieldName: exit
         node: {fileID: -4910655973901239633}
         reroutePoints: []
+      - fieldName: success
+        node: {fileID: 2573799871568613154}
+        reroutePoints: []
+      - fieldName: failed
+        node: {fileID: 2573799871568613154}
+        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -3779,12 +3785,6 @@ MonoBehaviour:
       - fieldName: c
         node: {fileID: -6878911130319336607}
         reroutePoints: []
-      - fieldName: success
-        node: {fileID: 2573799871568613154}
-        reroutePoints: []
-      - fieldName: failed
-        node: {fileID: 2573799871568613154}
-        reroutePoints: []
       _direction: 0
       _connectionType: 0
       _typeConstraint: 0
@@ -3795,7 +3795,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 2573799871568613154}
+        node: {fileID: -6878911130319336607}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -3807,7 +3807,7 @@ MonoBehaviour:
         PublicKeyToken=b77a5c561934e089
       connections:
       - fieldName: entry
-        node: {fileID: 2573799871568613154}
+        node: {fileID: -6878911130319336607}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
