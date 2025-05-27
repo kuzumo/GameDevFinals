@@ -138,6 +138,16 @@ public class NodeReader : MonoBehaviour
     };
         }
 
+        enemyStats = new GameObject("SimulatedEnemy").AddComponent<CharacterStats>();
+        enemyStats.characterName = "Enemy";
+        enemyStats.hp = 10;
+        enemyStats.STR = 2;
+        enemyStats.DEX = 2;
+        enemyStats.CON = 2;
+        enemyStats.INT = 2;
+        enemyStats.WIS = 2;
+        enemyStats.CHA = 2;
+
 
         if (!isNewGame && (PlayerPrefs.HasKey("SavedNodeGUID") || PlayerPrefs.HasKey("SavedNodeName")))
         {
