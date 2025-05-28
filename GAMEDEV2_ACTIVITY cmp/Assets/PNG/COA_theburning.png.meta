@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      COA_theburning_0: -7979706570497487379
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

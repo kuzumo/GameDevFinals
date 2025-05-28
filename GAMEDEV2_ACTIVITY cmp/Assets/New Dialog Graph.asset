@@ -3763,7 +3763,7 @@ MonoBehaviour:
   m_Name: Combat Check
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 12680, y: 8}
+  position: {x: 12696, y: 24}
   ports:
     keys:
     - entry

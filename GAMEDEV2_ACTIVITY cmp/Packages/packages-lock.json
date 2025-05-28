@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.github.siccity.xnode": {
-      "version": "file:C:/Users/Genogs/Downloads/xNode-1.8.0",
+      "version": "file:D:/Downloads/xNode-1.8.0/xNode-1.8.0",
       "depth": 0,
       "source": "local",
       "dependencies": {}
